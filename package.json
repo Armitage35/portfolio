@@ -10,7 +10,8 @@
 		"start": "vue-cli-service serve",
 		"build": "vue-cli-service build",
 		"lint": "vue-cli-service lint",
-		"sass-lint": "sass-lint -c ./sass-lint.yml '**/*.scss' -v -q"
+		"sass-lint": "sass-lint -c ./sass-lint.yml '**/*.scss' -v -q",
+		"deploy": "bash src/deploy.sh"
 	},
 	"dependencies": {
 		"core-js": "^2.6.5",
