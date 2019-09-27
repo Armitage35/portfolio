@@ -1,6 +1,5 @@
 <template>
 	<div>
-		<p>Views</p>
 		<Portfolio></Portfolio>
 	</div>
 </template>
