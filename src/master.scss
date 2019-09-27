@@ -1,10 +1,9 @@
 // External ressources
-@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Space+Mono&display=swap');
 
 // Internal files
 @import './variables';
-
+@import './App.scss';
+@import './Views/Portfolio/Home/Home.scss'
 
 // Components
-@import './components/Button/Button.scss'

@@ -1,0 +1,25 @@
+.home__name {
+	h1 {
+		margin-top: 0;
+	}
+
+	h1:first-of-type {
+		margin-bottom: 0;
+	}
+}
+
+.portfolio__lastName {
+	color: $orange;
+}
+
+.home__legend {
+	font-size: 14px;
+	font-weight: $semiBold;
+	color: $black;
+}
+
+.home__buttons {
+	button:first-of-type {
+		margin-right: 16px;
+	}
+}
