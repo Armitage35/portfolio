@@ -20,6 +20,15 @@
 	z-index: 1;
 }
 
+.home__orangeSeparator {
+	border: $orange solid 4px;
+	width: 10%;
+	position: absolute;
+	left: 52vw;
+	z-index: 2;
+	top: 40%;
+}
+
 .home__content {
 	align-items: center;
 	justify-content: center;
