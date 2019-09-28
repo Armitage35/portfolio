@@ -1,12 +1,28 @@
+.portfolio__home {
+	display: flex;
+	height: 100vh;
+	padding: 0 50px;
+	align-items: center;
+	justify-content: center;
+}
+
 .home__picture  {
-	height: 542px;
-	width: 764px;
+	height: 80vh;
+	width: 33vw;
+	z-index: 1;
+	position: relative;
+	right: 120px;
 	background-color: $grey;
 	background-image: url('assets/profilePicture.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	z-index: 1;
+}
+
+.home__content {
+	align-items: center;
+	justify-content: center;
 }
 
 .home__name {
@@ -27,6 +43,11 @@
 	font-size: 14px;
 	font-weight: $semiBold;
 	color: $black;
+}
+
+.home__pitch {
+	max-width: 300px;
+	line-height: 18px;
 }
 
 .home__buttons {
