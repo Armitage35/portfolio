@@ -44,14 +44,21 @@ rules:
       order:
         - display
         - flex-direction
+        - z-index
+        - position
         - width
         - height
+        - top
+        - bottom
+        - right
+        - left
         - margin
         - border
         - border-radius
         - color
         - font-family
         - background-color
+        - background-image
       ignore-custom-properties: true
   variable-for-property:
     - 2
