@@ -8,12 +8,16 @@ h1 {
 	font-size: 24px;
 	font-weight: $bold;
 	text-transform: uppercase;
+	margin-top: 34px;
+	margin-bottom: 16px;
 }
 
 p {
 	color: $black;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: $regular;
+	line-height: 18px;
+	max-width: 70%;
 }
 
 button {

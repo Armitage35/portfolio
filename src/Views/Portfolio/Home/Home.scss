@@ -1,7 +1,7 @@
 .portfolio__home {
 	display: flex;
 	height: 100vh;
-	padding: 0 50px;
+	padding: 0 50px 0 0;
 	align-items: center;
 	justify-content: center;
 }
@@ -24,8 +24,8 @@
 .home__orangeSeparator {
 	z-index: 2;
 	position: absolute;
-	left: 52vw;
-	top: 40%;
+	left: 56vw;
+	top: 33%;
 	border: $orange solid 4px;
 	width: 10%;
 }
