@@ -12,7 +12,7 @@
 			<div class="sidemenu__contactDetails">
 				<span>Find me on</span>
 				<div class="sidemenu__socialIcons">
-					<a v-for="social in socialNetworks" :href="social.link" :key='social.name'><i :class="social.icon"></i></a>
+					<a v-for="social in socialNetworks" target="_blank" :href="social.link" :key='social.name'><i :class="social.icon"></i></a>
 				</div>
 			</div>
 		</div>

@@ -7,10 +7,10 @@
 }
 
 .home__picture  {
-	height: 80vh;
-	width: 33vw;
 	z-index: 1;
 	position: relative;
+	width: 33vw;
+	height: 80vh;
 	right: 120px;
 	background-color: $grey;
 	background-image: url('assets/profilePicture.png');
@@ -21,12 +21,12 @@
 }
 
 .home__orangeSeparator {
-	border: $orange solid 4px;
-	width: 10%;
+	z-index: 2;
 	position: absolute;
 	left: 52vw;
-	z-index: 2;
 	top: 40%;
+	border: $orange solid 4px;
+	width: 10%;
 }
 
 .home__content {

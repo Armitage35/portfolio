@@ -1,19 +1,19 @@
 body {
-	font-family: $bodyFont;
 	margin: 0;
+	font-family: $bodyFont;
 }
 
 h1 {
+	color: $black;
 	font-size: 24px;
 	font-weight: $bold;
 	text-transform: uppercase;
-	color: $black
 }
 
 p {
+	color: $black;
 	font-size: 12px;
 	font-weight: $regular;
-	color: $black;
 }
 
 button {

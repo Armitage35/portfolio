@@ -7,10 +7,10 @@
 
 .sidemenu__logo {
 	display: flex;
-	align-items: center;
 	position: fixed;
 	top: 30px;
 	left: 30px;
+	align-items: center;
 
 	img {
 		width: 69px;
@@ -18,17 +18,17 @@
 	}
 
 	span {
+		color: $white;
 		font-size: 14px;
 		font-weight: $semiBold;
-		color: $white;
 		text-transform: uppercase;
 	}
 }
 
 .sidemenu__contact {
-	color: $white;
 	position: fixed;
 	bottom: 30px;
+	color: $white;
 
 	span {
 		font-weight: $semiBold;
@@ -37,8 +37,8 @@
 	}
 
 	a {
-		text-transform: lowercase;
 		color: $white;
+		text-transform: lowercase;
 		font-weight: $regular;
 		margin-top: 4px;
 	}
