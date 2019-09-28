@@ -1,6 +1,7 @@
 <template>
 	<div class="portfolio__home">
-		<div class="home__picture"></div>
+		<div class="home__picture">
+		</div>
 		<div class="home__name">
 			<h1>Adrien Dubois</h1>
 			<h1 class="portfolio__lastName">Ahlqvist</h1>
@@ -16,5 +17,6 @@
 
 <script>
 export default {
+
 }
 </script>

@@ -2,7 +2,11 @@
 	height: 542px;
 	width: 764px;
 	background-color: $grey;
-	// background-image: url('../../../assets/adrien_B&N.png') no-repeat center center fixed
+	background-image: url('assets/profilePicture.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 1;
 }
 
 .home__name {
