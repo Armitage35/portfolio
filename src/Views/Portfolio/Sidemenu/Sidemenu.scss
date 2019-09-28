@@ -1,0 +1,62 @@
+.sidemenu {
+	width: 25%;
+	height: 100vh;
+	background-color: $orange;
+	padding: 0 30px;
+}
+
+.sidemenu__logo {
+	display: flex;
+	position: fixed;
+	top: 30px;
+	left: 30px;
+	align-items: center;
+
+	img {
+		width: 69px;
+		filter: grayscale(100%) brightness(100);
+	}
+
+	span {
+		color: $white;
+		font-size: 14px;
+		font-weight: $semiBold;
+		text-transform: uppercase;
+		letter-spacing: 0.86px;
+		line-height: 15px;
+	}
+}
+
+.sidemenu__contact {
+	position: fixed;
+	bottom: 30px;
+	color: $white;
+
+	span {
+		font-weight: $semiBold;
+		text-transform: capitalize;
+		margin-top: 14px;
+	}
+
+	a {
+		color: $white;
+		text-transform: lowercase;
+		font-weight: $regular;
+		margin-top: 4px;
+	}
+}
+
+.sidemenu__contactDetails {
+	display: flex;
+	flex-direction: column;
+}
+
+.sidemenu__socialIcons {
+	display: flex;
+	flex-direction: row;
+
+	i {
+		height: 14px;
+		margin-right: 24px;
+	}
+}

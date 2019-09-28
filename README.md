@@ -1,29 +1,9 @@
-# portfolio
+# Portfolio
 
-## Project setup
-```
-yarn install
-```
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Armitage35/fuzzy-roadmap/graphs/commit-activity)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Armitage35/fuzzy-roadmap/blob/dev/LICENSE)
+![Made with Vue](https://img.shields.io/badge/Made%20with-Vue.js-%2341b883)
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+Simple SPA containing my portfolio. This version uses Vue-cli to bootstrap the project and SCSS for styling.
 
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+You can see the website online [here](https://new.armitageweb.net/)
