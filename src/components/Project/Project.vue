@@ -1,5 +1,5 @@
 <template>
-	<div class="project" :style="'background-image: ' + cover">
+	<div class="project" :style="'background-image: ' + cover" @click="$emit('seeProject', name)">
 		<div class="project__date">{{ date }}</div>
 		<div class="project__bottom">
 			<div class="project__name">{{ name }}</div>
@@ -9,7 +9,7 @@
 </template>
 
 <script>
-export default {
-	props: ['name', 'date', 'link', 'cover']
-}
+	export default {
+		props: ['name', 'date', 'link', 'cover']
+	}
 </script>
