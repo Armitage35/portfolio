@@ -9,9 +9,11 @@
 				<div class="modal__date">{{ content.date }}</div>
 			</div>
 			<div class="modal__body">
-				<img :src="content.cover" />
-				<p class="modal__description">{{ content.description }}</p>
-				<a class="modal__link" :href="content.link" target="_blank">Get to the project</a>
+				<img class="modal__cover" :src="content.cover" />
+				<div class="modal__text">
+					<p class="modal__description">{{ content.description }}</p>
+					<a class="modal__link" :href="content.link" target="_blank">Get to the project</a>
+				</div>
 			</div>
 		</div>
 	</div>

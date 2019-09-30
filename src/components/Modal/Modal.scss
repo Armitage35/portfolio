@@ -37,6 +37,20 @@
 	font-size: 12px;
 }
 
+.modal__body {
+	display: flex;
+}
+
+.modal__text {
+	display: flex;
+	flex-direction: column;
+}
+
 .modal__description, .modal__link {
 	margin: 24px;
+	word-spacing: 0.86px;
+}
+
+.modal__cover {
+	flex-basis: 300%;
 }
