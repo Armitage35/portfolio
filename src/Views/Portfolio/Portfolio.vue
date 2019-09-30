@@ -3,6 +3,7 @@
 		<Modal
 			v-if="appState.modal.active"
 			:content="appState.modal.content"
+			@toggleModal="toggleModal"
 		></Modal>
 		<Sidemenu></Sidemenu>
 		<div class="portfolio__content">

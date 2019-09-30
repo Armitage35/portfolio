@@ -9,6 +9,8 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	cursor: pointer;
+	filter: grayscale(100%);
+	transition: all .2s ease-in-out;
 
 	i {
 		display: none;
@@ -17,6 +19,9 @@
 
 .project:hover{
 	box-shadow: $defaultShadow;
+	filter: none;
+	transform: scale(1.1);
+	z-index: 1;
 
 	i {
 		display: block;
