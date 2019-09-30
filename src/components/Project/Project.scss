@@ -1,9 +1,9 @@
 .project {
+	display: flex;
+	flex-direction: column;
 	width: 40%;
 	height: 250px;
 	padding: 30px;
-	display: flex;
-	flex-direction: column;
 	justify-content: flex-end;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -18,10 +18,10 @@
 }
 
 .project:hover{
+	z-index: 1;
 	box-shadow: $defaultShadow;
 	filter: none;
 	transform: scale(1.1);
-	z-index: 1;
 
 	i {
 		display: block;

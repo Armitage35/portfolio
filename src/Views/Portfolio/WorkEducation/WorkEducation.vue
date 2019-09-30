@@ -35,6 +35,7 @@
 					duration: 'Session: 2010-2014',
 					clickable: false
 				}],
+				// @todo: populate work description and pictures
 				work: [{
 					name: 'Product owner',
 					place: 'Jogogo, Montreal',
