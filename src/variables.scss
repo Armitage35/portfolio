@@ -8,7 +8,7 @@ $black: #292929;
 
 // Fonts
 $bodyFont: 'Montserrat', Tahoma, sans-serif;
-$fixedWidthFonts: 'Space Mono';
+$fixedWidthFonts: 'Space Mono', monospace;
 
 // Font weights
 $regular: 400;
@@ -18,3 +18,6 @@ $bold: 700;
 
 // Others
 $defaultShadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+
+// Components variables
+$sidemenu-width: 25%;

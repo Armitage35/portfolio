@@ -1,5 +1,6 @@
 .sidemenu {
-	width: 25%;
+	position: fixed;
+	width: $sidemenu-width;
 	height: 100vh;
 	background-color: $orange;
 	padding: 0 30px;

@@ -1,7 +1,7 @@
 .portfolio__home {
 	display: flex;
 	height: 100vh;
-	padding: 0 50px;
+	padding: 0 50px 0 0;
 	align-items: center;
 	justify-content: center;
 }
@@ -24,10 +24,10 @@
 .home__orangeSeparator {
 	z-index: 2;
 	position: absolute;
-	left: 52vw;
-	top: 40%;
-	border: $orange solid 4px;
 	width: 10%;
+	top: 33%;
+	left: 56vw;
+	border: $orange solid 4px;
 }
 
 .home__content {
@@ -50,9 +50,9 @@
 }
 
 .home__legend {
+	color: $black;
 	font-size: 14px;
 	font-weight: $semiBold;
-	color: $black;
 }
 
 .home__pitch {

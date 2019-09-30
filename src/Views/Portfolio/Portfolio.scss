@@ -1,3 +1,8 @@
 .portfolio {
 	display: flex;
 }
+
+.portfolio__content {
+	padding: 0 50px;
+	margin-left: calc(#{$sidemenu-width} + 30px);
+}
