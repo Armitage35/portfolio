@@ -1,8 +1,8 @@
 <template>
-	<div class="project" :style="'background-image: ' + cover" @click="$emit('seeProject', name)">
-		<div class="project__date">{{ date }}</div>
+	<div class="project" :style="'background-image: url(' + project.cover + ')'" @click="$emit('seeProject', project)">
+		<div class="project__date">{{ project.date }}</div>
 		<div class="project__bottom">
-			<div class="project__name">{{ name }}</div>
+			<div class="project__name">{{ project.name }}</div>
 			<i class="fas fa-long-arrow-alt-right"></i>
 		</div>
 	</div>
@@ -10,6 +10,6 @@
 
 <script>
 	export default {
-		props: ['name', 'date', 'link', 'cover']
+		props: ['project']
 	}
 </script>

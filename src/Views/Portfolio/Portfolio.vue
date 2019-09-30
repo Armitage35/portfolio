@@ -1,5 +1,9 @@
 <template>
 	<div class="portfolio">
+		<Modal
+			v-if="appState.modal.active"
+			:content="appState.modal.content"
+		></Modal>
 		<Sidemenu></Sidemenu>
 		<div class="portfolio__content">
 			<Home></Home>
@@ -18,20 +22,24 @@
 	import Skills from './Skills/Skills';
 	import WorkEducation from './WorkEducation/WorkEducation';
 	import Projects from './Projects/Projects';
+	import Modal from '../../components/Modal/Modal';
 
 	export default {
-		components: { ElevatorPitch, Home, Projects, Sidemenu, Skills, WorkEducation },
-		data: () => {
+		components: { ElevatorPitch, Home, Modal, Projects, Sidemenu, Skills, WorkEducation },
+		data: function() {
 			return {
 				appState: {
-					modal: false,
-					modalContent: null
+					modal:{
+						active: false,
+						content: null,
+					}
 				}
 			}
 		},
 		methods: {
-			toggleModal: (event) => {
-				console.log(event)
+			toggleModal: function(event) {
+				this.appState.modal.active = !this.appState.modal.active;
+				this.appState.modal.content = event;
 			}
 		}
 	}
