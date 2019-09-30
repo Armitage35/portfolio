@@ -8,7 +8,9 @@
 			</div>
 			<div class="testimonial__person">{{ testimonial.person }}</div>
 		</div>
-		<div class="testimonial__shadowContainer"></div>
+		<div class="testimonial__shadowContainer">
+			<div></div>
+		</div>
 	</div>
 </template>
 

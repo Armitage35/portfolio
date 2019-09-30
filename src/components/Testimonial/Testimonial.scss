@@ -1,6 +1,11 @@
+$testimonialWidth: 250px;
+
 .testimonial {
-	width: 250px;
-	flex: 1;
+	display: flex;
+	margin-right: 18px;
+	z-index: 1;
+	width: $testimonialWidth;
+	margin-right: 24px;
 
 	.fa-quote-left {
 		margin-bottom: 16px;
@@ -14,14 +19,18 @@
 .testimonial__container {
 	box-shadow: $defaultShadow;
 	padding: 24px;
+	position: relative;
+	bottom: 10px;
+	right: 10px;
+	z-index: 1;
+	background-color: $white;
 }
 
 .testimonial__shadowContainer {
 	border: solid 2px $black;
-	position: relative;
-	left: 8px;
-	bottom: 16px;
-	width: 250px;
+	position: absolute;
+	width: $testimonialWidth;
+	height: 614px;
 }
 
 .testimonial__body {
@@ -32,7 +41,6 @@
 	margin: 8px;
 	font-size: 16px;
 	font-weight: $regular;
-	line-height: 16px;
 	letter-spacing: 0.86px;
 }
 
