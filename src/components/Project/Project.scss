@@ -1,0 +1,38 @@
+.project {
+	width: 40%;
+	height: 250px;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+
+	i {
+		display: none;
+	}
+}
+
+.project:hover{
+	box-shadow: $defaultShadow;
+
+	i {
+		display: block;
+	}
+}
+
+.project__date {
+	font-size: 10px;
+	font-weight: $regular;
+	margin-bottom: 10px;
+}
+
+.project__bottom {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.project__name {
+	font-weight: $bold;
+	font-size: 18px;
+	text-transform: uppercase;
+}

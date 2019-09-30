@@ -6,6 +6,7 @@
 			<ElevatorPitch></ElevatorPitch>
 			<Skills></Skills>
 			<WorkEducation></WorkEducation>
+			<Projects></Projects>
 		</div>
 	</div>
 </template>
@@ -16,8 +17,9 @@ import ElevatorPitch from './ElevatorPitch/ElevatorPitch';
 import Sidemenu from './Sidemenu/Sidemenu';
 import Skills from './Skills/Skills';
 import WorkEducation from './WorkEducation/WorkEducation';
+import Projects from './Projects/Projects';
 
 export default {
-	components: { ElevatorPitch, Home, Sidemenu, Skills, WorkEducation }
+	components: { ElevatorPitch, Home, Projects, Sidemenu, Skills, WorkEducation }
 }
 </script>
