@@ -1,0 +1,44 @@
+.testimonial {
+	width: 250px;
+	flex: 1;
+
+	.fa-quote-left {
+		margin-bottom: 16px;
+	}
+
+	.fa-quote-right {
+		margin-top: 16px;
+	}
+}
+
+.testimonial__container {
+	box-shadow: $defaultShadow;
+	padding: 24px;
+}
+
+.testimonial__shadowContainer {
+	border: solid 2px $black;
+	position: relative;
+	left: 8px;
+	bottom: 16px;
+	width: 250px;
+}
+
+.testimonial__body {
+	margin-bottom: 16px;
+}
+
+.testimonial__quote {
+	margin: 8px;
+	font-size: 16px;
+	font-weight: $regular;
+	line-height: 16px;
+	letter-spacing: 0.86px;
+}
+
+.testimonial__person {
+	font-weight: $semiBold;
+	text-transform: capitalize;
+	margin-bottom: 46px;
+	margin-left: 8px;
+}
