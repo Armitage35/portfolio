@@ -10,7 +10,7 @@
 			<Home></Home>
 			<ElevatorPitch></ElevatorPitch>
 			<Skills></Skills>
-			<WorkEducation></WorkEducation>
+			<WorkEducation @seeJob="toggleModal($event)"></WorkEducation>
 			<Projects @seeProject="toggleModal($event)"></Projects>
 		</div>
 	</div>

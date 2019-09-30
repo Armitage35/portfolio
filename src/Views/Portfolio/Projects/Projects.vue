@@ -13,6 +13,7 @@
 	import Day2Day from '../../../assets/projects/day2day.png';
 	import Day2DayPassword from '../../../assets/projects/day2dayPassword.png';
 	import Day2DayWallapaper from '../../../assets/projects/day2dayWallpaper.png';
+	import FuzzyRoadmap from '../../../assets/projects/fuzzyRoadmap.png'
 
 	export default {
 		components: { Project },
@@ -22,7 +23,7 @@
 					name: 'Fuzzy Roadmap',
 					date: '2019',
 					link: 'https://github.com/Armitage35/fuzzy-roadmap/',
-					cover: 'assets/projects/day2day.png',
+					cover: FuzzyRoadmap,
 					description: 'This easy to use tool will enable you to create fuzzy time roadmap in a matter of seconds, available today at fuzzyroadmap.com. Fuzzy time roadmaps are tools that will let your main stakeholder keep an eye on what is currently being worked on as well as to know what is next. That being said, they fully embrace development uncertainties, especially time since you do don\'t give any estimate or timeline. Usually, you will want to report on four basic timelines: in progress, soon, later, done.'
 				},
 				{
