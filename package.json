@@ -1,6 +1,6 @@
 {
 	"name": "portfolio",
-	"version": "0.4.0",
+	"version": "0.5.0",
 	"description": "A static porfolio for Adrien D. Ahlqvist",
 	"author": "Adrien D. Ahlqvist",
 	"license": "MIT",
@@ -9,6 +9,7 @@
 		"serve": "vue-cli-service serve",
 		"start": "vue-cli-service serve",
 		"build": "vue-cli-service build",
+		"test": "vue-cli-service lint & sass-lint -c ./sass-lint.yml '**/*.scss' -v -q",
 		"lint": "vue-cli-service lint",
 		"sass-lint": "sass-lint -c ./sass-lint.yml '**/*.scss' -v -q",
 		"deploy": "bash src/deploy.sh"
