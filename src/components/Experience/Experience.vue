@@ -1,13 +1,16 @@
 <template>
 	<div class="experience">
-		<div>{{ title }}</div>
-		<div>{{ place }}</div>
-		<div>{{ duration }}</div>
+		<div class="experience__title">{{ title }}</div>
+		<div class="experience__place">{{ place }}</div>
+		<div class="experience__bottom">
+			<div class="experience__duration">{{ duration }}</div>
+			<i class="fas fa-long-arrow-alt-right" v-if="clickable"></i>
+		</div>
 	</div>
 </template>
 
 <script>
 export default {
-	props: ['title', 'place', 'duration']
+	props: [ 'clickable', 'title', 'place', 'duration']
 }
 </script>
