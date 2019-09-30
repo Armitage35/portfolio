@@ -17,7 +17,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: npm install, build
+    - name: Test build
       run: |
         npm install
         npm build
@@ -39,7 +39,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: npm install, build
+    - name: Lint JS
       run: |
         npm install
         npm lint
@@ -60,7 +60,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: npm install, build
+    - name: Lint sass
       run: |
         npm install
         npm sass-lint
