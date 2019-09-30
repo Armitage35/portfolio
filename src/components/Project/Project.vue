@@ -1,5 +1,5 @@
 <template>
-	<div class="project">
+	<div class="project" :style="'background-image: ' + cover">
 		<div class="project__date">{{ date }}</div>
 		<div class="project__bottom">
 			<div class="project__name">{{ name }}</div>

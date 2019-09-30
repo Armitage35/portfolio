@@ -18,22 +18,22 @@ export default {
 				name: 'Fuzzy Roadmap',
 				date: '2019',
 				link: 'https://github.com/Armitage35/fuzzy-roadmap/',
-				cover: ''
+				cover: 'url("assets/projects/day2day.png")'
 			},
 			{
 				name: 'Day2Day.wallpaper',
 				date: '2019',
 				link: 'https://github.com/Armitage35/day2day.wallpaper',
-				cover: ''
+				cover: 'url("assets/projects/day2dayWallpaper.png")'
 			},{
 				name: 'Day2Day.password',
 				date: '2019',
 				link: 'https://github.com/Armitage35/day2day.password',
-				cover: ''
+				cover: 'url("assets/projects/day2dayPassword.png")'
 			},{
 				name: 'Day2Day',
 				date: '2019',
-				link: 'https://github.com/Armitage35/day2day',
+				link: 'url("assets/projects/day2day.png")',
 				cover: ''
 			},]
 		}
