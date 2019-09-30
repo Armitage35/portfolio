@@ -23,6 +23,7 @@
 export default {
 	data: function() {
 		return {
+			// @todo: load svg icons rather than the whole FA lib
 			contactsInfo: [{
 				name: 'email',
 				content: 'adrien.dubois35@gmail.com',
