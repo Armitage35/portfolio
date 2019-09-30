@@ -49,8 +49,12 @@
 .modal__description, .modal__link {
 	margin: 24px;
 	word-spacing: 0.86px;
+	font-size: 12px;
 }
 
 .modal__cover {
 	flex-basis: 300%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
