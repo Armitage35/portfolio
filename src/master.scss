@@ -1,16 +1,19 @@
 // External ressources
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Space+Mono&display=swap');
 
-// Internal files
+// Main files files
 @import './variables';
 @import './App.scss';
 @import './Views/Portfolio/Portfolio.scss';
+
+// Porfolio components
 @import './Views/Portfolio/Home/Home.scss';
 @import './Views/Portfolio/Sidemenu/Sidemenu.scss';
 @import './Views/Portfolio/Skills/Skills.scss';
 @import './Views/Portfolio/WorkEducation/WorkEducation.scss';
 @import './Views/Portfolio/Projects/Projects.scss';
 @import './Views/Portfolio/Testimonials/Testimonials.scss';
+@import './Views/Portfolio/Footer/Footer.scss';
 
 // Components
 @import './components/Experience/Experience.scss';

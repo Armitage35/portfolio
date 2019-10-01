@@ -13,6 +13,7 @@
 			<WorkEducation @seeJob="toggleModal($event)"></WorkEducation>
 			<Projects @seeProject="toggleModal($event)"></Projects>
 			<Testimonials></Testimonials>
+			<Footer></Footer>
 		</div>
 	</div>
 </template>
@@ -26,9 +27,10 @@
 	import Projects from './Projects/Projects';
 	import Modal from '../../components/Modal/Modal';
 	import Testimonials from './Testimonials/Testimonials';
+	import Footer from './Footer/Footer';
 
 	export default {
-		components: { ElevatorPitch, Home, Modal, Projects, Sidemenu, Skills, Testimonials, WorkEducation },
+		components: { ElevatorPitch, Home, Modal, Projects, Sidemenu, Skills, Testimonials, WorkEducation, Footer },
 		data: function() {
 			return {
 				appState: {

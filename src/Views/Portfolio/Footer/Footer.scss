@@ -1,0 +1,32 @@
+.footer {
+	background-color: $black;
+	margin-top: 50px;
+	display: flex;
+
+	a {
+		color: $blue;
+	}
+}
+
+.footer__left, .footer__right {
+	color: $white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.footer__left {
+	background-color: #3B3B3B;
+	height: 40px;
+	width: 60%;
+	padding: 24px;
+}
+
+.footer__announce {
+	margin-bottom: 6px;
+}
+
+.footer__right {
+	height: 60px;
+	text-align: right;
+}
