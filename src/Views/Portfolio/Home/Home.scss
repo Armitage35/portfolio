@@ -7,6 +7,12 @@
 	letter-spacing: 1px;
 	margin: 16px;
 	text-decoration: none;
+
+}
+
+%button:hover {
+	box-shadow: $defaultShadow;
+	transition: box-shadow 0.3s ease-in-out 0s;
 }
 
 .portfolio__home {
@@ -95,8 +101,9 @@
 	@extend %button;
 	border: solid 3px $black;
 	background-color: $white;
+	color: $black;
 
 	:visited {
-		color: $black;
+		color: $black !important;
 	}
 }
