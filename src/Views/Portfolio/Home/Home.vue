@@ -11,7 +11,9 @@
 			<p class="home__pitch">What does a product owner jack of all trades looks like? Like a whole lot of getting shit done. So, how soon are we shipping great stuff?</p>
 			<div class="home__buttons">
 				<a class="bttn-primary" href="#portfolio">Portfolio</a>
-				<a class="bttn-secondary" href="">Resume</a>
+				<router-link to="cv">
+					<a class="bttn-secondary" href="">Resume</a>
+				</router-link>
 			</div>
 		</div>
 	</div>
