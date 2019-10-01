@@ -1,3 +1,20 @@
+%button {
+	margin: 16px;
+	border-radius: 28.5px;
+	padding: 14px 16px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: $semiBold;
+	letter-spacing: 1px;
+	text-decoration: none;
+
+}
+
+%button:hover {
+	box-shadow: $defaultShadow;
+	transition: box-shadow 0.3s ease-in-out 0s;
+}
+
 .portfolio__home {
 	display: flex;
 	height: 100vh;
@@ -57,11 +74,36 @@
 
 .home__pitch {
 	max-width: 300px;
-	line-height: 18px;
+	line-height: 24px;
 }
 
 .home__buttons {
-	button:first-of-type {
-		margin-right: 16px;
+	margin-top: 32px;
+
+	.bttn-primary:first-of-type {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+.bttn-primary {
+	@extend %button;
+	border: none;
+	color: $white;
+	background-color: $orange;
+
+	:visited {
+		color: $white
+	}
+}
+
+.bttn-secondary {
+	@extend %button;
+	border: solid 3px $black;
+	color: $black;
+	background-color: $white;
+
+	:visited {
+		color: $black;
 	}
 }

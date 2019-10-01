@@ -50,6 +50,10 @@
 .sidemenu__contactDetails {
 	display: flex;
 	flex-direction: column;
+
+	a {
+		text-decoration: none;
+	}
 }
 
 .sidemenu__socialIcons {
