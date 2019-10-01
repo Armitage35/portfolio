@@ -2,16 +2,17 @@
 $CVborder: solid 5px $orange;
 
 // Style
-.cv__containter {
-	background-color: $grey;
+.cv__container {
+	background-color: #f7f7f7;
 }
 
 .cv {
-	margin: auto;
-	margin-top: 3%;
+	margin: 5% auto;
 	width: 80%;
 	box-shadow: $defaultShadow;
 	padding: 12px;
+	padding-bottom: 0;
+	background-color: $white;
 }
 
 .header__veryTop{
@@ -47,10 +48,11 @@ $CVborder: solid 5px $orange;
 .cv__content {
 	margin-top: 12px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 .cv__left, .cv__right {
+	width: 50%;
 	padding: 24px;
 }
 
@@ -58,6 +60,23 @@ $CVborder: solid 5px $orange;
 	text-align: right;
 }
 
+.cv__centerSeparator {
+	width: 2px;
+	margin: 2% 0;
+	background-color: $orange;
+}
+
 .cv__right {
 	text-align: left;
+}
+
+.cv__footer {
+	color: $white;
+	text-transform: uppercase;
+	font-weight: $bold;
+	text-align: center;
+	background-color: $orange;
+	padding: 20px;
+	margin: 10px 40px;
+	font-size: 32px;
 }

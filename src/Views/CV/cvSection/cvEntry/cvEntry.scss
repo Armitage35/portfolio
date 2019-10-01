@@ -1,0 +1,23 @@
+.entry {
+	margin: 10px 0;
+}
+
+.entry__title {
+	font-weight: $semiBold;
+	font-size: 18px;
+}
+
+.entry__country {
+	color: $grey;
+}
+
+.entry__role {
+	font-weight: $semiBold;
+	font-size: 14px;
+	margin: 6px 0;
+}
+
+.entry__body {
+	line-height: 18px;
+	font-size: 14px;
+}

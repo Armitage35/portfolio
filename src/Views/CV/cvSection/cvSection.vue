@@ -1,7 +1,7 @@
 <template>
 	<div class="cv__section">
-		<div class="section__name">Work<span class="section__nameEmphasis">.</span></div>
-		<cvEntry></cvEntry>
+		<div class="section__name">{{ title }}<span class="section__nameEmphasis">.</span></div>
+		<cvEntry v-for="(entry, key) in content" :content="entry" :key="key"></cvEntry>
 	</div>
 </template>
 
@@ -9,6 +9,7 @@
 	import cvEntry from './cvEntry/cvEntry';
 
 	export default {
-		components: { cvEntry }
+		components: { cvEntry },
+		props: [ 'title', 'content' ]
 	}
 </script>
