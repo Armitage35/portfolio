@@ -1,6 +1,6 @@
 {
 	"name": "portfolio",
-	"version": "0.7.0",
+	"version": "0.7.1",
 	"description": "A static porfolio for Adrien D. Ahlqvist",
 	"author": "Adrien D. Ahlqvist",
 	"license": "MIT",
@@ -15,7 +15,7 @@
 		"deploy": "bash src/deploy.sh"
 	},
 	"dependencies": {
-		"core-js": "^2.6.5",
+		"core-js": "^3.2.1",
 		"vue": "^2.6.10"
 	},
 	"devDependencies": {
