@@ -17,6 +17,7 @@ $CVborder: solid 5px $orange;
 .header__veryTop{
 	display: flex;
 	justify-content: space-between;
+	margin: 24px;
 }
 
 .header__hi {
@@ -41,4 +42,22 @@ $CVborder: solid 5px $orange;
 	text-align: center;
 	font-size: 24px;
 	margin-left: 24px;
+}
+
+.cv__content {
+	margin-top: 12px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.cv__left, .cv__right {
+	padding: 24px;
+}
+
+.cv__left {
+	text-align: right;
+}
+
+.cv__right {
+	text-align: left;
 }

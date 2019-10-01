@@ -12,7 +12,9 @@
 				<div class="cv__left">
 					<cvSection></cvSection>
 				</div>
-				<div class="cv__right"></div>
+				<div class="cv__right">
+					<cvSection></cvSection>
+				</div>
 			</div>
 			<div class="cv__footer"></div>
 		</div>
