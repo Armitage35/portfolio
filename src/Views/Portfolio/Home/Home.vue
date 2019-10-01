@@ -10,8 +10,8 @@
 			<span class="home__legend">Product Owner, Web wizard, Boulderer</span>
 			<p class="home__pitch">What does a product owner jack of all trades looks like? Like a whole lot of getting shit done. So, how soon are we shipping great stuff?</p>
 			<div class="home__buttons">
-				<button class="bttn-primary">Portfolio</button>
-				<button class="bttn-secondary">Resume</button>
+				<a class="bttn-primary" href="">Portfolio</a>
+				<a class="bttn-secondary" href="">Resume</a>
 			</div>
 		</div>
 	</div>
