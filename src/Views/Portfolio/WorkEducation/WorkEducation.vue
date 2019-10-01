@@ -14,6 +14,11 @@
 <script>
 	import Experience from '../../../components/Experience/Experience';
 
+	import Jogogo from '../../../assets/work/jogogo.png';
+	import Placeloop from '../../../assets/work/placeloop.jpg';
+	import Pryv from '../../../assets/work/pryv.png';
+	import Tec from '../../../assets/work/tec.jpg';
+
 	export default {
 		components: { Experience },
 		data: function() {
@@ -35,20 +40,19 @@
 					duration: 'Session: 2010-2014',
 					clickable: false
 				}],
-				// @todo: populate work description and pictures
 				work: [{
 					name: 'Product owner',
 					place: 'Jogogo, Montreal',
 					duration: '2018-2019',
 					description: '',
-					cover: '',
+					cover: Jogogo,
 					clickable: true
 				}, {
 					name: 'Product owner',
 					place: 'Technology Evaluation Centers, Montreal',
 					duration: '2017-2018',
 					description: '',
-					cover: '',
+					cover: Tec,
 					clickable: true
 				},
 				{
@@ -56,14 +60,14 @@
 					place: 'Placeloop, Paris',
 					duration: '2015-2017',
 					description: '',
-					cover: '',
+					cover: Placeloop,
 					clickable: true
 				},
 				{
 					name: 'Growth hacker & Product manager',
 					place: 'Pryv, Lausanne',
 					description: '',
-					cover: '',
+					cover: Pryv,
 					duration: '2014',
 					clickable: true
 				}],

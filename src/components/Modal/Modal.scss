@@ -1,3 +1,7 @@
+// Variable
+$modalTransition: all .6s ease;
+
+// Styling
 .modal__mask {
 	display: flex;
 	z-index: 9998;
@@ -7,7 +11,7 @@
 	top: 0;
 	left: 0;
 	background-color: rgba(0, 0, 0, .5);
-	transition: opacity .3s ease;
+	transition: $modalTransition;
 	align-items: center;
 	justify-content: center;
 }
@@ -20,7 +24,7 @@
 	max-height: 80vh;
 	overflow: auto;
 	box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
-	transition: all .3s ease;
+	transition: $modalTransition;
 }
 
 .modal__header {
@@ -30,6 +34,10 @@
 .modal__title {
 	display: flex;
 	justify-content: space-between;
+
+	h1 {
+		margin-bottom: 12px;
+	}
 }
 
 .modal__date {
