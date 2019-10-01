@@ -1,7 +1,12 @@
-.footer {
-	margin-top: 50px;
+.footer__container {
 	display: flex;
-	width: 75%;
+	justify-content: flex-end;
+}
+
+.footer {
+	display: flex;
+	width:  calc(100% - (#{$sidemenu-width} + 60px) );
+	margin-top: 50px;
 
 	a {
 		color: $blue;
@@ -9,20 +14,21 @@
 }
 
 .footer__left, .footer__right {
-	color: $white;
 	display: flex;
 	flex-direction: column;
+	color: $white;
 	justify-content: center;
 	flex: 1
 }
 
 .footer__left {
-	background-color: #3B3B3B;
-	height: 40px;
-	padding: 24px;
-	clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%);
 	position: absolute;
 	width: 42%;
+	height: 60px;
+	background-color: #3B3B3B;
+	padding: 24px;
+	padding-left: 48px;
+	clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%);
 	align-self: end;
 }
 
