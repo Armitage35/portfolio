@@ -5,6 +5,7 @@
 @import './variables';
 @import './App.scss';
 @import './Views/Portfolio/Portfolio.scss';
+@import './Views/CV/CV.scss';
 
 // Porfolio components
 @import './Views/Portfolio/Home/Home.scss';
@@ -13,6 +14,10 @@
 @import './Views/Portfolio/WorkEducation/WorkEducation.scss';
 @import './Views/Portfolio/Projects/Projects.scss';
 @import './Views/Portfolio/Testimonials/Testimonials.scss';
+
+// CV components
+@import './Views/CV/cvSection/cvSection.scss';
+@import './Views/CV/cvSection/cvEntry/cvEntry.scss';
 
 // Components
 @import './components/Experience/Experience.scss';

@@ -1,15 +1,19 @@
 <template>
 	<div>
-		<Portfolio></Portfolio>
-		<Footer></Footer>
+		<router-view>
+			<Portfolio></Portfolio>
+			<Footer></Footer>
+			<CV></CV>
+		</router-view>
 	</div>
 </template>
 
 <script>
 import Portfolio from './Portfolio/Portfolio';
 import Footer from '../components/Footer/Footer';
+import CV from './CV/CV';
 
 export default {
-	components: { Portfolio, Footer }
+	components: { CV, Portfolio, Footer }
 }
 </script>

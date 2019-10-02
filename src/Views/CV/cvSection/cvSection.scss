@@ -1,0 +1,13 @@
+.section__name {
+	margin: 5px 0;
+	color: $orange;
+	text-transform: uppercase;
+	font-weight: $semiBold;
+	font-size: 36px;
+}
+
+.section__nameEmphasis {
+	color: $grey;
+	font-weight: $bold;
+	margin-left: 5px;
+}
