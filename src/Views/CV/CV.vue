@@ -59,26 +59,26 @@
 					place: 'Jogogo',
 					country: 'Canada',
 					duration: '2018-2019',
-					description: 'Jogogo is a physical space analytics tool that lets its users track and engage their visitors based on their activity. I was the Product Owner for both the App and the API and implemented a SCRUM process that enabled us to complete the redesigns of both our App (React) and our API (GraphQL). Both of the APP and API were used by enterprise clients such as Decathlon, Desjardins, Asmodee, Telus, IBM and Cisco.'
+					description: 'I was the Product Owner for both the App and the API and implemented a SCRUM process that enabled us to complete the redesigns of both our App (React) and our API (GraphQL). Both of the APP and API were used by enterprise clients such as Decathlon, Desjardins, Asmodee, Telus, IBM and Cisco.'
 				}, {
 					name: 'Product owner',
 					place: 'Technology Evaluation Centers',
 					country: 'Canada',
 					duration: '2017-2018',
-					description: 'TEC is an enterprise tool that enables enterprises to find the software that best suits their needs. I acted as Product Owner for our website and tools and led a team of twenty people through a technological redesign of our websites and internal tools (ASP.NET and Kentico). I also oversaw and participated in the visual redesign of the website.'
+					description: 'I acted as Product Owner for our website and tools and led a team of twenty people through a technological redesign of our websites and internal tools (ASP.NET and Kentico). I also oversaw and participated in the visual redesign of the website.'
 				},
 				{
 					name: 'Growth hacker & Product manager',
 					place: 'Placeloop',
 					country: 'France',
 					duration: '2015-2017',
-					description: 'Placeloop is a trade marketing platform that enables brands to provide their resellers with marketing campaigns. I acted as Growth Hacker and Product Manager and was in charge of the app\'s design, implementation, adoption and revenue. Our biggest challenge was a mobile-first redesign of the application (React). Our clients included SAB Miller, Kérastase and L\'Oréal Professionnel.'
+					description: 'I acted as Growth Hacker and Product Manager and was in charge of the app\'s design, implementation, adoption and revenue. Our biggest challenge was a mobile-first redesign of the application (React). Our clients included SAB Miller, Kérastase and L\'Oréal Professionnel.'
 				},
 				{
 					name: 'Growth hacker & Product manager',
 					place: 'Pryv',
 					country: 'Switzerland',
-					description: 'Pryv is a privacy-focused company that enables life loggers and self quantifiers to store and to access data to make sense of it. I acted as Growth Hacker and Product Manager and was in charge of the Apps\' release and adoption. I was also the point of contact between the business and development teams. Finally, I oversaw partnerships with Moves, Misfits and IFTTT.',
+					description: 'I acted as Growth Hacker and Product Manager and was in charge of the Apps\' release and adoption. I was also the point of contact between the business and development teams. Finally, I oversaw partnerships with Moves, Misfits and IFTTT.',
 					duration: '2014'
 				}],
 				skills: [
@@ -112,26 +112,26 @@
 					date: '2019',
 					country: 'Canada',
 					link: 'https://github.com/Armitage35/fuzzy-roadmap/',
-					description: 'This easy to use tool will enable you to create fuzzy time roadmap in a matter of seconds, available today at fuzzyroadmap.com. Fuzzy time roadmaps are tools that will let your main stakeholder keep an eye on what is currently being worked on as well as to know what is next. That being said, they fully embrace development uncertainties, especially time since you do don\'t give any estimate or timeline. Usually, you will want to report on four basic timelines: in progress, soon, later, done.'
+					description: 'This easy to use tool will enable you to create fuzzy time roadmap in a matter of seconds.'
 				},
 				{
 					name: 'Day2Day.wallpaper',
 					date: '2018',
 					country: 'Canada',
 					link: 'https://github.com/Armitage35/day2day.wallpaper',
-					description: 'Chrome OS is an amazing OS but its wallpaper managment abilities are lacking, at best. Day2Day.wallpaper enable its users browse, discover and find amazing photos to use as their new wallpaper for their Chrome OS devices.'
+					description: 'Day2Day.wallpaper enable its users browse, discover and find amazing photos to use as their new wallpaper for their Chrome OS devices.'
 				},{
 					name: 'Day2Day.password',
 					date: '2018',
 					country: 'Canada',
 					link: 'https://github.com/Armitage35/day2day.password',
-					description: 'Day2Day password is a Chrome extension that enables its users to create strong password on the fly. This encourages you to use unique and strong password on each service you create an account for.'
+					description: 'A Chrome extension that enables its users to create strong password on the fly.'
 				},{
 					name: 'Day2Day',
 					date: '2017-2018',
 					country: 'Canada',
 					link: 'https://github.com/Armitage35/day2day',
-					description: 'Day2Day is a Chrome extension for people who want to get more out of their days. It acts as a new homepage and provides you with a todo list, a notepad and access to your Pocket read list. It does that and displays amazing pictures from Unsplash as well as the weather to make sure you can truely get it all done in one place.'
+					description: ' Application built with the MEAN stack that enables productive super-heros to supercharge their routines.'
 				}]
 		}}
 	}
