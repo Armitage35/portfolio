@@ -1,7 +1,7 @@
 <template>
 	<div class="sidemenu">
 		<div class="sidemenu__logo">
-			<img src="../../../assets/armitageLogo.png">
+			<img src="../../../assets/armitageLogo.png" alt="Armitage logo">
 			<span>Armitage <br/> web</span>
 		</div>
 		<div class="sidemenu__contact">
@@ -23,7 +23,6 @@
 export default {
 	data: function() {
 		return {
-			// @todo: load svg icons rather than the whole FA lib
 			contactsInfo: [{
 				name: 'email',
 				content: 'adrien.dubois35@gmail.com',

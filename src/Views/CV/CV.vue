@@ -4,9 +4,9 @@
 			<div class="cv__header">
 				<div class="header__veryTop">
 					<div class="header__hi">Hello!</div>
-					<div class="header__speech">My name is Adrien Dubois Ahlqvist, I’ve been a product owner, growth & product designer for about four years. I'm a maker, a jack of all trades: I do what needs to be done to create and deploy products that enable users to solve their pains. I’m motivated, dynamic and I'm all about rigorous method. </div>
+					<div class="header__speech">My name is Adrien Dubois Ahlqvist, I’ve been a product owner, growth & product designer for about five years. I'm a maker, a jack of all trades: I do what needs to be done to create and deploy products that enable users to solve their pains. I’m motivated, dynamic and I'm all about rigorous method.</div>
 				</div>
-				<div class="header__into">adrien dubois ahlqvist, Product owner and Jack of all trades</div>
+				<div class="header__into">Adrien Dubois Ahlqvist, Product owner and Jack of all trades</div>
 			</div>
 			<div class="cv__content">
 				<div class="cv__left">
@@ -81,9 +81,6 @@
 					description: 'Pryv is a privacy-focused company that enables life loggers and self quantifiers to store and to access data to make sense of it. I acted as Growth Hacker and Product Manager and was in charge of the Apps\' release and adoption. I was also the point of contact between the business and development teams. Finally, I oversaw partnerships with Moves, Misfits and IFTTT.',
 					duration: '2014'
 				}],
-				projects: [{
-
-				}],
 				skills: [
 					{
 						name: 'code',
@@ -109,7 +106,33 @@
 						link: 'tel:',
 						icon: 'fa-phone-alt'
 					}
-				]
+				],
+				projects: [{
+					name: 'Fuzzy Roadmap',
+					date: '2019',
+					country: 'Canada',
+					link: 'https://github.com/Armitage35/fuzzy-roadmap/',
+					description: 'This easy to use tool will enable you to create fuzzy time roadmap in a matter of seconds, available today at fuzzyroadmap.com. Fuzzy time roadmaps are tools that will let your main stakeholder keep an eye on what is currently being worked on as well as to know what is next. That being said, they fully embrace development uncertainties, especially time since you do don\'t give any estimate or timeline. Usually, you will want to report on four basic timelines: in progress, soon, later, done.'
+				},
+				{
+					name: 'Day2Day.wallpaper',
+					date: '2018',
+					country: 'Canada',
+					link: 'https://github.com/Armitage35/day2day.wallpaper',
+					description: 'Chrome OS is an amazing OS but its wallpaper managment abilities are lacking, at best. Day2Day.wallpaper enable its users browse, discover and find amazing photos to use as their new wallpaper for their Chrome OS devices.'
+				},{
+					name: 'Day2Day.password',
+					date: '2018',
+					country: 'Canada',
+					link: 'https://github.com/Armitage35/day2day.password',
+					description: 'Day2Day password is a Chrome extension that enables its users to create strong password on the fly. This encourages you to use unique and strong password on each service you create an account for.'
+				},{
+					name: 'Day2Day',
+					date: '2017-2018',
+					country: 'Canada',
+					link: 'https://github.com/Armitage35/day2day',
+					description: 'Day2Day is a Chrome extension for people who want to get more out of their days. It acts as a new homepage and provides you with a todo list, a notepad and access to your Pocket read list. It does that and displays amazing pictures from Unsplash as well as the weather to make sure you can truely get it all done in one place.'
+				}]
 		}}
 	}
 </script>
