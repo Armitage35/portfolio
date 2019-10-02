@@ -1,0 +1,38 @@
+.entry {
+	margin: 10px 0;
+
+	i {
+		margin-right: 5px
+	}
+}
+
+.entry__title {
+	font-weight: $semiBold;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+
+.entry__country {
+	color: $grey;
+}
+
+.entry__role {
+	margin: 6px 0;
+	font-weight: $semiBold;
+	font-size: 14px;
+}
+
+.entry__body {
+	line-height: 22px;
+	font-size: 14px;
+}
+
+.entry__contact {
+	color: $black;
+	text-decoration: underline;
+	margin-left: 5px;
+
+	a:hover {
+		color: $blue;
+	}
+}

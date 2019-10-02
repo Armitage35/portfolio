@@ -1,0 +1,51 @@
+// Press F to pay respect.
+.footer__container {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.footer {
+	display: flex;
+	width:  calc(100% - (#{$sidemenu-width} + 60px) );
+	margin-top: 80px;
+
+	a {
+		color: $blue;
+	}
+}
+
+.footer__left, .footer__right {
+	display: flex;
+	flex-direction: column;
+	color: $white;
+	justify-content: center;
+	flex: 1
+}
+
+.footer__left {
+	position: absolute;
+	width: 42%;
+	height: 60px;
+	background-color: #3B3B3B;
+	padding: 24px;
+	padding-left: 48px;
+	clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%);
+	align-self: end;
+}
+
+.footer__announce {
+	margin-bottom: 6px;
+}
+
+.footer__right {
+	background-color: $black;
+	text-align: right;
+	flex: 1;
+	padding: 24px;
+	font-size: 12px;
+	align-items: end;
+}
+
+.footer__author {
+	margin-bottom: 8px;
+}

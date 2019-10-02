@@ -1,0 +1,41 @@
+.experience {
+	width: 370px;
+	padding: 20px 16px;
+	cursor: pointer;
+
+	i {
+		display: none;
+	}
+}
+
+.experience:hover{
+	box-shadow: $defaultShadow;
+	transition: box-shadow 0.3s ease-in-out 0s;
+
+	i {
+		display: block;
+	}
+}
+
+.experience__title {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: $semiBold;
+	margin-bottom: 16px;
+}
+
+.experience__place {
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-bottom: 6px;
+}
+
+.experience__bottom {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.experience__duration {
+	font-size: 12px;
+}

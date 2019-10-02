@@ -1,0 +1,9 @@
+.portfolio {
+	display: flex;
+}
+
+.portfolio__content {
+	padding: 0 50px;
+	padding-left: 100px;
+	margin-left: calc(#{$sidemenu-width} + 30px);
+}

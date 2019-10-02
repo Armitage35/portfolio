@@ -1,0 +1,16 @@
+.skill {
+	position: relative;
+	top: 0;
+	border-radius: 18px;
+	color: $grey;
+	font-family: $fixedWidthFonts;
+	padding: 6px 16px;
+	font-size: 14px;
+	box-shadow: $defaultShadow;
+	transition: top ease 0.5s;
+}
+
+.skill:hover {
+	top: -10px;
+	color: $black;
+}
