@@ -5,13 +5,13 @@ $CVborder: solid 5px $orange;
 .cv__container {
 	background-color: #F7F7F7;
 	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 .cv {
 	width: 80%;
-	margin: 5% auto;
+	margin: 0 auto;
 	background-color: $white;
-	margin-top: 0;
 	box-shadow: $defaultShadow;
 	padding: 12px;
 	padding-bottom: 0;
