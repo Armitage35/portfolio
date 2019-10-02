@@ -1,7 +1,7 @@
 <template>
 	<div class="cv__section">
 		<div class="section__name">{{ title }}<span class="section__nameEmphasis">.</span></div>
-		<cvEntry v-for="(entry, key) in content" :content="entry" :key="key"></cvEntry>
+		<cvEntry v-for="(entry, key) in content" :content="entry" :key="key" :title="title"></cvEntry>
 	</div>
 </template>
 

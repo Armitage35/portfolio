@@ -84,11 +84,18 @@
 				projects: [{
 
 				}],
-				skills: [{
-					code: ['JavaScript', 'CSS/SASS', 'React', 'Vue.js', 'Git', 'Node', 'CI/CD', 'SQL', 'MongoDB', 'RestAPI', 'GraphQL'],
-					design: [' Photoshop', 'Sketch', 'Adobe XD', 'InVision', 'Balsamiq wireframes', 'Illustrator'],
-					productManagment: ['Jira', 'Confluence', 'GitHub', 'GitLab', 'Trello', 'Mixpanel', 'Google Analytics', 'Google Data Studio', 'Excel', 'Segment', 'Mailchimp']
-				}]
+				skills: [
+					{
+						name: 'code',
+						description: ['JavaScript', 'CSS/SASS', 'React', 'Vue.js', 'Git', 'Node', 'CI/CD', 'SQL', 'MongoDB', 'RestAPI', 'GraphQL']
+					},{
+						name: 'design',
+						description: [' Photoshop', 'Sketch', 'Adobe XD', 'InVision', 'Balsamiq wireframes', 'Illustrator']
+					},{
+						name: 'Product Managment',
+						description: ['Jira', 'Confluence', 'GitHub', 'GitLab', 'Trello', 'Mixpanel', 'Google Analytics', 'Google Data Studio', 'Excel', 'Segment', 'Mailchimp']
+					}
+				]
 		}}
 	}
 </script>
