@@ -10,7 +10,7 @@ yarn run build
 cd dist
 
 # if you are deploying to a custom domain
-echo 'new.armitageweb.net' > CNAME
+echo 'armitageweb.net' > CNAME
 
 git init
 git add -A

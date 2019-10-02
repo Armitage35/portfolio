@@ -6,6 +6,6 @@
 
 Simple SPA containing my portfolio. This version uses Vue-cli to bootstrap the project and SCSS for styling.
 
-You can see the website online [here](https://new.armitageweb.net/)
+You can see the website online [here](https://armitageweb.net/)
 
 ![Portfolio preview](https://i.imgur.com/RMRLLLh.jpg)
