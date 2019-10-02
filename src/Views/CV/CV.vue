@@ -17,7 +17,7 @@
 				<div class="cv__right">
 					<cvSection title="Skills" :content="skills"></cvSection>
 					<cvSection title="Education" :content="educations"></cvSection>
-					<cvSection title="Contact me"></cvSection>
+					<cvSection title="Contact me" :content="contact"></cvSection>
 				</div>
 			</div>
 			<div class="cv__footer">
@@ -94,6 +94,20 @@
 					},{
 						name: 'Product Managment',
 						description: ['Jira', 'Confluence', 'GitHub', 'GitLab', 'Trello', 'Mixpanel', 'Google Analytics', 'Google Data Studio', 'Excel', 'Segment', 'Mailchimp']
+					}
+				],
+				contact: [
+					{
+						name: 'email',
+						description: 'adrien.dubois35@gmail.com',
+						link: 'mailto:',
+						icon: 'fa-envelope'
+					},
+					{
+						name: 'telephone',
+						description: '+1 438 924 3959',
+						link: 'tel:',
+						icon: 'fa-phone-alt'
 					}
 				]
 		}}
