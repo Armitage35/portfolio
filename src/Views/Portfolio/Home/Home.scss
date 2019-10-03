@@ -46,19 +46,19 @@
 
 .home__orangeSeparator {
 	@media screen and (max-width: $mobileWidth) {
+		z-index: unset;
 		position: initial;
 		top: unset;
 		left: unset;
-		z-index: unset;
 		margin: 20px 0 20px 0;
 	}
 
 	z-index: 2;
 	width: 50%;
+	border: $orange solid 4px;
 	margin-left: 0;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	border: $orange solid 4px;
 }
 
 .home__content {

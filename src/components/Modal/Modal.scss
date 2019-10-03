@@ -18,8 +18,8 @@ $modalTransition: all .6s ease;
 
 .modal {
 	@media screen and (max-width: $mobileWidth) {
-		height: 100vh;
 		width: 100vw;
+		height: 100vh;
 		max-height: 80vh;
 	}
 
