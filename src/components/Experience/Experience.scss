@@ -1,4 +1,8 @@
 .experience {
+	@media screen and (max-width: $mobileWidth) {
+		width: auto;
+	}
+
 	width: 370px;
 	padding: 20px 16px;
 	cursor: pointer;
