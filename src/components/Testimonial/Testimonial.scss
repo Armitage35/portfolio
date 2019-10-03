@@ -27,7 +27,7 @@ $testimonialWidth: 250px;
 .testimonials__list {
 	@media screen and (max-width: $mobileWidth) {
 		overflow-x: scroll;
-		max-width: 100vw;
+		max-width: 90vw;
 	}
 }
 

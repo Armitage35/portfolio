@@ -1,3 +1,7 @@
+.workEducation {
+	@extend %mainSection__mobile;
+}
+
 .workEducation__content {
 	display: flex;
 	flex-wrap: wrap;

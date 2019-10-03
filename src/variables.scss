@@ -24,3 +24,11 @@ $sidemenu-width: 25%;
 
 // Responsiveness variables
 $mobileWidth: 600px;
+
+// Mixins
+%mainSection__mobile {
+	@media screen and (max-width: $mobileWidth) {
+		margin: 20px;
+		margin-right: 0;
+	}
+}

@@ -17,12 +17,7 @@
 
 // Styling
 .portfolio__home {
-	@media screen and (max-width: $mobileWidth) {
-		padding: 0px;
-		margin-left: 0;
-		align-items: left;
-		justify-content: left;
-	}
+	@extend %mainSection__mobile;
 
 	display: flex;
 	height: 100vh;
@@ -33,7 +28,7 @@
 
 .home__picture  {
 	@media screen and (max-width: $mobileWidth) {
-		position: unset;
+		display: none;
 	}
 
 	z-index: 1;
@@ -51,11 +46,22 @@
 }
 
 .home__orangeSeparator {
+	@media screen and (max-width: $mobileWidth) {
+		position: initial;
+		top: unset;
+		left: unset;
+		z-index: unset;
+		margin: 20px 0 20px 0;
+	}
+
 	z-index: 2;
-	position: absolute;
-	width: 10%;
-	top: 33%;
-	left: 56vw;
+	width: 50%;
+	// position: absolute;
+	// top: 33%;
+	// left: 60vw;
+	margin-left: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	border: $orange solid 4px;
 }
 
@@ -70,8 +76,18 @@
 	}
 
 	h1:first-of-type {
-		margin-bottom: 0;
+		margin-bottom: 8px;
 	}
+
+	h1:last-of-type {
+		margin-bottom: 8px;
+	}
+
+	// @media screen and (max-width: $mobileWidth) {
+	// 	h1:last-of-type {
+	// 		margin-bottom: 0;
+	// 	}
+	// }
 }
 
 .portfolio__lastName {
