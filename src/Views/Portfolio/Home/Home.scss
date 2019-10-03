@@ -1,3 +1,4 @@
+// Variables
 %button {
 	margin: 16px;
 	border-radius: 28.5px;
@@ -14,15 +15,21 @@
 	transition: box-shadow 0.3s ease-in-out 0s;
 }
 
+// Styling
 .portfolio__home {
+	@extend %mainSection__mobile;
+
 	display: flex;
 	height: 100vh;
-	padding: 0 50px 0 0;
 	align-items: center;
 	justify-content: center;
 }
 
 .home__picture  {
+	@media screen and (max-width: $mobileWidth) {
+		display: none;
+	}
+
 	z-index: 1;
 	position: relative;
 	width: 33vw;
@@ -33,17 +40,22 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	z-index: 1;
 	box-shadow: $defaultShadow;
 }
 
 .home__orangeSeparator {
+	@media screen and (max-width: $mobileWidth) {
+		z-index: unset;
+		position: initial;
+		top: unset;
+		left: unset;
+		margin: 20px 0;
+	}
+
 	z-index: 2;
-	position: absolute;
-	width: 10%;
-	top: 33%;
-	left: 56vw;
+	width: 50%;
 	border: $orange solid 4px;
+	margin: 20px 0;
 }
 
 .home__content {
@@ -57,7 +69,11 @@
 	}
 
 	h1:first-of-type {
-		margin-bottom: 0;
+		margin-bottom: 8px;
+	}
+
+	h1:last-of-type {
+		margin-bottom: 8px;
 	}
 }
 

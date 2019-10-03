@@ -1,3 +1,7 @@
+.projects {
+	@extend %mainSection__mobile;
+}
+
 .projects__content {
 	display: flex;
 	flex-wrap: wrap;
