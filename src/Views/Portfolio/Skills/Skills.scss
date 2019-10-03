@@ -1,4 +1,8 @@
 .skills_list {
+	@media screen and (max-width: $mobileWidth) {
+		max-width: 80%;
+	}
+
 	display: flex;
 	flex-wrap: wrap;
 	row-gap: 24px;

@@ -1,4 +1,8 @@
 .sidemenu {
+	@media screen and (max-width: $mobileWidth) {
+		display: none;
+	}
+
 	position: fixed;
 	width: $sidemenu-width;
 	height: 100vh;

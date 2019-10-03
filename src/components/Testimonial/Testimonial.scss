@@ -24,6 +24,13 @@ $testimonialWidth: 250px;
 	}
 }
 
+.testimonials__list {
+	@media screen and (max-width: $mobileWidth) {
+		overflow-x: scroll;
+		max-width: 100vw;
+	}
+}
+
 .testimonial:first-of-type {
 	margin-left: 12px;
 }
@@ -39,6 +46,10 @@ $testimonialWidth: 250px;
 }
 
 .testimonial__shadowContainer {
+	@media screen and (max-width: $mobileWidth) {
+		display: none;
+	}
+
 	position: absolute;
 	width: $testimonialWidth;
 	height: 634px;
