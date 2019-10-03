@@ -21,7 +21,6 @@
 
 	display: flex;
 	height: 100vh;
-	// padding: 0 50px 0 0;
 	align-items: center;
 	justify-content: center;
 }
@@ -50,15 +49,13 @@
 		position: initial;
 		top: unset;
 		left: unset;
-		margin: 20px 0 20px 0;
+		margin: 20px 0;
 	}
 
 	z-index: 2;
 	width: 50%;
 	border: $orange solid 4px;
-	margin-left: 0;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin: 20px 0;
 }
 
 .home__content {
@@ -78,12 +75,6 @@
 	h1:last-of-type {
 		margin-bottom: 8px;
 	}
-
-	// @media screen and (max-width: $mobileWidth) {
-	// 	h1:last-of-type {
-	// 		margin-bottom: 0;
-	// 	}
-	// }
 }
 
 .portfolio__lastName {
