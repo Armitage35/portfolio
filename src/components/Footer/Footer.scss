@@ -5,6 +5,9 @@
 }
 
 .footer {
+	@media screen and (max-width: $mobileWidth) {
+		width: 100vw
+	}
 	display: flex;
 	width:  calc(100% - (#{$sidemenu-width} + 60px) );
 	margin-top: 80px;
@@ -23,6 +26,9 @@
 }
 
 .footer__left {
+	@media screen and (max-width: $mobileWidth) {
+		width: 80%;
+	}
 	position: absolute;
 	width: 42%;
 	height: 60px;
@@ -38,6 +44,12 @@
 }
 
 .footer__right {
+	@media screen and (max-width: $mobileWidth) {
+		div, a {
+			display: none;
+		}
+	}
+
 	background-color: $black;
 	text-align: right;
 	flex: 1;

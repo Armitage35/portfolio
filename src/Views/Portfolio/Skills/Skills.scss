@@ -1,3 +1,7 @@
+.content__skills {
+	@extend %mainSection__mobile;
+}
+
 .skills_list {
 	display: flex;
 	flex-wrap: wrap;

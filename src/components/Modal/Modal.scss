@@ -17,6 +17,12 @@ $modalTransition: all .6s ease;
 }
 
 .modal {
+	@media screen and (max-width: $mobileWidth) {
+		width: 100vw;
+		height: 100vh;
+		max-height: 80vh;
+	}
+
 	width: 800px;
 	margin: 0 auto;
 	border-radius: 5px;
@@ -47,6 +53,10 @@ $modalTransition: all .6s ease;
 
 .modal__body {
 	display: flex;
+
+	@media screen and (max-width: $mobileWidth) {
+		flex-direction: row-reverse;
+	}
 }
 
 .modal__text {
@@ -64,5 +74,4 @@ $modalTransition: all .6s ease;
 	flex-basis: 300%;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
 }
