@@ -1,6 +1,3 @@
-#########################
-## Sample Sass Lint File
-#########################
 # Linter Options
 options:
   # Don't merge default rules
@@ -19,6 +16,8 @@ rules:
   extends-before-mixins: 2
   extends-before-declarations: 2
   placeholder-in-extend: 2
+  no-duplicate-properties:
+  - 1
   mixins-before-declarations:
     - 2
     -
