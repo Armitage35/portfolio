@@ -41,6 +41,15 @@ $modalTransition: all .6s ease;
 	display: flex;
 	justify-content: space-between;
 
+
+	i {
+		cursor: pointer;
+	}
+
+	i:hover {
+		color: $grey;
+	}
+
 	h1 {
 		margin-bottom: 12px;
 	}

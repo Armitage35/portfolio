@@ -27,7 +27,7 @@
 
 .footer__left {
 	@media screen and (max-width: $mobileWidth) {
-		width: 80%;
+		width: 100%;
 	}
 	position: absolute;
 	width: 42%;
@@ -36,7 +36,7 @@
 	padding: 24px;
 	padding-left: 48px;
 	clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%);
-	align-self: end;
+	align-self: flex-end;
 }
 
 .footer__announce {
@@ -45,17 +45,21 @@
 
 .footer__right {
 	@media screen and (max-width: $mobileWidth) {
+		height: 64px;
+		background-color: $orange;
+		margin-bottom: 0;
+
 		div, a {
 			display: none;
 		}
 	}
 
+	align-self: flex-end;
 	background-color: $black;
 	text-align: right;
 	flex: 1;
 	padding: 24px;
 	font-size: 12px;
-	align-items: end;
 }
 
 .footer__author {
