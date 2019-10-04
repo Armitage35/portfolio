@@ -1,4 +1,8 @@
 .skill {
+	@media screen and (max-width: $mobileWidth) {
+		// margin: 24px;
+	}
+
 	position: relative;
 	top: 0;
 	border-radius: 18px;
@@ -8,6 +12,9 @@
 	font-size: 14px;
 	box-shadow: $defaultShadow;
 	transition: top ease 0.5s;
+
+	margin: 12px;
+    margin-left: 0;
 }
 
 .skill:hover {
