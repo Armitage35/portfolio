@@ -15,6 +15,8 @@ echo 'armitageweb.net' > CNAME
 git config user.email "adrien.dubois35@gmail.com"
 git config user.name "Adrien D. Ahlqvist"
 
+git config user.email "adrien.dubois35@gmail.com"
+git config user.name "Adrien D. Ahlqvist"
 git init
 git add -A
 git commit -m 'deploy'
