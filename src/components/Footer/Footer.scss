@@ -36,7 +36,7 @@
 	padding: 24px;
 	padding-left: 48px;
 	clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%);
-	align-self: end;
+	align-self:flex-end;
 }
 
 .footer__announce {
@@ -54,12 +54,12 @@
 		}
 	}
 
+	align-self: flex-end;
 	background-color: $black;
 	text-align: right;
 	flex: 1;
 	padding: 24px;
 	font-size: 12px;
-	align-items: end;
 }
 
 .footer__author {
