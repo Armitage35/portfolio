@@ -27,7 +27,7 @@
 
 .footer__left {
 	@media screen and (max-width: $mobileWidth) {
-		width: 80%;
+		width: 100%;
 	}
 	position: absolute;
 	width: 42%;
@@ -45,6 +45,10 @@
 
 .footer__right {
 	@media screen and (max-width: $mobileWidth) {
+		height: 64px;
+		background-color: $orange;
+		margin-bottom: 0;
+
 		div, a {
 			display: none;
 		}
