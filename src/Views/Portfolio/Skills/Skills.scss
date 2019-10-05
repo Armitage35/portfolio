@@ -5,7 +5,5 @@
 .skills_list {
 	display: flex;
 	flex-wrap: wrap;
-	row-gap: 24px; // only supported by firefox for now
-	column-gap: 24px; // only supported by firefox for now
 	max-width: 90vw;
 }
