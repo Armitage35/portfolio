@@ -117,3 +117,16 @@ $CVborder: solid 5px $orange;
 	padding: 20px;
 	font-size: 32px;
 }
+
+@media print {
+	.cv__container {
+		margin: auto;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.cv {
+		width: 100vw;
+		margin: 0;
+	}
+}
