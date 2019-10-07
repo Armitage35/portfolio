@@ -36,3 +36,15 @@
 		color: $blue;
 	}
 }
+
+@media print {
+	.projects {
+		.entry:nth-of-type(4){
+			display: none;
+		}
+
+		.entry:nth-of-type(5){
+			display: none;
+		}
+	}
+}
