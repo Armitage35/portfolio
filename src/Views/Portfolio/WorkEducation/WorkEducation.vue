@@ -47,7 +47,8 @@
 					duration: '2018-2019',
 					description: 'Jogogo is a physical space analytics tool that lets its users track and engage their visitors based on their activity. I was the Product Owner for both the App and the API and implemented a SCRUM process that enabled us to complete the redesigns of both our App (React) and our API (GraphQL). Both of the APP and API were used by enterprise clients such as Decathlon, Desjardins, Asmodee, Telus, IBM and Cisco.',
 					cover: Jogogo,
-					clickable: true
+					clickable: true,
+					link: 'https://www.behance.net/gallery/86647847/Jogogo-Location-analytics'
 				}, {
 					name: 'Product owner',
 					place: 'Technology Evaluation Centers, Montreal',
