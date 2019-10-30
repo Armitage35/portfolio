@@ -6,15 +6,15 @@
 </template>
 
 <script>
-	import cvEntry from './cvEntry/cvEntry';
+import cvEntry from './cvEntry/cvEntry';
 
-	export default {
-		components: { cvEntry },
-		props: [ 'title', 'content' ],
-		computed: {
-			className: function() {
-				return 'cv__section ' + this.title.toLowerCase()
-			}
+export default {
+	components: { cvEntry },
+	props: [ 'title', 'content' ],
+	computed: {
+		className: function() {
+			return 'cv__section ' + this.title.toLowerCase();
 		}
 	}
+};
 </script>

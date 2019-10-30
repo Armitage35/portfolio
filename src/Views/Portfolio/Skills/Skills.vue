@@ -18,7 +18,7 @@
 </template>
 
 <script>
-	import SkillCartridge from '../../../components/SkillCartridge/SkillCartridge';
+import SkillCartridge from '../../../components/SkillCartridge/SkillCartridge';
 
 export default {
 	components: { SkillCartridge },
@@ -27,7 +27,7 @@ export default {
 			code: ['JavaScript', 'CSS/SASS', 'React', 'Vue.js', 'Git', 'Node', 'CI/CD', 'SQL', 'MongoDB', 'RestAPI', 'GraphQL'],
 			design: [' Photoshop', 'Sketch', 'Adobe XD', 'InVision', 'Balsamiq wireframes', 'Illustrator'],
 			productManagment: ['Jira', 'Confluence', 'GitHub', 'GitLab', 'Trello', 'Mixpanel', 'Google Analytics', 'Google Data Studio', 'Excel', 'Segment', 'Mailchimp']
-		}
+		};
 	}
-}
+};
 </script>

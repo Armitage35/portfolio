@@ -11,5 +11,5 @@ import Views from './Views/Views';
 export default {
 	name: 'app',
 	components: { Views }
-}
+};
 </script>
