@@ -8,7 +8,7 @@
 		</div>
 		<h2>Design</h2>
 		<div class="skills_list">
-			<SkillCartridge v-for="(designSkill, key) in code" :key="key" :skill="designSkill"></SkillCartridge>
+			<SkillCartridge v-for="(designSkill, key) in design" :key="key" :skill="designSkill"></SkillCartridge>
 		</div>
 		<h2>Product Managment</h2>
 		<div class="skills_list">
@@ -18,16 +18,16 @@
 </template>
 
 <script>
-	import SkillCartridge from '../../../components/SkillCartridge/SkillCartridge';
+import SkillCartridge from '../../../components/SkillCartridge/SkillCartridge';
 
 export default {
 	components: { SkillCartridge },
 	data: function() {
 		return {
 			code: ['JavaScript', 'CSS/SASS', 'React', 'Vue.js', 'Git', 'Node', 'CI/CD', 'SQL', 'MongoDB', 'RestAPI', 'GraphQL'],
-			design: [' Photoshop', 'Sketch', 'Adobe XD', 'InVision', 'Balsamiq wireframes', 'Illustrator'],
+			design: [' Photoshop', 'Sketch', 'Adobe XD', 'InVision', 'Balsamiq wireframes', 'Illustrator', 'Zeplin'],
 			productManagment: ['Jira', 'Confluence', 'GitHub', 'GitLab', 'Trello', 'Mixpanel', 'Google Analytics', 'Google Data Studio', 'Excel', 'Segment', 'Mailchimp']
-		}
+		};
 	}
-}
+};
 </script>
