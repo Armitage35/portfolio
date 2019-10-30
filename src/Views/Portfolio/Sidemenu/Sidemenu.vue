@@ -47,7 +47,7 @@ export default {
 				link: 'https://www.behance.net/armitageweb',
 				icon: 'fab fa-behance'
 			}]
-		}
+		};
 	}
-}
+};
 </script>

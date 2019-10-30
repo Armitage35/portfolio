@@ -18,32 +18,32 @@
 </template>
 
 <script>
-	import Home from './Home/Home';
-	import ElevatorPitch from './ElevatorPitch/ElevatorPitch';
-	import Sidemenu from './Sidemenu/Sidemenu';
-	import Skills from './Skills/Skills';
-	import WorkEducation from './WorkEducation/WorkEducation';
-	import Projects from './Projects/Projects';
-	import Modal from '../../components/Modal/Modal';
-	import Testimonials from './Testimonials/Testimonials';
+import Home from './Home/Home';
+import ElevatorPitch from './ElevatorPitch/ElevatorPitch';
+import Sidemenu from './Sidemenu/Sidemenu';
+import Skills from './Skills/Skills';
+import WorkEducation from './WorkEducation/WorkEducation';
+import Projects from './Projects/Projects';
+import Modal from '../../components/Modal/Modal';
+import Testimonials from './Testimonials/Testimonials';
 
-	export default {
-		components: { ElevatorPitch, Home, Modal, Projects, Sidemenu, Skills, Testimonials, WorkEducation },
-		data: function() {
-			return {
-				appState: {
-					modal:{
-						active: false,
-						content: null,
-					}
+export default {
+	components: { ElevatorPitch, Home, Modal, Projects, Sidemenu, Skills, Testimonials, WorkEducation },
+	data: function() {
+		return {
+			appState: {
+				modal:{
+					active: false,
+					content: null,
 				}
 			}
-		},
-		methods: {
-			toggleModal: function(event) {
-				this.appState.modal.active = !this.appState.modal.active;
-				this.appState.modal.content = event;
-			}
+		};
+	},
+	methods: {
+		toggleModal: function(event) {
+			this.appState.modal.active = !this.appState.modal.active;
+			this.appState.modal.content = event;
 		}
 	}
+};
 </script>

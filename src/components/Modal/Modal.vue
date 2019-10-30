@@ -20,12 +20,12 @@
 </template>
 
 <script>
-	export default {
-		props: ['content'],
-		computed: {
-			dateOrName: function() {
-				return this.content.date ? this.content.date : this.content.place
-			}
+export default {
+	props: ['content'],
+	computed: {
+		dateOrName: function() {
+			return this.content.date ? this.content.date : this.content.place;
 		}
 	}
+};
 </script>

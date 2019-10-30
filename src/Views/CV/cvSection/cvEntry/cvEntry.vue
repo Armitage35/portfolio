@@ -25,7 +25,7 @@
 </template>
 
 <script>
-	export default {
-		props: [ 'content', 'title' ]
-	}
+export default {
+	props: [ 'content', 'title' ]
+};
 </script>

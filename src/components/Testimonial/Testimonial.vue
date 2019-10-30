@@ -15,7 +15,7 @@
 </template>
 
 <script>
-	export default {
-		props: ['testimonial']
-	}
+export default {
+	props: ['testimonial']
+};
 </script>
