@@ -29,6 +29,6 @@ $mobileWidth: 600px;
 %mainSection__mobile {
 	@media screen and (max-width: $mobileWidth) {
 		margin: 20px;
-		margin-right: 0;
+		margin-left: 0;
 	}
 }
