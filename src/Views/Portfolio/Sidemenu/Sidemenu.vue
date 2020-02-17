@@ -46,6 +46,11 @@ export default {
 				name: 'Behance',
 				link: 'https://www.behance.net/armitageweb',
 				icon: 'fab fa-behance'
+			},
+			{
+				name: 'Dribble',
+				link: 'https://dribbble.com/armitageweb',
+				icon: 'fas fa-basketball-ball'
 			}]
 		};
 	}
