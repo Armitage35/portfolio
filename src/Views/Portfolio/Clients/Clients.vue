@@ -2,8 +2,8 @@
 	<div class="clients">
 		<h1>Clients</h1>
 		<p class="clients__description">If you know these brands, chances are you have probably seen my work</p>
-		<div class="client-list">
-			<img :src="client" class="client" v-for="(client, key) in clients" :key="key">
+		<div class="clients__client-list">
+			<img :src="client" class="clients__client" v-for="(client, key) in clients" :key="key">
 		</div>
 	</div>
 </template>

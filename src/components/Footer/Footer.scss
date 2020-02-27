@@ -27,7 +27,8 @@
 
 .footer__left {
 	@media screen and (max-width: $mobileWidth) {
-		width: 100%;
+		width: 80%;
+		clip-path: none;
 	}
 	position: absolute;
 	width: 42%;
