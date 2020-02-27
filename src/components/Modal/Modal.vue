@@ -12,7 +12,9 @@
 				<div class="modal__cover" :style="'background-image: url(' + content.cover + ')'"></div>
 				<div class="modal__text">
 					<p class="modal__description">{{ content.description }}</p>
-					<a class="modal__link" v-if="content.link" :href="content.link" target="_blank">Get to the project</a>
+					<a class="modal__link" v-if="content.link" :href="content.link" target="_blank">See the project
+						<i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+					</a>
 				</div>
 			</div>
 		</div>

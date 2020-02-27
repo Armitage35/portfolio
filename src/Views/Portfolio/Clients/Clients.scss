@@ -1,0 +1,23 @@
+.clients {
+	@extend %mainSection__mobile;
+}
+
+.clients__description {
+	font-weight: $medium;
+	margin-bottom: 46px;
+	margin-left: 8px;
+}
+
+
+.clients__client-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.clients__client {
+	@media screen and (max-width: $mobileWidth) {
+		width: 80%;
+		margin: auto
+	}
+	width: 25%;
+}

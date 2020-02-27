@@ -11,7 +11,7 @@ $fixedWidthFonts: 'Space Mono', monospace;
 
 // Font weights
 $regular: 400;
-$meidum: 500;
+$medium: 500;
 $semiBold: 600;
 $bold: 700;
 
@@ -28,6 +28,5 @@ $mobileWidth: 600px;
 %mainSection__mobile {
 	@media screen and (max-width: $mobileWidth) {
 		margin: 20px;
-		margin-left: 0;
 	}
 }
