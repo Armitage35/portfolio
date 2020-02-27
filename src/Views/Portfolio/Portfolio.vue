@@ -11,8 +11,8 @@
 			<ElevatorPitch></ElevatorPitch>
 			<Skills></Skills>
 			<WorkEducation @seeJob="toggleModal($event)"></WorkEducation>
-			<Projects @seeProject="toggleModal($event)"></Projects>
 			<Clients></Clients>
+			<Projects @seeProject="toggleModal($event)"></Projects>
 			<Testimonials></Testimonials>
 		</div>
 	</div>
