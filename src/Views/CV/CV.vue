@@ -11,11 +11,11 @@
 			<div class="cv__content">
 				<div class="cv__left">
 					<cvSection title="Work" :content="works"></cvSection>
-					<cvSection title="Projects" :content="projects"></cvSection>
 				</div>
 				<div class="cv__centerSeparator"></div>
 				<div class="cv__right">
 					<cvSection title="Skills" :content="skills"></cvSection>
+					<cvSection title="Projects" :content="projects"></cvSection>
 					<cvSection title="Education" :content="educations"></cvSection>
 					<cvSection title="Contact me" :content="contact"></cvSection>
 				</div>
@@ -55,6 +55,12 @@ export default {
 				description: 'Generalist formation in management and business with a strong inclination toward international. Specialized in entrepreneurship '
 			}],
 			works: [{
+				name: 'Product owner',
+				place: 'Valtech',
+				country: 'Canada',
+				duration: '2018-2019',
+				description: 'Valtech is a global business transformation agency delivering innovation with a purpose. We enable clients to anticipate tomorrow’s trends and connect more directly with consumers across their digital touch points while optimizing time-to-market and ROI. Some of the clients I worked with include Pratt & Whitney, Ferique, Stikeman & Eliott and Uni-Select.'
+			},{
 				name: 'Product owner',
 				place: 'Jogogo',
 				country: 'Canada',
@@ -108,6 +114,13 @@ export default {
 				}
 			],
 			projects: [{
+				name: 'Facebook Event Tracker',
+				date: '2020',
+				country: 'Canada',
+				link: 'https://github.com/Armitage35/facebook-event-tracker',
+				description: 'This project is a CLI tool that enables people who don\'t have a Facebook account to keep an eye out for events they want to part take in.'
+			},
+			{
 				name: 'Fuzzy Roadmap',
 				date: '2019',
 				country: 'Canada',
