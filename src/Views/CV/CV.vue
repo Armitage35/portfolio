@@ -56,6 +56,12 @@ export default {
 			}],
 			works: [{
 				name: 'Product owner',
+				place: 'Valtech',
+				country: 'Canada',
+				duration: '2018-2019',
+				description: 'Valtech is a global business transformation agency delivering innovation with a purpose. We enable clients to anticipate tomorrow’s trends and connect more directly with consumers across their digital touch points while optimizing time-to-market and ROI. Some of the clients I worked with include Pratt & Whitney, Ferique, Stikeman & Eliott and Uni-Select.'
+			},{
+				name: 'Product owner',
 				place: 'Jogogo',
 				country: 'Canada',
 				duration: '2018-2019',
@@ -108,6 +114,13 @@ export default {
 				}
 			],
 			projects: [{
+				name: 'Facebook Event Tracker',
+				date: '2020',
+				country: 'Canada',
+				link: 'https://github.com/Armitage35/facebook-event-tracker',
+				description: 'This project is a CLI tool that enables people who don\'t have a Facebook account to keep an eye out for events they want to part take in.'
+			},
+			{
 				name: 'Fuzzy Roadmap',
 				date: '2019',
 				country: 'Canada',
