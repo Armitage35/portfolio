@@ -11,11 +11,11 @@
 			<div class="cv__content">
 				<div class="cv__left">
 					<cvSection title="Work" :content="works"></cvSection>
-					<cvSection title="Projects" :content="projects"></cvSection>
 				</div>
 				<div class="cv__centerSeparator"></div>
 				<div class="cv__right">
 					<cvSection title="Skills" :content="skills"></cvSection>
+					<cvSection title="Projects" :content="projects"></cvSection>
 					<cvSection title="Education" :content="educations"></cvSection>
 					<cvSection title="Contact me" :content="contact"></cvSection>
 				</div>
