@@ -10,7 +10,7 @@
 	<div class="entry" v-else-if="title === 'Projects'">
 			<div class="entry__title"
 				><span class="entry__country">{{content.country}}</span>
-				| {{content.name}}
+				- {{content.name}}
 			</div>
 		<div class="entry__body">{{content.description}}</div>
 	</div>
