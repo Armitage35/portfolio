@@ -41,14 +41,14 @@ export default {
 				duration: '2014-2015',
 				description: 'Formation that regroups technical courses (coding, software engineering) and digital marketing '
 			}, {
-				name: 'Bachelor\'s degree in managment',
+				name: 'Bachelor\'s degree in management',
 				place: 'Högskolan i Halmstad',
 				country: 'Sweden',
 				duration: '2012-2013',
 				description: 'Formation dedicated to technology and digital marketing. Writing of an essay about the spreading of brand trust in online communities '
 			},
 			{
-				name: 'Bachelor in international managment',
+				name: 'Bachelor in international management',
 				place: 'Groupe ESC Troyes',
 				country: 'France',
 				duration: '2010-2014',
@@ -95,7 +95,7 @@ export default {
 					name: 'design',
 					description: [' Photoshop', 'Sketch', 'Adobe XD', 'InVision', 'Balsamiq wireframes', 'Illustrator']
 				},{
-					name: 'Product Managment',
+					name: 'Product Management',
 					description: ['Jira', 'Confluence', 'GitHub', 'GitLab', 'Trello', 'Mixpanel', 'Google Analytics', 'Google Data Studio', 'Excel', 'Segment', 'Mailchimp']
 				}
 			],
