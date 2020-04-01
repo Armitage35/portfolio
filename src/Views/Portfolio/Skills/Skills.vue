@@ -10,9 +10,9 @@
 		<div class="skills_list">
 			<SkillCartridge v-for="(designSkill, key) in design" :key="key" :skill="designSkill"></SkillCartridge>
 		</div>
-		<h2>Product Managment</h2>
+		<h2>Product Management</h2>
 		<div class="skills_list">
-			<SkillCartridge v-for="(productManagmentSkill, key) in productManagment" :key="key" :skill="productManagmentSkill"></SkillCartridge>
+			<SkillCartridge v-for="(productManagementSkill, key) in productManagement" :key="key" :skill="productManagementSkill"></SkillCartridge>
 		</div>
 	</div>
 </template>
@@ -26,7 +26,7 @@ export default {
 		return {
 			code: ['JavaScript', 'CSS/SASS', 'React', 'Vue.js', 'Git', 'Node', 'CI/CD', 'SQL', 'MongoDB', 'RestAPI', 'GraphQL'],
 			design: [' Photoshop', 'Sketch', 'Adobe XD', 'InVision', 'Balsamiq wireframes', 'Illustrator', 'Zeplin'],
-			productManagment: ['Jira', 'Confluence', 'GitHub', 'GitLab', 'Trello', 'Mixpanel', 'Google Analytics', 'Google Data Studio', 'Excel', 'Segment', 'Mailchimp']
+			productManagement: ['Jira', 'Confluence', 'GitHub', 'GitLab', 'Trello', 'Mixpanel', 'Google Analytics', 'Google Data Studio', 'Excel', 'Segment', 'Mailchimp']
 		};
 	}
 };

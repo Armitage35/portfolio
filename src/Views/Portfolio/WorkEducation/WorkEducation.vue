@@ -31,13 +31,13 @@ export default {
 				duration: 'Session: 2014-2015',
 				clickable: false
 			}, {
-				name: 'Bachelor\'s degree in managment',
+				name: 'Bachelor\'s degree in management',
 				place: 'Högskolan i Halmstad, Sweden',
 				duration: 'Session: 2012-2013',
 				clickable: false
 			},
 			{
-				name: 'Bachelor in international managment',
+				name: 'Bachelor in international management',
 				place: 'Groupe ESC Troyes, France',
 				duration: 'Session: 2010-2014',
 				clickable: false

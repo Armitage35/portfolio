@@ -39,7 +39,7 @@ export default {
 					date: '2018',
 					link: 'https://github.com/Armitage35/day2day.wallpaper',
 					cover: Day2DayWallapaper,
-					description: 'Chrome OS is an amazing OS but its wallpaper managment abilities are lacking, at best. Day2Day.wallpaper enable its users browse, discover and find amazing photos to use as their new wallpaper for their Chrome OS devices.'
+					description: 'Chrome OS is an amazing OS but its wallpaper management abilities are lacking, at best. Day2Day.wallpaper enable its users browse, discover and find amazing photos to use as their new wallpaper for their Chrome OS devices.'
 				},{
 					name: 'Day2Day.password',
 					date: '2018',
