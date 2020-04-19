@@ -1,0 +1,8 @@
+.technicalFile {
+	display: flex;
+}
+
+.technicalFile-content {
+	padding: 50px;
+	max-width:   calc(100% - (#{$sidemenu-width} + 30px ) );
+}

@@ -1,13 +1,18 @@
 <template>
 	<div class="content__elevatorPitch" id="portfolio">
 		<h1>My role</h1>
-		<p>As a product owner, my mission is to deliver a great product to the user, to commit developers to technological excellence, to ensure designs respect technical constraints, to enable the company to understand what it is we are building, and to ensure our representatives are heard. As a manager, I believe that working software is the primary measure of success, that maximizing the amount of work not done is essential and that business people and developers must work together daily throughout the project.</p>
-		<p>As a manager, I believe that working software is the primary measure of success, that maximizing the amount of work not done is essential and that business people and developers must work together daily throughout the project.</p>
+		<p v-for="(paragraph, key) in strings.en.portfolio.elevatorPitch.pitch" :key="key">{{paragraph}}</p>
 	</div>
 </template>
 
 <script>
-export default {
+import strings from '../../../i18n.json';
 
+export default {
+	data: function() {
+		return {
+			strings: strings,
+		};
+	}
 };
 </script>
