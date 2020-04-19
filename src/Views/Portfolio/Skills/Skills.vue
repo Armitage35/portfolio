@@ -4,15 +4,15 @@
 		<p>My skills are in design, data science, front and back-end development. Being able to take a product or a feature from idea to adoption is what I thrive for.</p>
 		<h2>Code</h2>
 		<div class="skills_list">
-			<SkillCartridge v-for="(codeSkill, key) in code" :key="key" :skill="codeSkill"></SkillCartridge>
+			<SkillCartridge v-for="(codeSkill, key) in strings.en.portfolio.skills.code" :key="key" :skill="codeSkill"></SkillCartridge>
 		</div>
 		<h2>Design</h2>
 		<div class="skills_list">
-			<SkillCartridge v-for="(designSkill, key) in design" :key="key" :skill="designSkill"></SkillCartridge>
+			<SkillCartridge v-for="(designSkill, key) in strings.en.portfolio.skills.design" :key="key" :skill="designSkill"></SkillCartridge>
 		</div>
 		<h2>Product Management</h2>
 		<div class="skills_list">
-			<SkillCartridge v-for="(productManagementSkill, key) in productManagement" :key="key" :skill="productManagementSkill"></SkillCartridge>
+			<SkillCartridge v-for="(productManagementSkill, key) in strings.en.portfolio.skills.productManagement" :key="key" :skill="productManagementSkill"></SkillCartridge>
 		</div>
 	</div>
 </template>
@@ -20,13 +20,13 @@
 <script>
 import SkillCartridge from '../../../components/SkillCartridge/SkillCartridge';
 
+import strings from '../../../i18n.json';
+
 export default {
 	components: { SkillCartridge },
 	data: function() {
 		return {
-			code: ['JavaScript', 'CSS/SASS', 'React', 'Vue.js', 'Git', 'Node', 'CI/CD', 'SQL', 'MongoDB', 'RestAPI', 'GraphQL'],
-			design: [' Photoshop', 'Sketch', 'Adobe XD', 'InVision', 'Balsamiq wireframes', 'Illustrator', 'Zeplin'],
-			productManagement: ['Jira', 'Confluence', 'GitHub', 'GitLab', 'Trello', 'Mixpanel', 'Google Analytics', 'Google Data Studio', 'Excel', 'Segment', 'Mailchimp']
+			strings: strings
 		};
 	}
 };
