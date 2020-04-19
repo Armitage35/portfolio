@@ -7,7 +7,6 @@
 			<i :class="'fas ' + contactMethod.icon"></i>
 			<a class="entry__contact" :href="contactMethod.link + contactMethod.description">{{ contactMethod.description }}</a>
 		</div>
-		<a href="mailto:adrien.dubois35@gmail.com" class="bttn-primary">Contact me</a>
 	</div>
 </template>
 

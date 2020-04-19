@@ -2,7 +2,7 @@
 	<div class='technicalFile'>
 		<div class="technicalFile-content">
 			<router-link to="cv">
-				<a href=""><i class="fas fa-arrow-left"></i>Back to the resume</a>
+				<a href=""><i class="fas fa-arrow-left"></i>  Back to the resume</a>
 			</router-link>
 			<h1>Summary</h1>
 			<p v-for="(pitchParagraph, key) in strings.en.portfolio.elevatorPitch.pitch" :key="key">
