@@ -4,5 +4,11 @@
 
 .technicalFile-content {
 	padding: 50px;
-	max-width:   calc(100% - (#{$sidemenu-width} + 30px ) );
+	max-width: calc(100% - (#{$sidemenu-width} + 30px ) );
+	@media screen and (max-width: $mobileWidth) {
+		width: 100%;
+		p {
+			max-width: 100%;
+		}
+	}
 }
