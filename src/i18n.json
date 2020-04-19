@@ -105,12 +105,13 @@
 					"quote": "Adrien has the strength to hold and defend his good opinions and ideas, the knowledge and intelligence to justify them, and yet the humility to appreciate a good counterargument. He is the ultimate generalist: a reliable, incredibly adaptive problem-solver you can throw anything at, with an organized, analytical, clever, curious, passionate and ultimately rare mind",
 					"person": "Simon Abramovitch - Senior SEO Consultant "
 				}],
-			"education": [{
+			"education": [
+				{
 				"name": "Master of Information Technology",
 				"place": "NUI Galway, Ireland",
 				"duration": "Session: 2014-2015",
-				"clickable": false
-			}, {
+				"clickable": false},
+				{
 				"name": "Bachelor's degree in management",
 				"place": "Högskolan i Halmstad, Sweden",
 				"duration": "Session: 2012-2013",
@@ -162,7 +163,20 @@
 					"cover": "Pryv",
 					"duration": "2014",
 					"clickable": true
-				}]
+				}
+			],
+			"footer": {
+				"brag": "Need help for your next project?",
+				"email": {
+					"contact": "adrien.dubois35@gmail.com",
+					"legend": "Shoot me an email! 🚀"
+				},
+				"copyrights": "Design and code by Adrien D. Ahlqvist",
+				"seeCode": {
+					"text": "View source",
+					"link": "https://github.com/Armitage35/portfolio/"
+				}
+			}
 		},
 		"technicalFile": {
 			"test": "test"
