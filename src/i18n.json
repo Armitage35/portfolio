@@ -204,44 +204,220 @@
 				"place": "Valtech",
 				"country": "Canada",
 				"duration": "2018-2019",
-				"description": "Valtech is a global business transformation agency delivering innovation with a purpose. We enable clients to anticipate tomorrow’s trends and connect more directly with consumers across their digital touch points while optimizing time-to-market and ROI. Some of the clients I worked with include Pratt & Whitney, Ferique, Stikeman & Eliott and Uni-Select."
+				"description": "Valtech is a global business transformation agency delivering innovation with a purpose. We enable clients to anticipate tomorrow’s trends and connect more directly with consumers across their digital touch points while optimizing time-to-market and ROI. Some of the clients I worked with include Pratt & Whitney, Ferique, Stikeman & Eliott and Uni-Select.",
+				"tech": ["Sitecore", ".net", "Microsoft MySQL", "IIS", "Vue.js", "Swift", "SASS"],
+				"appraisal": "",
+				"context": "",
+				"results": []
 			},{
 				"name": "Product owner",
 				"place": "Jogogo",
 				"country": "Canada",
 				"duration": "2018-2019",
-				"description": "I was the Product Owner for both the App and the API and implemented a SCRUM process that enabled us to complete the redesigns of both our App (React) and our API (GraphQL). Both of the APP and API were used by enterprise clients such as Decathlon, Desjardins, Asmodee, Telus, IBM and Cisco."
+				"description": "I was the Product Owner for both the App and the API and implemented a SCRUM process that enabled us to complete the redesigns of both our App (React) and our API (GraphQL). Both of the APP and API were used by enterprise clients such as Decathlon, Desjardins, Asmodee, Telus, IBM and Cisco.",
+				"tech": ["Node.js", "React.js", "Kafka", "Cassandra", "PostgreSQL", "GraphQL", "Rust", "Typescript", "Vue.js", "Ngnix", "SASS", "LESS"],
+				"appraisal": "When I arrived, the team had no development method, the deadlines were systematically exceeded and the other teams complained of a lack of visibility regarding the new features. Today, the Jogogo App & API team has become an example for other teams in terms of its organization and productivity. These organizational changes allowed the team to deploy many ambitious features, including a public API (GraphQL) as well as a technical rewrite of the front-end (React). It should be noted that the users' NPR has increased as the new methodology has been implemented.",
+				"context": "Intervention at Jogogo as product owner within the App and API team. My role was to structure the team in order to increase productivity, visibility with other teams as well as allow the recruitment of new members.",
+				"results": [
+					"Implementation of the Scrum methodology",
+					"Implementation of complexity point estimation",
+					"Organization and animation of retrospectives, daily meeting, Poker planning, sprint planning",
+					"Implementation of guidelines development and code review",
+					"Deployment of Jira and Confluence",
+					"Backlog management and roadmap monitoring (fuzzy time roadmap)",
+					"Writing user stories / functional and technical specifications",
+					"Deployment management and communication",
+					"Implementation of a design system and production of prototypes",
+					"Front-end development"
+				]
 			}, {
 				"name": "Product owner",
 				"place": "Technology Evaluation Centers",
 				"country": "Canada",
 				"duration": "2017-2018",
-				"description": "I acted as Product Owner for our website and tools and led a team of twenty people through a technological redesign of our websites and internal tools (ASP.NET and Kentico). I also oversaw and participated in the visual redesign of the website."
+				"description": "I acted as Product Owner for our website and tools and led a team of twenty people through a technological redesign of our websites and internal tools (ASP.NET and Kentico). I also oversaw and participated in the visual redesign of the website.",
+				"tech": ["CSS (Sass)", "Jquery", "SQL", "Elasticsearch", "IIS", ".net", "Kentico", "Bootstrap"],
+				"appraisal": "My mission was to allow the transmission and documentation of knowledge from an outgoing team as well as to structure two new groups through an agile reorganization. At the end of the project, the two teams were functional and grouped together under a common desire to convert the other development groups to agile methods.",
+				"context": "Reorganization of the Internal Tools and website development teams around the Scrum method. I was hired at a time when the old development team left the company to set up a new cross-functional product group.",
+				"results": [
+					"Implementation of the Scrum methodology",
+					"Organization and animation of retrospectives, Daily meeting, Poker planning, sprint planning",
+					"Backlog management and roadmap monitoring",
+					"Writing user stories / functional and technical specifications",
+					"Prototyping & Wireframing",
+					"Deployment management and communication",
+					"Management of a cross-functional product team",
+					"Modern development process implementation (code review, CI, versioning…)"
+				]
 			},
 			{
 				"name": "Growth hacker & Product manager",
 				"place": "Placeloop",
 				"country": "France",
 				"duration": "2015-2017",
-				"description": "I acted as Growth Hacker and Product Manager and was in charge of the app's design, implementation, adoption and revenue. Our biggest challenge was a mobile-first redesign of the application (React). Our clients included SAB Miller, Kérastase and L'Oréal Professionnel."
+				"description": "I acted as Growth Hacker and Product Manager and was in charge of the app's design, implementation, adoption and revenue. Our biggest challenge was a mobile-first redesign of the application (React). Our clients included SAB Miller, Kérastase and L'Oréal Professionnel.",
+				"tech": ["JS", "SASS", "NodeJS", "MongoDB", "Elasticsearch", "React", "OPA", "Bootstrap"],
+				"appraisal": "Le modèle que nous avons mis en place a convaincu l’Oréal Professionnel ainsi que d’autres grandes marques de déployer Placeloop sur l’ensemble de leurs marques auprès de leurs revendeurs. Les méthodes mises en place ont aussi permis à l’équipe produit de s’agrandir.",
+				"context": "Deployment of Placeloop to first customers and users via L'Oréal Professional brands, monitoring of usage, implementation of activation and retention strategies. Organization and monitoring of development, production of prototypes and implementation of quality processes.",
+				"results": [
+					"Deployment of the Placeloop solution with many brands of L'Oréal professionnel and SAB Miller",
+					"Placement of pilots",
+					"Growth hacking and systematization of the AARRR model",
+					"Backlog and roadmap management",
+					"Writing user stories / functional and technical specifications",
+					"Wireframing & prototyping",
+					"Functional tests",
+					"Implementation of customer return systems and creation of a team ,in charge of maintaining it",
+					"Redesign of our front-end applications",
+					"Back-end redesign and deployment of a private API",
+					"Transition from MongoDB to Elasticsearch",
+					"Deployment of paid features"
+				]
 			},
 			{
 				"name": "Growth hacker & Product manager",
 				"place": "Pryv",
 				"country": "Switzerland",
 				"description": "I acted as Growth Hacker and Product Manager and was in charge of the apps' release and adoption. I was also the point of contact between the business and development teams. Finally, I oversaw partnerships with Moves, Misfits and IFTTT.",
-				"duration": "2014"
+				"duration": "2014",
+				"tech": ["MongoDB", "Jquery", "Java"],
+				"appraisal": "In a few months we have had more than three thousand subscribers, a 90% satisfaction rate and several partnerships with major players in our industry.",
+				"context": "After two years of development, Pryv was looking to deploy the Alpha and Beta versions of its application in order to validate its model and seek new funding.",
+				"results": [
+					"Backlog and roadmap management",
+					"Writing user stories / functional and technical specifications",
+					"Wireframing & prototyping",
+					"Functional tests",
+					"Implementation of user feedback systems",
+					"Establishment of partnerships (IFTTT, Misfit, Jawbone…)",
+					"Implementation of the Growth hacking AARRR model"
+				]
 			}],
 			"skills": [
 				{
 					"name": "code",
-					"description": ["JavaScript", "CSS/SASS", "React", "Vue.js", "Git", "Node", "CI/CD", "SQL", "MongoDB", "RestAPI", "GraphQL"]
+					"description": [
+						{
+							"name": "JavaScript",
+							"skillLevel": "75%"
+						},
+						{
+							"name": "CSS/SASS",
+							"skillLevel": "90%"
+						},
+						{
+							"name": "React",
+							"skillLevel": "75%"
+						},
+						{
+							"name": "Vue.js",
+							"skillLevel": "80%"
+						},
+						{
+							"name": "Git",
+							"skillLevel": "75%"
+						},
+						{
+							"name": "Node.js",
+							"skillLevel": "60%"
+						},
+						{
+							"name": "CI/CD",
+							"skillLevel": "60%"
+						},
+						{
+							"name": "SQL",
+							"skillLevel": "50%"
+						},
+						{
+							"name": "MongoDB",
+							"skillLevel": "60%"
+						},
+						{
+							"name": "RestAPI",
+							"skillLevel": "80%"
+						},
+						{
+							"name": "GraphQL",
+							"skillLevel": "60%"
+						}
+					]
 				},{
 					"name": "design",
-					"description": [" Photoshop", "Sketch", "Adobe XD", "InVision", "Balsamiq wireframes", "Illustrator"]
+					"description": [
+						{
+							"name": "Photoshop",
+							"skillLevel": "60%"
+						},
+						{
+							"name": "Sketch",
+							"skillLevel": "90%"
+						},
+						{
+							"name": "Adobe XD",
+							"skillLevel": "75%"
+						},
+						{
+							"name": "InVision",
+							"skillLevel": "90%"
+						},
+						{
+							"name": "Balsamiq wireframes",
+							"skillLevel": "90%"
+						},
+						{
+							"name": "Illustrator",
+							"skillLevel": "60%"
+						}
+					]
 				},{
 					"name": "Product Management",
-					"description": ["Jira", "Confluence", "GitHub", "GitLab", "Trello", "Mixpanel", "Google Analytics", "Google Data Studio", "Excel", "Segment", "Mailchimp"]
+					"description": [
+						{
+							"name": "Jira",
+							"skillLevel": "90%"
+						},
+						{
+							"name": "Confluence",
+							"skillLevel": "90%"
+						},
+						{
+							"name": "GitHub",
+							"skillLevel": "90%"
+						},
+						{
+							"name": "GitLab",
+							"skillLevel": "60%"
+						},
+						{
+							"name": "Trello",
+							"skillLevel": "75%"
+						},
+						{
+							"name": "Mixpanel",
+							"skillLevel": "75%"
+						},
+						{
+							"name": "Google Analytics",
+							"skillLevel": "80%"
+						},
+						{
+							"name": "Google Data Studio",
+							"skillLevel": "80%"
+						},
+						{
+							"name": "Excel",
+							"skillLevel": "80%"
+						},
+						{
+							"name": "Segment",
+							"skillLevel": "90%"
+						},
+						{
+							"name": "Mailchimp",
+							"skillLevel": "90%"
+						}
+					]
 				}
 			],
 			"projects": [
@@ -295,7 +471,10 @@
 			]
 		},
 		"technicalFile": {
-			"test": "test"
+			"summary": "Summary",
+			"workExperience": [
+
+			]
 		}
 	}
 }

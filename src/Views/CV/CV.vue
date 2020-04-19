@@ -14,7 +14,7 @@
 				</div>
 				<div class="cv__centerSeparator"></div>
 				<div class="cv__right">
-					<cvSection title="Skills" :content="strings.en.cv.skills"></cvSection>
+					<cvSection title="Skills" :content="updatedSkills"></cvSection>
 					<cvSection title="Projects" :content="strings.en.cv.projects"></cvSection>
 					<cvSection title="Education" :content="strings.en.cv.education"></cvSection>
 					<cvSection title="Contact me" :content="strings.en.cv.contact"></cvSection>
@@ -38,6 +38,25 @@ export default {
 		return {
 			strings: strings,
 		};
+	},
+	computed: {
+		// This function destructures the skill objects to ignore the skill level
+		updatedSkills: function() {
+			let smallSkills = [];
+
+			for (let i = 0; i < strings.en.cv.skills.length; i++) {
+				let brandNewSkill = {};
+				brandNewSkill.name = strings.en.cv.skills[i].name;
+				brandNewSkill.description = [];
+
+				for (let j = 0; j < strings.en.cv.skills[i].description.length; j++) {
+
+					brandNewSkill.description.push(strings.en.cv.skills[i].description[j].name);
+				}
+				smallSkills.push(brandNewSkill);
+			}
+			return smallSkills;
+		}
 	}
 };
 </script>
