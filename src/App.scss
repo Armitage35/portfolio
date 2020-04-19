@@ -22,12 +22,25 @@ h2 {
 	margin-top: 24px;
 }
 
+h4 {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
 a {
 	text-decoration: none;
 	color: $black;
 }
 
 p {
+	color: $black;
+	font-size: 14px;
+	font-weight: $regular;
+	line-height: 20px;
+	max-width: 70%;
+}
+
+li {
 	color: $black;
 	font-size: 14px;
 	font-weight: $regular;

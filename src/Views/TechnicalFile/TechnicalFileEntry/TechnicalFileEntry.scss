@@ -1,0 +1,32 @@
+.technicalFileEntry__position {
+	font-weight: $semiBold;
+	font-size: 21px;
+	color: $orange;
+	margin-bottom: 2px;
+}
+
+.technicalFileEntry__details {
+	display: flex;
+}
+
+.technicalFileEntry__minorDetail {
+	margin: 6px 6px;
+	color: $orange;
+	font-size: 10px;
+
+	i {
+		padding-right: 4px;
+		color: $orange;
+	}
+
+	.technicalFileEntry__minorDetail:first-of-type {
+		margin-right: 0;
+	}
+}
+
+.technicalFileEntry__orangeSeparator {
+	z-index: 2;
+	width: 50%;
+	margin: 20px 0;
+	border: $orange solid 2px;
+}
