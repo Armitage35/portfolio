@@ -7,5 +7,5 @@ export const routes = [
 	{ path: '/portfolio', component: Portfolio },
 	{ path: '/cv', component: CV },
 	{ path: '/resume', component: CV },
-	{ path: '/technicalFile', component: TechnicalFile }
+	{ path: '/technicalFile', component: TechnicalFile },
 ];
