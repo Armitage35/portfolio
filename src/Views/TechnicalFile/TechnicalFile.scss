@@ -6,3 +6,10 @@
 	padding: 50px;
 	max-width:   calc(100% - (#{$sidemenu-width} + 30px ) );
 }
+
+@media print {
+	.technicalFile-content {
+		height: unset;
+		width: unset;
+	}
+}
