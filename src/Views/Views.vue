@@ -5,7 +5,7 @@
 			<CV></CV>
 			<TechnicalFile></TechnicalFile>
 		</router-view>
-		<Footer v-if="$route.path != '/technicalFile'"></Footer>
+		<Footer v-if="$route.path === '/portfolio' || $route.path === '/'"></Footer>
 	</div>
 </template>
 
