@@ -208,7 +208,7 @@
 				"tech": ["Sitecore", ".net", "Microsoft MySQL", "IIS", "Vue.js", "Swift", "SASS"],
 				"appraisal": "",
 				"context": "",
-				"results": []
+				"results": [""]
 			},{
 				"name": "Product owner",
 				"place": "Jogogo",
@@ -299,47 +299,47 @@
 					"description": [
 						{
 							"name": "JavaScript",
-							"skillLevel": "75%"
+							"skillLevel": 75
 						},
 						{
 							"name": "CSS/SASS",
-							"skillLevel": "90%"
+							"skillLevel": 90
 						},
 						{
 							"name": "React",
-							"skillLevel": "75%"
+							"skillLevel": 75
 						},
 						{
 							"name": "Vue.js",
-							"skillLevel": "80%"
+							"skillLevel": 80
 						},
 						{
 							"name": "Git",
-							"skillLevel": "75%"
+							"skillLevel": 75
 						},
 						{
 							"name": "Node.js",
-							"skillLevel": "60%"
+							"skillLevel": 60
 						},
 						{
 							"name": "CI/CD",
-							"skillLevel": "60%"
+							"skillLevel": 60
 						},
 						{
 							"name": "SQL",
-							"skillLevel": "50%"
+							"skillLevel": 50
 						},
 						{
 							"name": "MongoDB",
-							"skillLevel": "60%"
+							"skillLevel": 60
 						},
 						{
 							"name": "RestAPI",
-							"skillLevel": "80%"
+							"skillLevel": 80
 						},
 						{
 							"name": "GraphQL",
-							"skillLevel": "60%"
+							"skillLevel": 60
 						}
 					]
 				},{
@@ -347,27 +347,27 @@
 					"description": [
 						{
 							"name": "Photoshop",
-							"skillLevel": "60%"
+							"skillLevel": 60
 						},
 						{
 							"name": "Sketch",
-							"skillLevel": "90%"
+							"skillLevel": 90
 						},
 						{
 							"name": "Adobe XD",
-							"skillLevel": "75%"
+							"skillLevel": 75
 						},
 						{
 							"name": "InVision",
-							"skillLevel": "90%"
+							"skillLevel": 90
 						},
 						{
 							"name": "Balsamiq wireframes",
-							"skillLevel": "90%"
+							"skillLevel": 90
 						},
 						{
 							"name": "Illustrator",
-							"skillLevel": "60%"
+							"skillLevel": 60
 						}
 					]
 				},{
@@ -375,47 +375,47 @@
 					"description": [
 						{
 							"name": "Jira",
-							"skillLevel": "90%"
+							"skillLevel": 90
 						},
 						{
 							"name": "Confluence",
-							"skillLevel": "90%"
+							"skillLevel": 90
 						},
 						{
 							"name": "GitHub",
-							"skillLevel": "90%"
+							"skillLevel": 90
 						},
 						{
 							"name": "GitLab",
-							"skillLevel": "60%"
+							"skillLevel": 60
 						},
 						{
 							"name": "Trello",
-							"skillLevel": "75%"
+							"skillLevel": 75
 						},
 						{
 							"name": "Mixpanel",
-							"skillLevel": "75%"
+							"skillLevel": 75
 						},
 						{
 							"name": "Google Analytics",
-							"skillLevel": "80%"
+							"skillLevel": 80
 						},
 						{
 							"name": "Google Data Studio",
-							"skillLevel": "80%"
+							"skillLevel": 80
 						},
 						{
 							"name": "Excel",
-							"skillLevel": "80%"
+							"skillLevel": 80
 						},
 						{
 							"name": "Segment",
-							"skillLevel": "90%"
+							"skillLevel": 90
 						},
 						{
 							"name": "Mailchimp",
-							"skillLevel": "90%"
+							"skillLevel": 90
 						}
 					]
 				}
