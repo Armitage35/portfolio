@@ -1,10 +1,20 @@
 .technicalFile {
 	display: flex;
+
+	@media screen and (max-width: $mobileWidth) {
+		width: 100%;
+		max-width: unset;
+	}
 }
 
 .technicalFile-content {
 	padding: 50px;
-	max-width:   calc(100% - (#{$sidemenu-width} + 30px ) );
+	max-width: calc(100% - (#{$sidemenu-width} + 30px ) );
+
+	@media screen and (max-width: $mobileWidth) {
+		width: 100%;
+		max-width: unset;
+	}
 }
 
 @media print {
