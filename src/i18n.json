@@ -203,7 +203,7 @@
 				"name": "Product owner",
 				"place": "Valtech",
 				"country": "Canada",
-				"duration": "2018-2019",
+				"duration": "2020-Today",
 				"description": "Valtech is a global business transformation agency delivering innovation with a purpose. We enable clients to anticipate tomorrow’s trends and connect more directly with consumers across their digital touch points while optimizing time-to-market and ROI. Some of the clients I worked with include Pratt & Whitney, Ferique, Stikeman & Eliott and Uni-Select.",
 				"tech": ["Sitecore", ".net", "Microsoft MySQL", "IIS", "Vue.js", "Swift", "SASS"],
 				"appraisal": "",
@@ -300,7 +300,7 @@
 			}],
 			"skills": [
 				{
-					"name": "code",
+					"name": "Code",
 					"description": [
 						{
 							"name": "JavaScript",
@@ -348,7 +348,7 @@
 						}
 					]
 				},{
-					"name": "design",
+					"name": "Design",
 					"description": [
 						{
 							"name": "Photoshop",
@@ -431,6 +431,7 @@
 					"duration": "2020",
 					"country": "Canada",
 					"link": "https://github.com/Armitage35/facebook-event-tracker",
+					"place": "ArmitageWeb",
 					"description": "This project is a CLI tool that enables people who don't have a Facebook account to keep an eye out for events they want to part take in."
 				},
 				{
@@ -438,6 +439,7 @@
 					"duration": "2019",
 					"country": "Canada",
 					"link": "https://github.com/Armitage35/fuzzy-roadmap/",
+					"place": "ArmitageWeb",
 					"description": "This easy to use tool will enable you to create fuzzy time roadmap in a matter of seconds."
 				},
 				{
@@ -445,18 +447,21 @@
 					"duration": "2018",
 					"country": "Canada",
 					"link": "https://github.com/Armitage35/day2day.wallpaper",
+					"place": "ArmitageWeb",
 					"description": "Day2Day.wallpaper enable its users browse, discover and find amazing photos to use as their new wallpaper for their Chrome OS devices."
 				},{
 					"name": "Day2Day.password",
 					"duration": "2018",
 					"country": "Canada",
 					"link": "https://github.com/Armitage35/day2day.password",
+					"place": "ArmitageWeb",
 					"description": "A Chrome extension that enables its users to create strong password on the fly."
 				},{
 					"name": "Day2Day",
 					"duration": "2017-2018",
 					"country": "Canada",
 					"link": "https://github.com/Armitage35/day2day",
+					"place": "ArmitageWeb",
 					"description": " Application built with the MEAN stack that enables productive super-heros to supercharge their routines."
 				}
 			],
@@ -477,9 +482,7 @@
 		},
 		"technicalFile": {
 			"summary": "Summary",
-			"workExperience": [
-
-			]
+			"back": "  Back to the resume"
 		}
 	}
 }

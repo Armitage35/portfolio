@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div v-if="title != 'Skills'">
 		<div class="technicalFileEntry__introduction">
 			<p class="technicalFileEntry__position">{{ content.name }}</p>
 			<div class="technicalFileEntry__details">
@@ -33,6 +33,16 @@
 			</div>
 		</div>
 		<hr class="technicalFileEntry__orangeSeparator"/>
+	</div>
+	<div v-else>
+		<div class="technicalFileEntry__content">
+			<div class="technicalFileEntry__content--display">
+				<h4>{{content.name}}</h4>
+				<ul>
+					<li v-for="(skill, key) in content.description" :key="key">{{ skill.name }} - {{ skill.skillLevel }}%</li>
+				</ul>
+			</div>
+		</div>
 	</div>
 </template>
 

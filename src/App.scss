@@ -40,6 +40,16 @@ p {
 	max-width: 70%;
 }
 
+ul {
+	list-style: none;
+  }
+
+  ul li:before {
+	content: '✓';
+	color: $orange;
+	margin-right: 2px;
+  }
+
 li {
 	color: $black;
 	font-size: 14px;
