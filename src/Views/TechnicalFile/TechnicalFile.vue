@@ -10,7 +10,7 @@
 			</p>
 			<h1>Work</h1>
 			<TechnicalFileEntry
-				v-for="(work) in strings.en.cv.work" :key="work.place" :content="work" title="Work"
+				v-for="(work) in strings.en.portfolio.work" :key="work.place" :content="work" title="Work"
 			></TechnicalFileEntry>
 			<h1>Skills</h1>
 			<TechnicalFileEntry

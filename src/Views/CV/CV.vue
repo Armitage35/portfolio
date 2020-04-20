@@ -10,7 +10,7 @@
 			</div>
 			<div class="cv__content">
 				<div class="cv__left">
-					<cvSection title="Work" :content="strings.en.cv.work"></cvSection>
+					<cvSection title="Work" :content="strings.en.portfolio.work"></cvSection>
 				</div>
 				<div class="cv__centerSeparator"></div>
 				<div class="cv__right">
