@@ -10,13 +10,13 @@
 			</div>
 			<div class="cv__content">
 				<div class="cv__left">
-					<cvSection title="Work" :content="strings.en.cv.work"></cvSection>
+					<cvSection title="Work" :content="strings.en.portfolio.work"></cvSection>
 				</div>
 				<div class="cv__centerSeparator"></div>
 				<div class="cv__right">
 					<cvSection title="Skills" :content="updatedSkills"></cvSection>
-					<cvSection title="Projects" :content="strings.en.cv.projects"></cvSection>
-					<cvSection title="Education" :content="strings.en.cv.education"></cvSection>
+					<cvSection title="Projects" :content="restrictedAmountOfProject"></cvSection>
+					<cvSection title="Education" :content="strings.en.portfolio.education"></cvSection>
 					<cvSection title="Contact me" :content="strings.en.cv.contact"></cvSection>
 				</div>
 			</div>
@@ -29,10 +29,12 @@
 
 <script>
 import cvSection from './cvSection/cvSection';
+import { skillSimplifierMixin } from '../../mixins/skillSimplifierMixin';
 
 import strings from '../../i18n.json';
 
 export default {
+	mixins: [ skillSimplifierMixin ],
 	components: { cvSection },
 	data: function() {
 		return {
@@ -40,22 +42,10 @@ export default {
 		};
 	},
 	computed: {
-		// This function destructures the skill objects to ignore the skill level
-		updatedSkills: function() {
-			let smallSkills = [];
+		restrictedAmountOfProject: function(){
+			const max3Project = strings.en.portfolio.projects.splice(0, 3) ;
 
-			for (let i = 0; i < strings.en.cv.skills.length; i++) {
-				let brandNewSkill = {};
-				brandNewSkill.name = strings.en.cv.skills[i].name;
-				brandNewSkill.description = [];
-
-				for (let j = 0; j < strings.en.cv.skills[i].description.length; j++) {
-
-					brandNewSkill.description.push(strings.en.cv.skills[i].description[j].name);
-				}
-				smallSkills.push(brandNewSkill);
-			}
-			return smallSkills;
+			return max3Project;
 		}
 	}
 };

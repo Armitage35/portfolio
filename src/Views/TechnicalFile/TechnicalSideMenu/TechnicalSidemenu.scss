@@ -1,9 +1,9 @@
 .technicalSideMenu {
-	height: 100vh;
-	width: $sidemenu-width;
-	background-color: #f6f7fa;
 	position: fixed;
+	width: $sidemenu-width;
+	height: 100vh;
 	right: 0;
+	background-color: #F6F7FA;
 	padding: 30px;
 
 	h1, h2 {
@@ -18,16 +18,16 @@
 .technicalSideMenu__photo {
 	width: 130px;
 	height: 130px;
+	margin: auto;
+	border-radius: 100%;
 	background-image: url('assets/profilePicture.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	border-radius: 100%;
-	margin: auto;
 }
 
 .technicalSideMenu__contact {
+	margin: 12px;
 	font-size: 12px;
 	text-align: center;
-	margin: 12px;
 }
