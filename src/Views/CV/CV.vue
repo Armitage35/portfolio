@@ -15,7 +15,7 @@
 				<div class="cv__centerSeparator"></div>
 				<div class="cv__right">
 					<cvSection title="Skills" :content="updatedSkills"></cvSection>
-					<cvSection title="Projects" :content="strings.en.cv.projects"></cvSection>
+					<cvSection title="Projects" :content="restrictedAmountOfProject"></cvSection>
 					<cvSection title="Education" :content="strings.en.cv.education"></cvSection>
 					<cvSection title="Contact me" :content="strings.en.cv.contact"></cvSection>
 				</div>
@@ -56,6 +56,14 @@ export default {
 				smallSkills.push(brandNewSkill);
 			}
 			return smallSkills;
+		},
+		restrictedAmountOfProject: function(){
+			let max3Project = [] ;
+			const [p1, p2, p3] = strings.en.portfolio.projects;
+
+			max3Project.push(p1, p2, p3);
+
+			return max3Project;
 		}
 	}
 };

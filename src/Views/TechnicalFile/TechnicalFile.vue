@@ -22,7 +22,7 @@
 			></TechnicalFileEntry>
 			<h1>Personal projects</h1>
 			<TechnicalFileEntry
-				v-for="(project) in strings.en.cv.projects" :key="project.place" :content="project" title="project"
+				v-for="(project) in strings.en.portfolio.projects" :key="project.name" :content="project" title="project"
 			></TechnicalFileEntry>
 		</div>
 		<TechnicalSidemenu></TechnicalSidemenu>
