@@ -14,7 +14,7 @@
 			></TechnicalFileEntry>
 			<h1>Skills</h1>
 			<TechnicalFileEntry
-				v-for="(skill) in strings.en.cv.skills" :key="skill.name" :content="skill" title="Skills"
+				v-for="(skill) in strings.en.portfolio.skills" :key="skill.name" :content="skill" title="Skills"
 			></TechnicalFileEntry>
 			<h1>Education</h1>
 			<TechnicalFileEntry

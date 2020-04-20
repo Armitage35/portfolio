@@ -44,14 +44,14 @@ export default {
 		updatedSkills: function() {
 			let smallSkills = [];
 
-			for (let i = 0; i < strings.en.cv.skills.length; i++) {
+			for (let i = 0; i < strings.en.portfolio.skills.length; i++) {
 				let brandNewSkill = {};
-				brandNewSkill.name = strings.en.cv.skills[i].name;
+				brandNewSkill.name = strings.en.portfolio.skills[i].name;
 				brandNewSkill.description = [];
 
-				for (let j = 0; j < strings.en.cv.skills[i].description.length; j++) {
+				for (let j = 0; j < strings.en.portfolio.skills[i].description.length; j++) {
 
-					brandNewSkill.description.push(strings.en.cv.skills[i].description[j].name);
+					brandNewSkill.description.push(strings.en.portfolio.skills[i].description[j].name);
 				}
 				smallSkills.push(brandNewSkill);
 			}
