@@ -18,7 +18,7 @@
 			></TechnicalFileEntry>
 			<h1>Education</h1>
 			<TechnicalFileEntry
-				v-for="(education) in strings.en.cv.education" :key="education.place" :content="education" title="education"
+				v-for="(education) in strings.en.portfolio.education" :key="education.place" :content="education" title="education"
 			></TechnicalFileEntry>
 			<h1>Personal projects</h1>
 			<TechnicalFileEntry

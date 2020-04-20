@@ -118,20 +118,27 @@
 			"education": [
 				{
 				"name": "Master of Information Technology",
-				"place": "NUI Galway, Ireland",
-				"duration": "Session: 2014-2015",
-				"clickable": false},
+				"place": "NUI Galway",
+				"duration": "2014-2015",
+				"country": "Ireland",
+				"clickable": false,
+				"description": "Formation that regroups technical courses (coding, software engineering) and digital marketing "
+				},
 				{
 				"name": "Bachelor's degree in management",
-				"place": "Högskolan i Halmstad, Sweden",
-				"duration": "Session: 2012-2013",
-				"clickable": false
+				"country": "Sweden",
+				"place": "Högskolan i Halmstad",
+				"duration": "2012-2013",
+				"clickable": false,
+				"description": "Formation dedicated to technology and digital marketing. Writing of an essay about the spreading of brand trust in online communities "
 			},
 			{
 				"name": "Bachelor in international management",
-				"place": "Groupe ESC Troyes, France",
-				"duration": "Session: 2010-2014",
-				"clickable": false
+				"country": "France",
+				"place": "Groupe ESC Troyes",
+				"duration": "2010-2014",
+				"clickable": false,
+				"description": "Generalist formation in management and business with a strong inclination toward international. Specialized in entrepreneurship "
 			}],
 			"work": [
 				{
@@ -256,26 +263,6 @@
 			}
 		},
 		"cv": {
-			"education": [{
-				"name": "Master of Information Technology",
-				"place": "NUI Galway",
-				"country": "Ireland",
-				"duration": "2014-2015",
-				"description": "Formation that regroups technical courses (coding, software engineering) and digital marketing "
-			}, {
-				"name": "Bachelor's degree in management",
-				"place": "Högskolan i Halmstad",
-				"country": "Sweden",
-				"duration": "2012-2013",
-				"description": "Formation dedicated to technology and digital marketing. Writing of an essay about the spreading of brand trust in online communities "
-			},
-			{
-				"name": "Bachelor in international management",
-				"place": "Groupe ESC Troyes",
-				"country": "France",
-				"duration": "2010-2014",
-				"description": "Generalist formation in management and business with a strong inclination toward international. Specialized in entrepreneurship "
-			}],
 			"skills": [
 				{
 					"name": "Code",

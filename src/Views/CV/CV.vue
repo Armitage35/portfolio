@@ -16,7 +16,7 @@
 				<div class="cv__right">
 					<cvSection title="Skills" :content="updatedSkills"></cvSection>
 					<cvSection title="Projects" :content="restrictedAmountOfProject"></cvSection>
-					<cvSection title="Education" :content="strings.en.cv.education"></cvSection>
+					<cvSection title="Education" :content="strings.en.portfolio.education"></cvSection>
 					<cvSection title="Contact me" :content="strings.en.cv.contact"></cvSection>
 				</div>
 			</div>
