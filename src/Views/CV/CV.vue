@@ -58,10 +58,7 @@ export default {
 			return smallSkills;
 		},
 		restrictedAmountOfProject: function(){
-			let max3Project = [] ;
-			const [p1, p2, p3] = strings.en.portfolio.projects;
-
-			max3Project.push(p1, p2, p3);
+			const max3Project = strings.en.portfolio.projects.splice(0, 3) ;
 
 			return max3Project;
 		}
