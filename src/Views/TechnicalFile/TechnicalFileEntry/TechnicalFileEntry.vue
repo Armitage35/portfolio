@@ -25,7 +25,7 @@
 			<ul v-if="content.results != ''">
 				<li v-for="(results, key) in content.results" :key="key">{{ results }}</li>
 			</ul>
-			<div class="technicalFileEntry__content--display" v-if="content.technology">
+			<div class="technicalFileEntry__content--display" v-if="content.tech">
 				<h4>Technologies</h4>
 				<ul>
 					<li v-for="(technology, key) in content.tech" :key="key">{{ technology }}</li>
