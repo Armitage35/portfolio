@@ -36,14 +36,14 @@
 				{
 					"name": "Day2Day.wallpaper",
 					"duration": "2018",
+					"country": "Canada",
 					"link": "https://github.com/Armitage35/day2day.wallpaper",
 					"cover": "Day2DayWallapaper",
-					"country": "Canada",
 					"place": "ArmitageWeb",
 					"description": "Chrome OS is an amazing OS but its wallpaper management abilities are lacking, at best. Day2Day.wallpaper enable its users browse, discover and find amazing photos to use as their new wallpaper for their Chrome OS devices."
 				},{
 					"name": "Day2Day.password",
-					"date": "2018",
+					"duration": "2018",
 					"link": "https://github.com/Armitage35/day2day.password",
 					"cover": "Day2DayPassword",
 					"country": "Canada",
@@ -51,7 +51,7 @@
 					"description": "Day2Day password is a Chrome extension that enables its users to create strong password on the fly. This encourages you to use unique and strong password on each service you create an account for."
 				},{
 					"name": "Day2Day",
-					"date": "2017-2018",
+					"duration": "2017-2018",
 					"link": "https://github.com/Armitage35/day2day",
 					"cover": "Day2Day",
 					"country": "Canada",

@@ -26,7 +26,7 @@ export default {
 	props: ['content'],
 	computed: {
 		dateOrName: function() {
-			return this.content.date ? this.content.date : this.content.place;
+			return this.content.duration ? this.content.duration : this.content.place;
 		}
 	}
 };
