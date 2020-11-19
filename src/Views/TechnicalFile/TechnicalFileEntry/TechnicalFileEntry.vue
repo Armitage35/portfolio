@@ -12,7 +12,7 @@
 		<div class="technicalFileEntry__content">
 			<div class="technicalFileEntry__content--display" v-if="content.description">
 				<h4>Company description</h4>
-				<p>{{ content.description }}</p>
+				<p v-for="(description, index) in content.description" :key="index">{{ description }}</p>
 			</div>
 			<div class="technicalFileEntry__content--display" v-if="content.context">
 				<h4>Context</h4>
