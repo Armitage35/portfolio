@@ -1,6 +1,6 @@
 {
 	"name": "portfolio",
-	"version": "1.10.0",
+	"version": "1.10.1",
 	"description": "A static porfolio for Adrien D. Ahlqvist",
 	"author": "Adrien D. Ahlqvist",
 	"license": "MIT",
@@ -28,7 +28,7 @@
 		"eslint-plugin-vue": "^6.2.2",
 		"node-sass": "^4.14.1",
 		"sass-lint": "^1.13.1",
-		"sass-loader": "^8.0.2",
+		"sass-loader": "^9.0.2",
 		"vue-template-compiler": "^2.6.11"
 	},
 	"eslintConfig": {
