@@ -74,10 +74,12 @@ $modalTransition: all .6s ease;
 }
 
 .modal__description, .modal__link {
-	margin: 24px;
-	margin-right: 0;
+	margin: 12px 0 12px 12px;
 	word-spacing: 0.86px;
 	font-size: 14px;
+}
+.modal__description:last-of-type {
+	margin-bottom: 24px;
 }
 
 .modal__cover {

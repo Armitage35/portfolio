@@ -11,7 +11,7 @@
 			<div class="modal__body">
 				<div class="modal__cover" :style="'background-image: url(' + content.cover + ')'"></div>
 				<div class="modal__text">
-					<p class="modal__description">{{ content.description }}</p>
+					<p class="modal__description" v-for="(description, index) in content.description" :key="index">{{ description }}</p>
 					<a class="modal__link" v-if="content.link" :href="content.link" target="_blank">See the project
 						<i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
 					</a>
