@@ -297,6 +297,8 @@
 					"cover": "valtech",
 					"tech": [
 						"Sitecore",
+						"Contentful",
+						"Commercetools",
 						".net",
 						"Microsoft MySQL",
 						"IIS",
