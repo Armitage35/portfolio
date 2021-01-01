@@ -15,7 +15,7 @@
 		"deploy": "bash src/deploy.sh"
 	},
 	"dependencies": {
-		"core-js": "^3.6.4",
+		"core-js": "^3.8.1",
 		"vue": "^2.6.11",
 		"vue-router": "^3.3.2"
 	},
