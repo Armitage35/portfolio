@@ -20,6 +20,7 @@ import Placeloop from '../../../assets/work/placeloop.jpg';
 import Pryv from '../../../assets/work/pryv.png';
 import Tec from '../../../assets/work/tec.jpg';
 import valtech from '../../../assets/work/valtech.jpg';
+import hivestack from '../../../assets/work/hivestack.png';
 import ArmitageLogo from '../../../assets/armitageLogo.png';
 
 import strings from '../../../i18n.json';
@@ -51,6 +52,9 @@ export default {
 					break;
 				case 'valtech':
 					work[i].cover = valtech;
+					break;
+				case 'hivestack':
+					work[i].cover = hivestack;
 					break;
 				default:
 					work[i].cover = ArmitageLogo;

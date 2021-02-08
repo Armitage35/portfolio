@@ -11,7 +11,7 @@
 			"home": {
 				"name": "Adrien Dubois",
 				"lastName": "Ahlqvist",
-				"title": "Product Owner, Web wizard, Boulderer",
+				"title": "Product Owner, Web wizard, Climber",
 				"homePitch": "What does a product owner jack of all trades looks like? Like a whole lot of getting shit done. So, how soon are we shipping great stuff?"
 			},
 			"projects": [
@@ -247,8 +247,8 @@
 					"person": "Roméo Labonté - Senior Software Architect"
 				},
 				{
-					"quote": "Adrien has the strength to hold and defend his good opinions and ideas, the knowledge and intelligence to justify them, and yet the humility to appreciate a good counterargument. He is the ultimate generalist: a reliable, incredibly adaptive problem-solver you can throw anything at, with an organized, analytical, clever, curious, passionate and ultimately rare mind",
-					"person": "Simon Abramovitch - Senior SEO Consultant "
+					"quote": "I had the pleasure to collaborate with Adrien on several projects at Valtech on which I am the Account Director. Adrien is a very organized product owner and has the ability to vulgarize complex technical aspects of a project to our clients and colleagues. He is also really pleasant to work with from a human perspective. Adrien is the type of expert you wish to work with and have in your team!",
+					"person": "Paul Varlet - Digital advisor, business development"
 				}
 			],
 			"education": [
@@ -286,8 +286,30 @@
 			"work": [
 				{
 					"name": "Product owner",
+					"place": "Hivestack, Montreal",
+					"duration": "2021-Today",
+					"country": "Canada",
+					"description": [
+						"Hivestack is a marketing technology company that helps marketers target consumers based on where they are and places they’ve been. Hivestack consists of a platform and a demand facilitation strategy. Hivestack’s full ad tech stack platform includes an SSP for DOOH media owners, an ad exchange with APIs to monetize unsold inventory, a geotemporal DOOH ad server, and a DSP used by digital agencies to buy DOOH programmatically."
+					],
+					"cover": "hivestack",
+					"tech": [
+						"Python",
+						"Go",
+						"Vue.js",
+						"Redshift",
+						"Microsoft MySQL"
+					],
+					"appraisal": "",
+					"context": "",
+					"results": [""],
+					"clickable": true,
+					"link": "http://hivestack.com/"
+				},
+				{
+					"name": "Product owner",
 					"place": "Valtech, Montreal",
-					"duration": "2020-Today",
+					"duration": "2020-2021",
 					"country": "Canada",
 					"description": [
 						"Valtech is a global business transformation agency delivering innovation with a purpose.",
