@@ -1,57 +1,58 @@
 {
-	"name": "portfolio",
-	"version": "1.11.0",
-	"description": "A static porfolio for Adrien D. Ahlqvist",
-	"author": "Adrien D. Ahlqvist",
-	"license": "MIT",
-	"private": true,
-	"scripts": {
-		"serve": "vue-cli-service serve",
-		"start": "vue-cli-service serve",
-		"build": "vue-cli-service build",
-		"test": "vue-cli-service lint & sass-lint -c ./sass-lint.yml '**/*.scss' -v -q",
-		"lint": "vue-cli-service lint",
-		"sass-lint": "sass-lint -c ./sass-lint.yml '**/*.scss' -v -q",
-		"deploy": "bash src/deploy.sh"
-	},
-	"dependencies": {
-		"core-js": "^3.6.4",
-		"vue": "^2.6.11",
-		"vue-router": "^3.3.2"
-	},
-	"devDependencies": {
-		"@vue/cli-plugin-babel": "^4.4.1",
-		"@vue/cli-plugin-eslint": "^4.4.1",
-		"@vue/cli-service": "^4.4.1",
-		"babel-eslint": "^10.1.0",
-		"eslint": "^6.8.0",
-		"eslint-plugin-vue": "^7.4.0",
-		"node-sass": "^4.14.1",
-		"sass-lint": "^1.13.1",
-		"sass-loader": "^9.0.2",
-		"vue-template-compiler": "^2.6.11"
-	},
-	"eslintConfig": {
-		"root": true,
-		"env": {
-			"node": true
-		},
-		"extends": [
-			"plugin:vue/essential",
-			"eslint:recommended"
-		],
-		"rules": {},
-		"parserOptions": {
-			"parser": "babel-eslint"
-		}
-	},
-	"postcss": {
-		"plugins": {
-			"autoprefixer": {}
-		}
-	},
-	"browserslist": [
-		"> 1%",
-		"last 2 versions"
-	]
+  "name": "portfolio",
+  "version": "1.12.0",
+  "description": "A static porfolio for Adrien D. Ahlqvist",
+  "author": "Adrien D. Ahlqvist",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test": "vue-cli-service lint & sass-lint -c ./sass-lint.yml '**/*.scss' -v -q",
+    "lint": "vue-cli-service lint",
+    "sass-lint": "sass-lint -c ./sass-lint.yml '**/*.scss' -v -q",
+    "deploy": "bash src/deploy.sh"
+  },
+  "dependencies": {
+    "core-js": "^3.37.1",
+    "sass": "^1.77.4",
+    "vue": "^2.6.11",
+    "vue-router": "^3.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-eslint": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "sass-lint": "^1.13.1",
+    "sass-loader": "^9.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
 }
