@@ -4,15 +4,15 @@
 			"elevatorPitch": {
 				"title": "My role",
 				"pitch": [
-					"As a product owner, my mission is to deliver a great product to the user, to commit developers to technological excellence, to ensure designs respect technical constraints, to enable the company to understand what it is we are building, and to ensure our representatives are heard. As a manager, I believe that working software is the primary measure of success, that maximizing the amount of work not done is essential and that business people and developers must work together daily throughout the project.",
+					"As a product manager, my mission is to deliver a great product to the user, to commit developers to technological excellence, to ensure designs respect technical constraints, to enable the company to understand what it is we are building, and to ensure our representatives are heard. As a manager, I believe that working software is the primary measure of success, that maximizing the amount of work not done is essential and that business people and developers must work together daily throughout the project.",
 					"As a manager, I believe that working software is the primary measure of success, that maximizing the amount of work not done is essential and that business people and developers must work together daily throughout the project."
 				]
 			},
 			"home": {
 				"name": "Adrien Dubois",
 				"lastName": "Ahlqvist",
-				"title": "Product Owner, Web wizard, Climber",
-				"homePitch": "What does a product owner jack of all trades looks like? Like a whole lot of getting shit done. So, how soon are we shipping great stuff?"
+				"title": "Senior product manager, Web wizard, Climber",
+				"homePitch": "What does a product manager jack of all trades looks like? Like a whole lot of getting shit done. So, how soon are we shipping great stuff?"
 			},
 			"projects": [
 				{
@@ -253,7 +253,7 @@
 			],
 			"education": [
 				{
-					"name": "Master of Information Technology",
+					"name": "Master of Information Technology - Independent candidate",
 					"place": "NUI Galway",
 					"duration": "2014-2015",
 					"country": "Ireland",
@@ -285,7 +285,7 @@
 			],
 			"work": [
 				{
-					"name": "Product owner",
+					"name": "Senior Product manager",
 					"place": "Hivestack, Montreal",
 					"duration": "2021-Today",
 					"country": "Canada",
@@ -307,7 +307,7 @@
 					"link": "http://hivestack.com/"
 				},
 				{
-					"name": "Product owner",
+					"name": "Technical Product owner",
 					"place": "Valtech, Montreal",
 					"duration": "2020-2021",
 					"country": "Canada",
@@ -335,7 +335,7 @@
 					"link": "https://www.valtech.com/fr-ca/"
 				},
 				{
-					"name": "Product owner",
+					"name": "Technical Product owner",
 					"place": "Jogogo, Montreal",
 					"duration": "2018-2019",
 					"country": "Canada",
