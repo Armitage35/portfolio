@@ -31,10 +31,11 @@ describe('Views.vue routing', () => {
 });
 
 describe('Router meta title functionality', () => {
-  it('sets document title from route meta on navigation to /', async () => {
+  // Helper function to set up router with document title logic
+  const setupRouterWithTitleLogic = (routesConfig = routes) => {
     const localVue = createLocalVue();
     localVue.use(VueRouter);
-    const router = new VueRouter({ routes });
+    const router = new VueRouter({ routes: routesConfig });
     
     // Set up afterEach hook like in main.js
     router.afterEach((to) => {
@@ -45,67 +46,35 @@ describe('Router meta title functionality', () => {
       }
     });
     
+    return { localVue, router };
+  };
+
+  it('sets document title from route meta on navigation to /', async () => {
+    const { router } = setupRouterWithTitleLogic();
     await router.push('/');
     await nextTick();
     expect(document.title).toBe('Portfolio - Adrien Dubois Ahlqvist');
   });
 
   it('sets document title from route meta on navigation to /cv', async () => {
-    const localVue = createLocalVue();
-    localVue.use(VueRouter);
-    const router = new VueRouter({ routes });
-    
-    // Set up afterEach hook like in main.js
-    router.afterEach((to) => {
-      if (to.meta && to.meta.title) {
-        document.title = to.meta.title;
-      } else {
-        document.title = 'Adrien Dubois Ahlqvist';
-      }
-    });
-    
+    const { router } = setupRouterWithTitleLogic();
     await router.push('/cv');
     await nextTick();
     expect(document.title).toBe('CV - Adrien Dubois Ahlqvist');
   });
 
   it('sets document title from route meta on navigation to /technicalFile', async () => {
-    const localVue = createLocalVue();
-    localVue.use(VueRouter);
-    const router = new VueRouter({ routes });
-    
-    // Set up afterEach hook like in main.js
-    router.afterEach((to) => {
-      if (to.meta && to.meta.title) {
-        document.title = to.meta.title;
-      } else {
-        document.title = 'Adrien Dubois Ahlqvist';
-      }
-    });
-    
+    const { router } = setupRouterWithTitleLogic();
     await router.push('/technicalFile');
     await nextTick();
     expect(document.title).toBe('Technical File - Adrien Dubois Ahlqvist');
   });
 
   it('sets default document title when route has no meta title', async () => {
-    const localVue = createLocalVue();
-    localVue.use(VueRouter);
-    const router = new VueRouter({ 
-      routes: [
-        { path: '/no-title', component: { template: '<div>No Title</div>' } }
-      ]
-    });
-    
-    // Set up afterEach hook like in main.js
-    router.afterEach((to) => {
-      if (to.meta && to.meta.title) {
-        document.title = to.meta.title;
-      } else {
-        document.title = 'Adrien Dubois Ahlqvist';
-      }
-    });
-    
+    const customRoutes = [
+      { path: '/no-title', component: { template: '<div>No Title</div>' } }
+    ];
+    const { router } = setupRouterWithTitleLogic(customRoutes);
     await router.push('/no-title');
     await nextTick();
     expect(document.title).toBe('Adrien Dubois Ahlqvist');
