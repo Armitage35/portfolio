@@ -30,7 +30,7 @@ import Testimonials from './Testimonials/Testimonials';
 import Clients from './Clients/Clients';
 
 export default {
-	name: 'Portfolio',
+	name: 'PortfolioView',
 	components: { ElevatorPitch, Home, Modal, Projects, Sidemenu, Skills, Testimonials, WorkEducation, Clients },
 	data: function() {
 		return {

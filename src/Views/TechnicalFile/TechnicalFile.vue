@@ -31,18 +31,18 @@
 				v-for="(project) in strings.en.portfolio.projects" :key="project.name" :content="project" title="project"
 			></TechnicalFileEntry>
 		</div>
-		<TechnicalSidemenu></TechnicalSidemenu>
+		<TechnicalSideMenu></TechnicalSideMenu>
 	</div>
 </template>
 
 <script>
 import TechnicalFileEntry from './TechnicalFileEntry/TechnicalFileEntry';
-import TechnicalSidemenu from './TechnicalSideMenu/TechnicalSidemenu';
+import TechnicalSideMenu from './TechnicalSideMenu/TechnicalSidemenu';
 
 import strings from '../../i18n.json';
 
 export default {
-	components: { TechnicalFileEntry, TechnicalSidemenu },
+	components: { TechnicalFileEntry, TechnicalSideMenu },
 	data: function() {
 		return {
 			strings: strings

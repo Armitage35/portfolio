@@ -1,7 +1,7 @@
 
 @use '../../../variables' as *;
 
-.technicalSideMenu {
+.technical-side-menu {
 	position: fixed;
 	width: $sidemenu-width;
 	height: 100vh;
@@ -18,7 +18,7 @@
 	}
 }
 
-.technicalSideMenu__photo {
+.technical-side-menu__photo {
 	width: 130px;
 	height: 130px;
 	margin: auto;
@@ -27,16 +27,15 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-}
+	}
 
-.technicalSideMenu__contact {
-	margin: 12px;
-	font-size: 12px;
-	text-align: center;
-}
-
+	.technical-side-menu__contact {
+	 font-size: 12px;
+	 margin: 12px;
+	 text-align: center;
+	}
 @media print {
-  	.technicalSideMenu {
-  		display: none;
-  	}
+  .technical-side-menu {
+    display: none;
+  }
 }

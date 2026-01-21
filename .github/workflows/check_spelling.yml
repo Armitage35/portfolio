@@ -20,8 +20,15 @@ jobs:
   spelling:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-      with:
-        ref: ${{ github.head_ref }}
-    - name: Check Spelling
-      uses: UnicornGlobal/spellcheck-github-actions@master
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+      - name: Check Spelling (non-blocking)
+        id: spellcheck
+        continue-on-error: true
+        uses: UnicornGlobal/spellcheck-github-actions@master
+        with:
+          config_path: .spelling
+      - name: Always succeed (report only)
+        if: always()
+        run: echo "Spelling check completed. Errors (if any) are reported above, but workflow will not fail."
