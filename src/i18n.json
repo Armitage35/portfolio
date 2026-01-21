@@ -1,506 +1,523 @@
 {
-	"en": {
-		"portfolio": {
-			"elevatorPitch": {
-				"title": "My role",
-				"pitch": [
-					"As a product manager, my mission is to deliver a great product to the user, to commit developers to technological excellence, to ensure designs respect technical constraints, to enable the company to understand what it is we are building, and to ensure our representatives are heard. As a manager, I believe that working software is the primary measure of success, that maximizing the amount of work not done is essential and that business people and developers must work together daily throughout the project.",
-					"As a manager, I believe that working software is the primary measure of success, that maximizing the amount of work not done is essential and that business people and developers must work together daily throughout the project."
-				]
-			},
-			"home": {
-				"name": "Adrien Dubois",
-				"lastName": "Ahlqvist",
-				"title": "Senior product manager, Web wizard, Climber",
-				"homePitch": "What does a product manager jack of all trades looks like? Like a whole lot of getting shit done. So, how soon are we shipping great stuff?"
-			},
-			"projects": [
-				{
-					"name": "Facebook Event Tracker",
-					"duration": "2020",
-					"country": "Canada",
-					"link": "https://github.com/Armitage35/facebook-event-tracker",
-					"cover": "FacebookEventTracker",
-					"place": "ArmitageWeb",
-					"description": [
-						"This project is a CLI tool that enables people who don't have a Facebook account to keep an eye out for events they want to part take in."
-					]
-				},
-				{
-					"name": "Fuzzy Roadmap",
-					"duration": "2019",
-					"country": "Canada",
-					"link": "https://github.com/Armitage35/fuzzy-roadmap/",
-					"cover": "FuzzyRoadmap",
-					"place": "ArmitageWeb",
-					"description": [
-						"This easy to use tool will enable you to create fuzzy time roadmap in a matter of seconds, available today at fuzzyroadmap.com. Fuzzy time roadmaps are tools that will let your main stakeholder keep an eye on what is currently being worked on as well as to know what is next. That being said, they fully embrace development uncertainties, especially time since you do don't give any estimate or timeline. Usually, you will want to report on four basic timelines: in progress, soon, later, done."
-					]
-				},
-				{
-					"name": "Day2Day.wallpaper",
-					"duration": "2018",
-					"country": "Canada",
-					"link": "https://github.com/Armitage35/day2day.wallpaper",
-					"cover": "Day2DayWallapaper",
-					"place": "ArmitageWeb",
-					"description": [
-						"Chrome OS is an amazing OS but its wallpaper management abilities are lacking, at best. Day2Day.wallpaper enable its users browse, discover and find amazing photos to use as their new wallpaper for their Chrome OS devices."
-					]
-				},
-				{
-					"name": "Day2Day.password",
-					"duration": "2018",
-					"link": "https://github.com/Armitage35/day2day.password",
-					"cover": "Day2DayPassword",
-					"country": "Canada",
-					"place": "ArmitageWeb",
-					"description": [
-						"Day2Day password is a Chrome extension that enables its users to create strong password on the fly. This encourages you to use unique and strong password on each service you create an account for."
-					]
-				},
-				{
-					"name": "Day2Day",
-					"duration": "2017-2018",
-					"link": "https://github.com/Armitage35/day2day",
-					"cover": "Day2Day",
-					"country": "Canada",
-					"place": "ArmitageWeb",
-					"description": [
-						"Day2Day is a Chrome extension for people who want to get more out of their days. It acts as a new homepage and provides you with a todo list, a notepad and access to your Pocket read list. It does that and displays amazing pictures from Unsplash as well as the weather to make sure you can truely get it all done in one place."
-					]
-				}
-			],
-			"sideMenu": {
-				"findMe": "Find me on",
-				"contactsInfo": [
-					{
-						"name": "email",
-						"content": "adrien.dubois35@gmail.com",
-						"link": "mailto:"
-					},
-					{
-						"name": "phone",
-						"content": "+1 438 924 3959",
-						"link": "tel:"
-					}
-				],
-				"socialNetworks": [
-					{
-						"name": "Linkedin",
-						"link": "https://www.linkedin.com/in/adrien-d-ahlqvist-4179b33b/",
-						"icon": "fab fa-linkedin-in"
-					},
-					{
-						"name": "GitHub",
-						"link": "https://github.com/Armitage35/",
-						"icon": "fab fa-github"
-					},
-					{
-						"name": "Behance",
-						"link": "https://www.behance.net/armitageweb",
-						"icon": "fab fa-behance"
-					},
-					{
-						"name": "Dribble",
-						"link": "https://dribbble.com/armitageweb",
-						"icon": "fas fa-basketball-ball"
-					}
-				]
-			},
-			"skills": [
-				{
-					"name": "Code",
-					"description": [
-						{
-							"name": "JavaScript",
-							"skillLevel": 75
-						},
-						{
-							"name": "CSS/SASS",
-							"skillLevel": 90
-						},
-						{
-							"name": "React",
-							"skillLevel": 75
-						},
-						{
-							"name": "Vue.js",
-							"skillLevel": 80
-						},
-						{
-							"name": "Git",
-							"skillLevel": 75
-						},
-						{
-							"name": "Node.js",
-							"skillLevel": 60
-						},
-						{
-							"name": "CI/CD",
-							"skillLevel": 60
-						},
-						{
-							"name": "SQL",
-							"skillLevel": 50
-						},
-						{
-							"name": "MongoDB",
-							"skillLevel": 60
-						},
-						{
-							"name": "RestAPI",
-							"skillLevel": 80
-						},
-						{
-							"name": "GraphQL",
-							"skillLevel": 60
-						}
-					]
-				},
-				{
-					"name": "Design",
-					"description": [
-						{
-							"name": "Photoshop",
-							"skillLevel": 60
-						},
-						{
-							"name": "Sketch",
-							"skillLevel": 90
-						},
-						{
-							"name": "Adobe XD",
-							"skillLevel": 75
-						},
-						{
-							"name": "InVision",
-							"skillLevel": 90
-						},
-						{
-							"name": "Balsamiq wireframes",
-							"skillLevel": 90
-						},
-						{
-							"name": "Illustrator",
-							"skillLevel": 60
-						}
-					]
-				},
-				{
-					"name": "Product Management",
-					"description": [
-						{
-							"name": "Jira",
-							"skillLevel": 90
-						},
-						{
-							"name": "Confluence",
-							"skillLevel": 90
-						},
-						{
-							"name": "GitHub",
-							"skillLevel": 90
-						},
-						{
-							"name": "GitLab",
-							"skillLevel": 60
-						},
-						{
-							"name": "Trello",
-							"skillLevel": 75
-						},
-						{
-							"name": "Mixpanel",
-							"skillLevel": 75
-						},
-						{
-							"name": "Google Analytics",
-							"skillLevel": 80
-						},
-						{
-							"name": "Google Data Studio",
-							"skillLevel": 80
-						},
-						{
-							"name": "Excel",
-							"skillLevel": 80
-						},
-						{
-							"name": "Segment",
-							"skillLevel": 90
-						},
-						{
-							"name": "Mailchimp",
-							"skillLevel": 90
-						}
-					]
-				}
-			],
-			"testimonials": [
-				{
-					"quote": "Adrien is an awesome person to work with. While we were at Jogogo, he consistently demonstrated a solid work ethic plus a dedication for success. He is what I would call a natural born Product Owner. He embraces the product vision and have great understanding of the market in which the product evolves. He shows great leadership and is always looking for the greater good of his team & product.",
-					"person": "Vincent Legault - Senior Software Architect"
-				},
-				{
-					"quote": "I had the immense pleasure of working with Adrien for almost two years, and never once did he fail to impress me with his great attention to detail, rigorousness and brilliancy which made him a reference for everyone working with him. He can adapt, improvise and overcome any problem",
-					"person": "Roméo Labonté - Senior Software Architect"
-				},
-				{
-					"quote": "I had the pleasure to collaborate with Adrien on several projects at Valtech on which I am the Account Director. Adrien is a very organized product owner and has the ability to vulgarize complex technical aspects of a project to our clients and colleagues. He is also really pleasant to work with from a human perspective. Adrien is the type of expert you wish to work with and have in your team!",
-					"person": "Paul Varlet - Digital advisor, business development"
-				}
-			],
-			"education": [
-				{
-					"name": "Master of Information Technology - Independent candidate",
-					"place": "NUI Galway",
-					"duration": "2014-2015",
-					"country": "Ireland",
-					"clickable": false,
-					"description": [
-						"Formation that regroups technical courses (coding, software engineering) and digital marketing "
-					]
-				},
-				{
-					"name": "Bachelor's degree in management",
-					"country": "Sweden",
-					"place": "Högskolan i Halmstad",
-					"duration": "2012-2013",
-					"clickable": false,
-					"description": [
-						"Formation dedicated to technology and digital marketing. Writing of an essay about the spreading of brand trust in online communities "
-					]
-				},
-				{
-					"name": "Bachelor in international management",
-					"country": "France",
-					"place": "Groupe ESC Troyes",
-					"duration": "2010-2014",
-					"clickable": false,
-					"description": [
-						"Generalist formation in management and business with a strong inclination toward international. Specialized in entrepreneurship "
-					]
-				}
-			],
-			"work": [
-				{
-					"name": "Senior Product manager",
-					"place": "Hivestack, Montreal",
-					"duration": "2021-Today",
-					"country": "Canada",
-					"description": [
-						"Hivestack is a marketing technology company that helps marketers target consumers based on where they are and places they’ve been. Hivestack consists of a platform and a demand facilitation strategy. Hivestack’s full ad tech stack platform includes an SSP for DOOH media owners, an ad exchange with APIs to monetize unsold inventory, a geotemporal DOOH ad server, and a DSP used by digital agencies to buy DOOH programmatically."
-					],
-					"cover": "hivestack",
-					"tech": [
-						"Python",
-						"Go",
-						"Vue.js",
-						"Redshift",
-						"Microsoft MySQL"
-					],
-					"appraisal": "",
-					"context": "",
-					"results": [""],
-					"clickable": true,
-					"link": "http://hivestack.com/"
-				},
-				{
-					"name": "Technical Product owner",
-					"place": "Valtech, Montreal",
-					"duration": "2020-2021",
-					"country": "Canada",
-					"description": [
-						"Valtech is a global business transformation agency delivering innovation with a purpose.",
-						"At Valtech, I operated as a Product Owner and was in charge of projects ranging from dig data for Pratt & Whitney, to eCommerce for Tiffany and even virtual events for Uni-Select and much more. My day to day was very much about taking an idea and making it a reality, fixing and planning ahead of the many issues that regularly block development.",
-						"This being said, as a web wizard, I was able to actively come in and help my teams by producing designs, code, data analysis, client management and of course, the mandatory backlog and roadmap management."
-					],
-					"cover": "valtech",
-					"tech": [
-						"Sitecore",
-						"Contentful",
-						"Commercetools",
-						".net",
-						"Microsoft MySQL",
-						"IIS",
-						"Vue.js",
-						"Swift",
-						"SASS"
-					],
-					"appraisal": "",
-					"context": "",
-					"results": [""],
-					"clickable": true,
-					"link": "https://www.valtech.com/fr-ca/"
-				},
-				{
-					"name": "Technical Product owner",
-					"place": "Jogogo, Montreal",
-					"duration": "2018-2019",
-					"country": "Canada",
-					"description": [
-						"Jogogo is a physical space analytics tool that lets its users track and engage their visitors based on their activity. I was the Product Owner for both the App and the API and implemented a SCRUM process that enabled us to complete the redesigns of both our App (React) and our API (GraphQL). Both of the APP and API were used by enterprise clients such as Decathlon, Desjardins, Asmodee, Telus, IBM and Cisco."
-					],
-					"cover": "Jogogo",
-					"clickable": true,
-					"tech": [
-						"Node.js",
-						"React.js",
-						"Kafka",
-						"Cassandra",
-						"PostgreSQL",
-						"GraphQL",
-						"Rust",
-						"Typescript",
-						"Vue.js",
-						"Ngnix",
-						"SASS",
-						"LESS"
-					],
-					"appraisal": "When I arrived, the team had no development method, the deadlines were systematically exceeded and the other teams complained of a lack of visibility regarding the new features. Today, the Jogogo App & API team has become an example for other teams in terms of its organization and productivity. These organizational changes allowed the team to deploy many ambitious features, including a public API (GraphQL) as well as a technical rewrite of the front-end (React). It should be noted that the users' NPR has increased as the new methodology has been implemented.",
-					"context": "Intervention at Jogogo as product owner within the App and API team. My role was to structure the team in order to increase productivity, visibility with other teams as well as allow the recruitment of new members.",
-					"results": [
-						"Implementation of the Scrum methodology",
-						"Implementation of complexity point estimation",
-						"Organization and animation of retrospectives, daily meeting, Poker planning, sprint planning",
-						"Implementation of guidelines development and code review",
-						"Deployment of Jira and Confluence",
-						"Backlog management and roadmap monitoring (fuzzy time roadmap)",
-						"Writing user stories / functional and technical specifications",
-						"Deployment management and communication",
-						"Implementation of a design system and production of prototypes",
-						"Front-end development",
-						"Design & deployment of a home made WiFi sniffer"
-					],
-					"link": "https://www.behance.net/gallery/86647847/Jogogo-Location-analytics"
-				},
-				{
-					"name": "Product owner",
-					"place": "Technology Evaluation Centers, Montreal",
-					"country": "Canada",
-					"duration": "2017-2018",
-					"description": [
-						"TEC is an enterprise tool that enables enterprises to find the software that best suits their needs. I acted as Product Owner for our website and tools and led a team of twenty people through a technological redesign of our websites and internal tools (ASP.NET and Kentico). I also oversaw and participated in the visual redesign of the website."
-					],
-					"cover": "Tec",
-					"tech": [
-						"CSS (Sass)",
-						"Jquery",
-						"SQL",
-						"Elasticsearch",
-						"IIS",
-						".net",
-						"Kentico",
-						"Bootstrap"
-					],
-					"appraisal": "My mission was to allow the transmission and documentation of knowledge from an outgoing team as well as to structure two new groups through an agile reorganization. At the end of the project, the two teams were functional and grouped together under a common desire to convert the other development groups to agile methods.",
-					"context": "Reorganization of the Internal Tools and website development teams around the Scrum method. I was hired at a time when the old development team left the company to set up a new cross-functional product group.",
-					"results": [
-						"Implementation of the Scrum methodology",
-						"Organization and animation of retrospectives, Daily meeting, Poker planning, sprint planning",
-						"Backlog management and roadmap monitoring",
-						"Writing user stories / functional and technical specifications",
-						"Prototyping & Wireframing",
-						"Deployment management and communication",
-						"Management of a cross-functional product team",
-						"Modern development process implementation (code review, CI, versioning…)"
-					],
-					"clickable": true
-				},
-				{
-					"name": "Growth hacker & Product Owner",
-					"place": "Placeloop, Paris",
-					"country": "France",
-					"duration": "2015-2017",
-					"description": [
-						"Placeloop is a trade marketing platform that enables brands to provide their resellers with marketing campaigns. I acted as Growth Hacker and Product Owner and was in charge of the app's design, implementation, adoption and revenue. Our biggest challenge was a mobile-first redesign of the application (React). Our clients included SAB Miller, Kérastase and L'Oréal Professionnel."
-					],
-					"cover": "Placeloop",
-					"tech": [
-						"JS",
-						"SASS",
-						"NodeJS",
-						"MongoDB",
-						"Elasticsearch",
-						"React",
-						"OPA",
-						"Bootstrap"
-					],
-					"appraisal": "Le modèle que nous avons mis en place a convaincu l’Oréal Professionnel ainsi que d’autres grandes marques de déployer Placeloop sur l’ensemble de leurs marques auprès de leurs revendeurs. Les méthodes mises en place ont aussi permis à l’équipe produit de s’agrandir.",
-					"context": "Deployment of Placeloop to first customers and users via L'Oréal Professional brands, monitoring of usage, implementation of activation and retention strategies. Organization and monitoring of development, production of prototypes and implementation of quality processes.",
-					"results": [
-						"Deployment of the Placeloop solution with many brands of L'Oréal professionnel and SAB Miller",
-						"Placement of pilots",
-						"Growth hacking and systematization of the AARRR model",
-						"Backlog and roadmap management",
-						"Writing user stories / functional and technical specifications",
-						"Wireframing & prototyping",
-						"Functional tests",
-						"Implementation of customer return systems and creation of a team ,in charge of maintaining it",
-						"Redesign of our front-end applications",
-						"Back-end redesign and deployment of a private API",
-						"Transition from MongoDB to Elasticsearch",
-						"Deployment of paid features"
-					],
-					"clickable": true
-				},
-				{
-					"name": "Growth hacker & Product manager",
-					"place": "Pryv, Lausanne",
-					"country": "Switzerland",
-					"description": [
-						"Pryv is a privacy-focused company that enables life loggers and self quantifiers to store and to access data to make sense of it. I acted as Growth Hacker and Product Manager and was in charge of the Apps' release and adoption. I was also the point of contact between the business and development teams. Finally, I oversaw partnerships with Moves, Misfits and IFTTT."
-					],
-					"cover": "Pryv",
-					"tech": ["MongoDB", "Jquery", "Java"],
-					"appraisal": "In a few months we have had more than three thousand subscribers, a 90% satisfaction rate and several partnerships with major players in our industry.",
-					"context": "After two years of development, Pryv was looking to deploy the Alpha and Beta versions of its application in order to validate its model and seek new funding.",
-					"results": [
-						"Backlog and roadmap management",
-						"Writing user stories / functional and technical specifications",
-						"Wireframing & prototyping",
-						"Functional tests",
-						"Implementation of user feedback systems",
-						"Establishment of partnerships (IFTTT, Misfit, Jawbone…)",
-						"Implementation of the Growth hacking AARRR model"
-					],
-					"duration": "2014",
-					"clickable": true
-				}
-			],
-			"footer": {
-				"brag": "Need help for your next project?",
-				"email": {
-					"contact": "adrien.dubois35@gmail.com",
-					"legend": "Shoot me an email! 🚀"
-				},
-				"copyrights": "Design and code by Adrien D. Ahlqvist",
-				"seeCode": {
-					"text": "View source",
-					"link": "https://github.com/Armitage35/portfolio/"
-				}
-			}
-		},
-		"cv": {
-			"contact": [
-				{
-					"name": "email",
-					"description": "adrien.dubois35@gmail.com",
-					"link": "mailto:",
-					"icon": "fa-envelope"
-				},
-				{
-					"name": "telephone",
-					"description": "+1 438 924 3959",
-					"link": "tel:",
-					"icon": "fa-phone-alt"
-				}
-			]
-		},
-		"technicalFile": {
-			"summary": "Summary",
-			"back": "  Back to the resume"
-		}
-	}
+    "en": {
+        "portfolio": {
+            "elevatorPitch": {
+                "title": "My role",
+                "pitch": [
+                    "As a senior product manager, my mission is to deliver a great product to the user, to commit developers to technological excellence, to ensure designs respect technical constraints, to enable the company to understand what it is we are building, and to ensure our representatives are heard. As a manager, I believe that working software is the primary measure of success, that maximizing the amount of work not done is essential and that business people and developers must work together daily throughout the project.",
+                    "As a product peron, I believe that working software is the primary measure of success, that maximizing the amount of work not done is essential and that business people and developers must work together daily throughout the project."
+                ]
+            },
+            "home": {
+                "name": "Adrien Dubois",
+                "lastName": "Ahlqvist",
+                "title": "Senior product manager, Web wizard, Climber",
+                "homePitch": "What does a product manager jack of all trades looks like? Like a whole lot of getting shit done. So, how soon are we shipping great stuff?"
+            },
+            "projects": [
+                {
+                    "name": "Facebook Event Tracker",
+                    "duration": "2020",
+                    "country": "Canada",
+                    "link": "https://github.com/Armitage35/facebook-event-tracker",
+                    "cover": "FacebookEventTracker",
+                    "place": "ArmitageWeb",
+                    "description": [
+                        "This project is a CLI tool that enables people who don't have a Facebook account to keep an eye out for events they want to part take in."
+                    ]
+                },
+                {
+                    "name": "Fuzzy Roadmap",
+                    "duration": "2019",
+                    "country": "Canada",
+                    "link": "https://github.com/Armitage35/fuzzy-roadmap/",
+                    "cover": "FuzzyRoadmap",
+                    "place": "ArmitageWeb",
+                    "description": [
+                        "This easy to use tool will enable you to create fuzzy time roadmap in a matter of seconds, available today at fuzzyroadmap.com. Fuzzy time roadmaps are tools that will let your main stakeholder keep an eye on what is currently being worked on as well as to know what is next. That being said, they fully embrace development uncertainties, especially time since you do don't give any estimate or timeline. Usually, you will want to report on four basic timelines: in progress, soon, later, done."
+                    ]
+                },
+                {
+                    "name": "Day2Day.wallpaper",
+                    "duration": "2018",
+                    "country": "Canada",
+                    "link": "https://github.com/Armitage35/day2day.wallpaper",
+                    "cover": "Day2DayWallapaper",
+                    "place": "ArmitageWeb",
+                    "description": [
+                        "Chrome OS is an amazing OS but its wallpaper management abilities are lacking, at best. Day2Day.wallpaper enable its users browse, discover and find amazing photos to use as their new wallpaper for their Chrome OS devices."
+                    ]
+                },
+                {
+                    "name": "Day2Day.password",
+                    "duration": "2018",
+                    "link": "https://github.com/Armitage35/day2day.password",
+                    "cover": "Day2DayPassword",
+                    "country": "Canada",
+                    "place": "ArmitageWeb",
+                    "description": [
+                        "Day2Day password is a Chrome extension that enables its users to create strong password on the fly. This encourages you to use unique and strong password on each service you create an account for."
+                    ]
+                },
+                {
+                    "name": "Day2Day",
+                    "duration": "2017-2018",
+                    "link": "https://github.com/Armitage35/day2day",
+                    "cover": "Day2Day",
+                    "country": "Canada",
+                    "place": "ArmitageWeb",
+                    "description": [
+                        "Day2Day is a Chrome extension for people who want to get more out of their days. It acts as a new homepage and provides you with a todo list, a notepad and access to your Pocket read list. It does that and displays amazing pictures from Unsplash as well as the weather to make sure you can truely get it all done in one place."
+                    ]
+                }
+            ],
+            "sideMenu": {
+                "findMe": "Find me on",
+                "contactsInfo": [
+                    {
+                        "name": "email",
+                        "content": "adrien.dubois35@gmail.com",
+                        "link": "mailto:"
+                    },
+                    {
+                        "name": "phone",
+                        "content": "+1 438 924 3959",
+                        "link": "tel:"
+                    }
+                ],
+                "socialNetworks": [
+                    {
+                        "name": "Linkedin",
+                        "link": "https://www.linkedin.com/in/adrien-d-ahlqvist-4179b33b/",
+                        "icon": "fab fa-linkedin-in"
+                    },
+                    {
+                        "name": "GitHub",
+                        "link": "https://github.com/Armitage35/",
+                        "icon": "fab fa-github"
+                    },
+                    {
+                        "name": "Behance",
+                        "link": "https://www.behance.net/armitageweb",
+                        "icon": "fab fa-behance"
+                    },
+                    {
+                        "name": "Dribble",
+                        "link": "https://dribbble.com/armitageweb",
+                        "icon": "fas fa-basketball-ball"
+                    }
+                ]
+            },
+            "skills": [
+                {
+                    "name": "Code",
+                    "description": [
+                        {
+                            "name": "JavaScript",
+                            "skillLevel": 75
+                        },
+                        {
+                            "name": "CSS/SASS",
+                            "skillLevel": 90
+                        },
+                        {
+                            "name": "React",
+                            "skillLevel": 75
+                        },
+                        {
+                            "name": "Vue.js",
+                            "skillLevel": 80
+                        },
+                        {
+                            "name": "Git",
+                            "skillLevel": 75
+                        },
+                        {
+                            "name": "Node.js",
+                            "skillLevel": 60
+                        },
+                        {
+                            "name": "CI/CD",
+                            "skillLevel": 60
+                        },
+                        {
+                            "name": "SQL",
+                            "skillLevel": 50
+                        },
+                        {
+                            "name": "MongoDB",
+                            "skillLevel": 60
+                        },
+                        {
+                            "name": "RestAPI",
+                            "skillLevel": 80
+                        },
+                        {
+                            "name": "GraphQL",
+                            "skillLevel": 60
+                        }
+                    ]
+                },
+                {
+                    "name": "Design",
+                    "description": [
+                        {
+                            "name": "Photoshop",
+                            "skillLevel": 60
+                        },
+                        {
+                            "name": "Sketch",
+                            "skillLevel": 90
+                        },
+                        {
+                            "name": "Adobe XD",
+                            "skillLevel": 75
+                        },
+                        {
+                            "name": "InVision",
+                            "skillLevel": 90
+                        },
+                        {
+                            "name": "Balsamiq wireframes",
+                            "skillLevel": 90
+                        },
+                        {
+                            "name": "Illustrator",
+                            "skillLevel": 60
+                        }
+                    ]
+                },
+                {
+                    "name": "Product Management",
+                    "description": [
+                        {
+                            "name": "Jira",
+                            "skillLevel": 90
+                        },
+                        {
+                            "name": "Confluence",
+                            "skillLevel": 90
+                        },
+                        {
+                            "name": "GitHub",
+                            "skillLevel": 90
+                        },
+                        {
+                            "name": "GitLab",
+                            "skillLevel": 60
+                        },
+                        {
+                            "name": "Trello",
+                            "skillLevel": 75
+                        },
+                        {
+                            "name": "Mixpanel",
+                            "skillLevel": 75
+                        },
+                        {
+                            "name": "Google Analytics",
+                            "skillLevel": 80
+                        },
+                        {
+                            "name": "Google Data Studio",
+                            "skillLevel": 80
+                        },
+                        {
+                            "name": "Excel",
+                            "skillLevel": 80
+                        },
+                        {
+                            "name": "Segment",
+                            "skillLevel": 90
+                        },
+                        {
+                            "name": "Mailchimp",
+                            "skillLevel": 90
+                        }
+                    ]
+                }
+            ],
+            "testimonials": [
+                {
+                    "quote": "Adrien is an awesome person to work with. While we were at Jogogo, he consistently demonstrated a solid work ethic plus a dedication for success. He is what I would call a natural born Product Owner. He embraces the product vision and have great understanding of the market in which the product evolves. He shows great leadership and is always looking for the greater good of his team & product.",
+                    "person": "Vincent Legault - Senior Software Architect"
+                },
+                {
+                    "quote": "I had the immense pleasure of working with Adrien for almost two years, and never once did he fail to impress me with his great attention to detail, rigorousness and brilliancy which made him a reference for everyone working with him. He can adapt, improvise and overcome any problem",
+                    "person": "Roméo Labonté - Senior Software Architect"
+                },
+                {
+                    "quote": "I had the pleasure to collaborate with Adrien on several projects at Valtech on which I am the Account Director. Adrien is a very organized product owner and has the ability to vulgarize complex technical aspects of a project to our clients and colleagues. He is also really pleasant to work with from a human perspective. Adrien is the type of expert you wish to work with and have in your team!",
+                    "person": "Paul Varlet - Digital advisor, business development"
+                }
+            ],
+            "education": [
+                {
+                    "name": "Master of Information Technology - Independent candidate",
+                    "place": "NUI Galway",
+                    "duration": "2014-2015",
+                    "country": "Ireland",
+                    "clickable": false,
+                    "description": [
+                        "Formation that regroups technical courses (coding, software engineering) and digital marketing "
+                    ]
+                },
+                {
+                    "name": "Bachelor's degree in management",
+                    "country": "Sweden",
+                    "place": "Högskolan i Halmstad",
+                    "duration": "2012-2013",
+                    "clickable": false,
+                    "description": [
+                        "Formation dedicated to technology and digital marketing. Writing of an essay about the spreading of brand trust in online communities "
+                    ]
+                },
+                {
+                    "name": "Bachelor in international management",
+                    "country": "France",
+                    "place": "Groupe ESC Troyes",
+                    "duration": "2010-2014",
+                    "clickable": false,
+                    "description": [
+                        "Generalist formation in management and business with a strong inclination toward international. Specialized in entrepreneurship "
+                    ]
+                }
+            ],
+            "work": [
+                {
+                    "name": "Senior Product manager",
+                    "place": "Hivestack - Perion, Montreal",
+                    "duration": "2021-Today",
+                    "country": "Canada",
+                    "description": [
+                        "Hivestack is a marketing technology company that helps advertisers target consumers based on where they are and places they’ve been. It consists of an adserver, an SSP, a DSP, a data platform, a programmatic exchange as well as of a curation platform. Hivestack’s full ad tech stack platform includes an SSP for DOOH media owners, an ad exchange with APIs to monetize unsold inventory, a geotemporal DOOH ad server, and a DSP used by digital agencies to buy DOOH programmatically. It was sold in 2023 by Perion Network for 100M USD.",
+                        "My responsibility was to build our SSP from the ground up for our publishers to maximize their revenue by exposing their supply to more demand. This included the product vision, roadmap, backlog as well as the design and development follow up. We took an idea and turned it into a 168M USD per year product spread over 35 countries around the world.",
+                        "We then repeated this feat by building a new curation platform that allows an entirely new cast of actors to come in and editorialize the OOH market. Once again, in the span of two years we took an idea that was new to our industry and turned it into a platform that generated 8.2M USD in its second year of existence.",
+                        "In this position I was also part of the iAB commitee for DOOH and helped push new standards for our industry such as OOH guidelines, venue taxonomy and new openRTB fields.",
+						"Finally, in keeping with our times, we built a few IA powered systems, mainly to help around creative approval and monitoring as well as one to help with campaign building and optimization."
+                    ],
+                    "cover": "hivestack",
+                    "tech": [
+                        "Python",
+                        "Go",
+                        "Vue.js",
+                        "Redshift",
+                        "Microsoft MySQL",
+                        "AWS",
+						"Clickhouse and Kafka"
+                    ],
+                    "appraisal": "",
+                    "context": "Scale the Hivestack SSP, curation platform and adserver products from idea to market leading products in a highly competitive environment.",
+                    "results": [
+                        "Built an SSP generating 168M USD per year in two years",
+                        "Built a curation platform generating 8.2M USD in its second year",
+                        "Lead most products at some point in their life cycle and was in charge of up to 28 developers simultaneously",
+						"Built a deploy a first of its kind DOOH sustainability platform"
+                    ],
+                    "clickable": true,
+                    "link": "http://hivestack.com/"
+                },
+                {
+                    "name": "Technical Product owner",
+                    "place": "Valtech, Montreal",
+                    "duration": "2020-2021",
+                    "country": "Canada",
+                    "description": [
+                        "Valtech is a global business transformation agency delivering innovation with a purpose.",
+                        "At Valtech, I operated as a Product Owner and was in charge of projects ranging from dig data for Pratt & Whitney, to eCommerce for Tiffany and even virtual events for Uni-Select and much more. My day to day was very much about taking an idea and making it a reality, fixing and planning ahead of the many issues that regularly block development.",
+                        "This being said, as a web wizard, I was able to actively come in and help my teams by producing designs, code, data analysis, client management and of course, the mandatory backlog and roadmap management."
+                    ],
+                    "cover": "valtech",
+                    "tech": [
+                        "Sitecore",
+                        "Contentful",
+                        "Commercetools",
+                        ".net",
+                        "Microsoft MySQL",
+                        "IIS",
+                        "Vue.js",
+                        "Swift",
+                        "SASS"
+                    ],
+                    "appraisal": "",
+                    "context": "",
+                    "results": [
+                        ""
+                    ],
+                    "clickable": true,
+                    "link": "https://www.valtech.com/fr-ca/"
+                },
+                {
+                    "name": "Technical Product owner",
+                    "place": "Jogogo, Montreal",
+                    "duration": "2018-2019",
+                    "country": "Canada",
+                    "description": [
+                        "Jogogo is a physical space analytics tool that lets its users track and engage their visitors based on their activity. I was the Product Owner for both the App and the API and implemented a SCRUM process that enabled us to complete the redesigns of both our App (React) and our API (GraphQL). Both of the APP and API were used by enterprise clients such as Decathlon, Desjardins, Asmodee, Telus, IBM and Cisco."
+                    ],
+                    "cover": "Jogogo",
+                    "clickable": true,
+                    "tech": [
+                        "Node.js",
+                        "React.js",
+                        "Kafka",
+                        "Cassandra",
+                        "PostgreSQL",
+                        "GraphQL",
+                        "Rust",
+                        "Typescript",
+                        "Vue.js",
+                        "Ngnix",
+                        "SASS",
+                        "LESS"
+                    ],
+                    "appraisal": "When I arrived, the team had no development method, the deadlines were systematically exceeded and the other teams complained of a lack of visibility regarding the new features. Today, the Jogogo App & API team has become an example for other teams in terms of its organization and productivity. These organizational changes allowed the team to deploy many ambitious features, including a public API (GraphQL) as well as a technical rewrite of the front-end (React). It should be noted that the users' NPR has increased as the new methodology has been implemented.",
+                    "context": "Intervention at Jogogo as product owner within the App and API team. My role was to structure the team in order to increase productivity, visibility with other teams as well as allow the recruitment of new members.",
+                    "results": [
+                        "Implementation of the Scrum methodology",
+                        "Implementation of complexity point estimation",
+                        "Organization and animation of retrospectives, daily meeting, Poker planning, sprint planning",
+                        "Implementation of guidelines development and code review",
+                        "Deployment of Jira and Confluence",
+                        "Backlog management and roadmap monitoring (fuzzy time roadmap)",
+                        "Writing user stories / functional and technical specifications",
+                        "Deployment management and communication",
+                        "Implementation of a design system and production of prototypes",
+                        "Front-end development",
+                        "Design & deployment of a home made WiFi sniffer"
+                    ],
+                    "link": "https://www.behance.net/gallery/86647847/Jogogo-Location-analytics"
+                },
+                {
+                    "name": "Product owner",
+                    "place": "Technology Evaluation Centers, Montreal",
+                    "country": "Canada",
+                    "duration": "2017-2018",
+                    "description": [
+                        "TEC is an enterprise tool that enables enterprises to find the software that best suits their needs. I acted as Product Owner for our website and tools and led a team of twenty people through a technological redesign of our websites and internal tools (ASP.NET and Kentico). I also oversaw and participated in the visual redesign of the website."
+                    ],
+                    "cover": "Tec",
+                    "tech": [
+                        "CSS (Sass)",
+                        "Jquery",
+                        "SQL",
+                        "Elasticsearch",
+                        "IIS",
+                        ".net",
+                        "Kentico",
+                        "Bootstrap"
+                    ],
+                    "appraisal": "My mission was to allow the transmission and documentation of knowledge from an outgoing team as well as to structure two new groups through an agile reorganization. At the end of the project, the two teams were functional and grouped together under a common desire to convert the other development groups to agile methods.",
+                    "context": "Reorganization of the Internal Tools and website development teams around the Scrum method. I was hired at a time when the old development team left the company to set up a new cross-functional product group.",
+                    "results": [
+                        "Implementation of the Scrum methodology",
+                        "Organization and animation of retrospectives, Daily meeting, Poker planning, sprint planning",
+                        "Backlog management and roadmap monitoring",
+                        "Writing user stories / functional and technical specifications",
+                        "Prototyping & Wireframing",
+                        "Deployment management and communication",
+                        "Management of a cross-functional product team",
+                        "Modern development process implementation (code review, CI, versioning…)"
+                    ],
+                    "clickable": true
+                },
+                {
+                    "name": "Growth hacker & Product Owner",
+                    "place": "Placeloop, Paris",
+                    "country": "France",
+                    "duration": "2015-2017",
+                    "description": [
+                        "Placeloop is a trade marketing platform that enables brands to provide their resellers with marketing campaigns. I acted as Growth Hacker and Product Owner and was in charge of the app's design, implementation, adoption and revenue. Our biggest challenge was a mobile-first redesign of the application (React). Our clients included SAB Miller, Kérastase and L'Oréal Professionnel."
+                    ],
+                    "cover": "Placeloop",
+                    "tech": [
+                        "JS",
+                        "SASS",
+                        "NodeJS",
+                        "MongoDB",
+                        "Elasticsearch",
+                        "React",
+                        "OPA",
+                        "Bootstrap"
+                    ],
+                    "appraisal": "Le modèle que nous avons mis en place a convaincu l’Oréal Professionnel ainsi que d’autres grandes marques de déployer Placeloop sur l’ensemble de leurs marques auprès de leurs revendeurs. Les méthodes mises en place ont aussi permis à l’équipe produit de s’agrandir.",
+                    "context": "Deployment of Placeloop to first customers and users via L'Oréal Professional brands, monitoring of usage, implementation of activation and retention strategies. Organization and monitoring of development, production of prototypes and implementation of quality processes.",
+                    "results": [
+                        "Deployment of the Placeloop solution with many brands of L'Oréal professionnel and SAB Miller",
+                        "Placement of pilots",
+                        "Growth hacking and systematization of the AARRR model",
+                        "Backlog and roadmap management",
+                        "Writing user stories / functional and technical specifications",
+                        "Wireframing & prototyping",
+                        "Functional tests",
+                        "Implementation of customer return systems and creation of a team ,in charge of maintaining it",
+                        "Redesign of our front-end applications",
+                        "Back-end redesign and deployment of a private API",
+                        "Transition from MongoDB to Elasticsearch",
+                        "Deployment of paid features"
+                    ],
+                    "clickable": true
+                },
+                {
+                    "name": "Growth hacker & Product manager",
+                    "place": "Pryv, Lausanne",
+                    "country": "Switzerland",
+                    "description": [
+                        "Pryv is a privacy-focused company that enables life loggers and self quantifiers to store and to access data to make sense of it. I acted as Growth Hacker and Product Manager and was in charge of the Apps' release and adoption. I was also the point of contact between the business and development teams. Finally, I oversaw partnerships with Moves, Misfits and IFTTT."
+                    ],
+                    "cover": "Pryv",
+                    "tech": [
+                        "MongoDB",
+                        "Jquery",
+                        "Java"
+                    ],
+                    "appraisal": "In a few months we have had more than three thousand subscribers, a 90% satisfaction rate and several partnerships with major players in our industry.",
+                    "context": "After two years of development, Pryv was looking to deploy the Alpha and Beta versions of its application in order to validate its model and seek new funding.",
+                    "results": [
+                        "Backlog and roadmap management",
+                        "Writing user stories / functional and technical specifications",
+                        "Wireframing & prototyping",
+                        "Functional tests",
+                        "Implementation of user feedback systems",
+                        "Establishment of partnerships (IFTTT, Misfit, Jawbone…)",
+                        "Implementation of the Growth hacking AARRR model"
+                    ],
+                    "duration": "2014",
+                    "clickable": true
+                }
+            ],
+            "footer": {
+                "brag": "Need help for your next project?",
+                "email": {
+                    "contact": "adrien.dubois35@gmail.com",
+                    "legend": "Shoot me an email! 🚀"
+                },
+                "copyrights": "Design and code by Adrien D. Ahlqvist",
+                "seeCode": {
+                    "text": "View source",
+                    "link": "https://github.com/Armitage35/portfolio/"
+                }
+            }
+        },
+        "cv": {
+            "contact": [
+                {
+                    "name": "email",
+                    "description": "adrien.dubois35@gmail.com",
+                    "link": "mailto:",
+                    "icon": "fa-envelope"
+                },
+                {
+                    "name": "telephone",
+                    "description": "+1 438 924 3959",
+                    "link": "tel:",
+                    "icon": "fa-phone-alt"
+                }
+            ]
+        },
+        "technicalFile": {
+            "summary": "Summary",
+            "back": "  Back to the resume"
+        }
+    }
 }

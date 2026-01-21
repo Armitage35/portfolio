@@ -1,3 +1,6 @@
+
+@use '../../variables' as *;
+
 .project {
 	@media screen and (max-width: $mobileWidth) {
 		width: 80%;

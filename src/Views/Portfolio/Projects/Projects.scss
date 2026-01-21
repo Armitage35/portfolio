@@ -1,3 +1,5 @@
+@use '../../../variables' as *;
+
 .projects {
 	@extend %mainSection__mobile;
 }

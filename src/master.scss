@@ -1,35 +1,34 @@
-// External ressources
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Space+Mono&display=swap');
-
 // Main files files
-@import './variables';
-@import './App.scss';
-@import './Views/Portfolio/Portfolio.scss';
-@import './Views/CV/CV.scss';
+@use './variables';
+@use './App.scss';
+@use './Views/Portfolio/Portfolio.scss';
+@use './Views/CV/CV.scss';
 
 // Porfolio components
-@import './Views/Portfolio/Home/Home.scss';
-@import './Views/Portfolio/Sidemenu/Sidemenu.scss';
-@import './Views/Portfolio/Skills/Skills.scss';
-@import './Views/Portfolio/WorkEducation/WorkEducation.scss';
-@import './Views/Portfolio/Projects/Projects.scss';
-@import './Views/Portfolio/Testimonials/Testimonials.scss';
-@import './Views/Portfolio/ElevatorPitch/ElevatorPitch.scss';
-@import './Views/Portfolio/Clients/Clients.scss';
+@use './Views/Portfolio/Home/Home.scss';
+@use './Views/Portfolio/Sidemenu/Sidemenu.scss';
+@use './Views/Portfolio/Skills/Skills.scss';
+@use './Views/Portfolio/WorkEducation/WorkEducation.scss';
+@use './Views/Portfolio/Projects/Projects.scss';
+@use './Views/Portfolio/Testimonials/Testimonials.scss';
+@use './Views/Portfolio/ElevatorPitch/ElevatorPitch.scss';
+@use './Views/Portfolio/Clients/Clients.scss';
 
 // CV components
-@import './Views/CV/cvSection/cvSection.scss';
-@import './Views/CV/cvSection/cvEntry/cvEntry.scss';
+@use './Views/CV/cvSection/cvSection.scss';
+@use './Views/CV/cvSection/cvEntry/cvEntry.scss';
 
 // Technical file components
-@import './Views/TechnicalFile/TechnicalFile.scss';
-@import './Views/TechnicalFile/TechnicalFileEntry/TechnicalFileEntry.scss';
-@import './Views/TechnicalFile/TechnicalSideMenu/TechnicalSidemenu.scss';
+@use './Views/TechnicalFile/TechnicalFile.scss';
+@use './Views/TechnicalFile/TechnicalFileEntry/TechnicalFileEntry.scss';
+@use './Views/TechnicalFile/TechnicalSideMenu/TechnicalSidemenu.scss';
 
 // Generic components
-@import './components/Experience/Experience.scss';
-@import './components/Footer/Footer.scss';
-@import './components/Modal/Modal.scss';
-@import './components/Project/Project.scss';
-@import './components/SkillCartridge/SkillCartridge.scss';
-@import './components/Testimonial/Testimonial.scss';
+@use './components/Experience/Experience.scss';
+@use './components/Footer/Footer.scss';
+@use './components/Modal/Modal.scss';
+@use './components/Project/Project.scss';
+@use './components/SkillCartridge/SkillCartridge.scss';
+@use './components/Testimonial/Testimonial.scss';
+// External ressources
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Space+Mono&display=swap');

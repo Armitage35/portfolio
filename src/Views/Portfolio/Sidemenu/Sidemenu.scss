@@ -1,3 +1,5 @@
+@use '../../../variables' as *;
+
 .sidemenu {
 	@media screen and (max-width: $mobileWidth) {
 		display: none;
