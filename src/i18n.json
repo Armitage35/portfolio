@@ -112,100 +112,44 @@
                 {
                     "name": "Code",
                     "description": [
-                        {
-                            "name": "JavaScript"
-                        },
-                        {
-                            "name": "CSS/SASS"
-                        },
-                        {
-                            "name": "React"
-                        },
-                        {
-                            "name": "Vue.js"
-                        },
-                        {
-                            "name": "Git"
-                        },
-                        {
-                            "name": "Node.js"
-                        },
-                        {
-                            "name": "CI/CD"
-                        },
-                        {
-                            "name": "SQL"
-                        },
-                        {
-                            "name": "MongoDB"
-                        },
-                        {
-                            "name": "RestAPI"
-                        },
-                        {
-                            "name": "GraphQL"
-                        }
+                        "JavaScript",
+                        "CSS/SASS",
+                        "React",
+                        "Vue.js",
+                        "Git",
+                        "Node.js",
+                        "CI/CD",
+                        "SQL",
+                        "MongoDB",
+                        "RestAPI",
+                        "GraphQL"
                     ]
                 },
                 {
                     "name": "Design",
                     "description": [
-                        {
-                            "name": "Photoshop"
-                        },
-                        {
-                            "name": "Sketch"
-                        },
-                        {
-                            "name": "Adobe XD"
-                        },
-                        {
-                            "name": "InVision"
-                        },
-                        {
-                            "name": "Balsamiq wireframes"
-                        },
-                        {
-                            "name": "Illustrator"
-                        }
+                        "Photoshop",
+                        "Sketch",
+                        "Adobe XD",
+                        "InVision",
+                        "Balsamiq wireframes",
+                        "Illustrator"
                     ]
                 },
                 {
                     "name": "Product Management",
                     "description": [
-                        {
-                            "name": "Jira"
-                        },
-                        {
-                            "name": "Confluence"
-                        },
-                        {
-                            "name": "GitHub"
-                        },
-                        {
-                            "name": "GitLab"
-                        },
-                        {
-                            "name": "Trello"
-                        },
-                        {
-                            "name": "Mixpanel"
-                        },
-                        {
-                            "name": "Google Analytics"
-                        },
-                        {
-                            "name": "Google Data Studio"
-                        },
-                        {
-                            "name": "Excel"
-                        },
-                        {
-                            "name": "Segment"
-                        },
-                        {
-                            "name": "Mailchimp"
-                        }
+                        "Jira",
+                        "Confluence",
+                        "GitHub",
+                        "GitLab",
+                        "Trello",
+                        "Mixpanel",
+                        "Google Analytics",
+                        "Google Data Studio",
+                        "Excel",
+                        "Segment",
+                        "Mailchimp"
                     ]
                 }
             ],
@@ -266,7 +210,7 @@
                         "I built our SSP from scratch to help publishers maximize revenue by connecting their inventory with more buyers. Defining the product vision, roadmap, and backlog—then collaborating with design and development to execute—we scaled an early-stage idea into a $168M annual revenue product serving 35 countries.",
                         "We then repeated this feat by building a new curation platform that allows an entirely new cast of actors to come in and editorialize the OOH market. Once again, in the span of two years we took an idea that was new to our industry and turned it into a platform that generated 8.2M USD in its second year of existence.",
                         "I also served on the IAB committee for DOOH, helping shape new industry standards—including OOH guidelines, venue taxonomy, and expanded openRTB fields.",
-						"Finally, in keeping with our times, we built a few IA powered systems, mainly to help around creative approval and monitoring as well as one to help with campaign building and optimization."
+						"Finally, in keeping with our times, we built a few AI powered systems, mainly to help around creative approval and monitoring as well as one to help with campaign building and optimization."
                     ],
                     "cover": "hivestack",
                     "tech": [

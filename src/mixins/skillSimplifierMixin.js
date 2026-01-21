@@ -16,9 +16,9 @@ export const skillSimplifierMixin = {
 					j < strings.en.portfolio.skills[i].description.length;
 					j++
 				) {
-					// Only push the name string, not an object or percent
+					// Skills are now strings, not objects
 					brandNewSkill.description.push(
-						strings.en.portfolio.skills[i].description[j].name
+						strings.en.portfolio.skills[i].description[j]
 					);
 				}
 				smallSkills.push(brandNewSkill);

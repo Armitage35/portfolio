@@ -1,7 +1,7 @@
 <template>
 	<div class='technicalFile'>
 		<div class="technicalFile-content">
-			<router-link :to="{ name: 'CV' }" class="back-to-resume">
+			<router-link to="/cv" class="back-to-resume">
 				<i class="fas fa-arrow-left"></i>{{strings.en.technicalFile.back}}
 			</router-link>
 			<h1>Summary</h1>
