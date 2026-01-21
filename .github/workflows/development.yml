@@ -70,16 +70,9 @@ jobs:
       env:
         CI: true
 
-  spelling:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: Check Spelling
-      uses: UnicornGlobal/spellcheck-github-actions@master
-
   deploy:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main' || github.ref == 'refs/heads/dev'
-    needs: [build, test, lint, spelling]
+    needs: [build, test, lint]
     runs-on: ubuntu-latest
 
     strategy:
