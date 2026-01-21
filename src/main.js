@@ -8,9 +8,19 @@ Vue.config.productionTip = false;
 
 Vue.use(VueRouter);
 
+
 const router = new VueRouter({
 	mode: 'hash',
 	routes
+});
+
+// Set document title based on route meta
+router.afterEach((to) => {
+	if (to.meta && to.meta.title) {
+		document.title = to.meta.title;
+	} else {
+		document.title = 'Adrien Dubois Ahlqvist';
+	}
 });
 
 new Vue({
