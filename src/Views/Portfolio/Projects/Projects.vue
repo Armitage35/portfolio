@@ -1,6 +1,6 @@
 <template>
 	<div class="projects">
-		<h1>Projects</h1>
+		<h1>Personal Projects</h1>
 		<div class="projects__content">
 			<Project
 				v-for="(project, key) in modifiedProject"

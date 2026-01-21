@@ -1,4 +1,4 @@
-name: Continuous testing
+name: Continuous testing and deployment
 
 on: [push]
 
@@ -9,7 +9,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x]
+        node-version: [18.x]
 
     steps:
     - uses: actions/checkout@v1
@@ -25,6 +25,27 @@ jobs:
       env:
         CI: true
 
+  test:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Run unit tests
+      run: |
+        npm install -g yarn
+        yarn install
+        yarn test:unit
+      env:
+        CI: true
 
   lint:
 
@@ -32,7 +53,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x]
+        node-version: [18.x]
 
     steps:
     - uses: actions/checkout@v1
@@ -44,6 +65,34 @@ jobs:
       run: |
         npm install -g yarn
         yarn install
-        yarn test
+        yarn lint
+        yarn sass-lint
       env:
         CI: true
+
+  deploy:
+    needs: [build, test, lint]
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Build and Deploy to GitHub Pages
+      run: |
+        npm install -g yarn
+        yarn install
+        yarn build
+      env:
+        CI: true
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist
