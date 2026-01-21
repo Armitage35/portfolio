@@ -30,6 +30,7 @@ import Testimonials from './Testimonials/Testimonials';
 import Clients from './Clients/Clients';
 
 export default {
+	name: 'Portfolio',
 	components: { ElevatorPitch, Home, Modal, Projects, Sidemenu, Skills, Testimonials, WorkEducation, Clients },
 	data: function() {
 		return {
@@ -49,3 +50,4 @@ export default {
 	}
 };
 </script>
+

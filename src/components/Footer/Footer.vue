@@ -13,15 +13,16 @@
 	</div>
 </template>
 
+
 <script>
 import strings from '../../i18n.json';
 
 export default {
+	name: 'AppFooter',
 	data: function() {
 		return {
 			strings: strings
 		};
 	}
-
 };
 </script>

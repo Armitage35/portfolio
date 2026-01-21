@@ -13,6 +13,7 @@ import Testimonial from '../../../components/Testimonial/Testimonial';
 import strings from '../../../i18n.json';
 
 export default {
+	name: 'TestimonialsSection',
 	components: { Testimonial },
 	data: function() {
 		return {

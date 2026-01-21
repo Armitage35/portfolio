@@ -9,8 +9,10 @@
 	</div>
 </template>
 
+
 <script>
 export default {
+	name: 'ExperienceItem',
 	props: [ 'experience' ]
 };
 </script>
