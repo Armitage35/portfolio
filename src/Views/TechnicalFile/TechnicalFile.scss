@@ -65,8 +65,8 @@
 
 .back-to-resume:hover,
 .back-to-resume:focus {
-  color: #fff;
-  background: linear-gradient(90deg, $orange 60%, #ffb347 100%);
+  color: #FFF;
+  background: linear-gradient(90deg, $orange 60%, #FFB347 100%);
   box-shadow: 0 4px 18px 0 rgba(245, 150, 40, 0.18);
   text-decoration: none;
   transform: translateY(-2px) scale(1.04);
@@ -78,8 +78,8 @@
 }
 
 .back-to-resume:active {
-  color: #fff;
-  background: linear-gradient(90deg, #e65100 60%, #ffb347 100%);
+  color: #FFF;
+  background: linear-gradient(90deg, #E65100 60%, #FFB347 100%);
   box-shadow: 0 2px 8px 0 rgba(245, 150, 40, 0.08);
   transform: translateY(1px) scale(0.98);
 }

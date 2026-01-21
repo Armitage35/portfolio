@@ -1,0 +1,53 @@
+name: Ensure AI Agent Guide and Changelog
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - dev
+      - main
+      - master
+
+jobs:
+  ensure-ai-guide-and-changelog:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install -g conventional-changelog-cli
+
+      - name: Generate CHANGELOG.md
+        run: |
+          conventional-changelog -p angular -i CHANGELOG.md -s -r 0
+
+      - name: Generate claude.md
+        run: |
+          node .github/scripts/generate-claude-md.js
+
+      - name: Commit and push changes if needed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add CHANGELOG.md claude.md || true
+          git diff --cached --quiet || git commit -m "chore: auto-generate claude.md and CHANGELOG.md [skip ci]"
+          git push || echo "No changes to commit."
+
+      - name: Bump version in package.json
+        run: |
+          if [ -f package.json ]; then
+            CURRENT_VERSION=$(node -p "require('./package.json').version")
+            NEW_VERSION=$(npx semver $CURRENT_VERSION -i patch)
+            jq ".version = \"$NEW_VERSION\"" package.json > package.json.tmp && mv package.json.tmp package.json
+            git add package.json
+          fi
+
+      - name: Success
+        run: echo "claude.md and CHANGELOG.md have been generated and committed if needed."
