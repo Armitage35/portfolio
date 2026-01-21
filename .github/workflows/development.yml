@@ -71,7 +71,7 @@ jobs:
         CI: true
 
   deploy:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main' || github.ref == 'refs/heads/dev'
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/dev' || github.ref == 'refs/heads/master')
     needs: [build, test, lint]
     runs-on: ubuntu-latest
 
