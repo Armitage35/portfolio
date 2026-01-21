@@ -33,4 +33,44 @@
 	width: 50%;
 	margin: 20px 0;
 	border: $orange solid 2px;
+
+	@media print {
+		border-color: $orange;
+		page-break-after: avoid;
+		margin-bottom: 30px;
+	}
+}
+
+@media print {
+	.technicalFileEntry__position {
+		page-break-after: avoid;
+	}
+
+	.technicalFileEntry__details {
+		page-break-after: avoid;
+	}
+
+	.technicalFileEntry__introduction {
+		page-break-after: avoid;
+	}
+
+	.technicalFileEntry__content {
+		page-break-inside: avoid;
+	}
+
+	.technicalFileEntry__content--display {
+		page-break-inside: avoid;
+	}
+
+	.technicalFileEntry__minorDetail {
+		color: #333;
+
+		i {
+			color: $orange;
+		}
+	}
+
+	ul, li {
+		page-break-inside: avoid;
+	}
 }
