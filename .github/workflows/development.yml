@@ -1,6 +1,6 @@
 name: Continuous testing and deployment
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
   build:
@@ -70,8 +70,16 @@ jobs:
       env:
         CI: true
 
+  spelling:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Check Spelling
+      uses: UnicornGlobal/spellcheck-github-actions@master
+
   deploy:
-    needs: [build, test, lint]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' || github.ref == 'refs/heads/dev'
+    needs: [build, test, lint, spelling]
     runs-on: ubuntu-latest
 
     strategy:
