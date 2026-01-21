@@ -1,4 +1,3 @@
-
 @use '../../../variables' as *;
 
 .technical-side-menu {
@@ -6,10 +5,11 @@
 	width: $sidemenu-width;
 	height: 100vh;
 	right: 0;
-	background-color: #F6F7FA;
+	background-color: #f6f7fa;
 	padding: 30px;
 
-	h1, h2 {
+	h1,
+	h2 {
 		text-align: center;
 	}
 
@@ -27,15 +27,15 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	}
+}
 
-	.technical-side-menu__contact {
-	 font-size: 12px;
-	 margin: 12px;
-	 text-align: center;
-	}
+.technical-side-menu__contact {
+	font-size: 12px;
+	margin: 12px;
+	text-align: center;
+}
 @media print {
-  .technical-side-menu {
-    display: none;
-  }
+	.technical-side-menu {
+		display: none;
+	}
 }

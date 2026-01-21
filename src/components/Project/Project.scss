@@ -1,4 +1,3 @@
-
 @use '../../variables' as *;
 
 .project {
@@ -17,14 +16,14 @@
 	background-size: cover;
 	cursor: pointer;
 	filter: grayscale(100%);
-	transition: all .2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 
 	i {
 		display: none;
 	}
 }
 
-.project:hover{
+.project:hover {
 	z-index: 1;
 	box-shadow: $defaultShadow;
 	filter: none;

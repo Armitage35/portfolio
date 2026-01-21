@@ -5,7 +5,7 @@ $CVborder: solid 5px $orange;
 
 // Style
 .cv__container {
-	background-color: #F7F7F7;
+	background-color: #f7f7f7;
 	padding-top: 5%;
 	padding-bottom: 5%;
 }
@@ -73,7 +73,8 @@ $CVborder: solid 5px $orange;
 	justify-content: center;
 }
 
-.cv__left, .cv__right {
+.cv__left,
+.cv__right {
 	@media screen and (max-width: $mobileWidth) {
 		width: auto;
 		padding: 12px;

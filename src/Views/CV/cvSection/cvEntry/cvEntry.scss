@@ -1,11 +1,10 @@
-
 @use '../../../../variables' as *;
 
 .entry {
 	margin: 10px 0;
 
 	i {
-		margin-right: 5px
+		margin-right: 5px;
 	}
 }
 
@@ -42,11 +41,11 @@
 
 @media print {
 	.projects {
-		.entry:nth-of-type(4){
+		.entry:nth-of-type(4) {
 			display: none;
 		}
 
-		.entry:nth-of-type(5){
+		.entry:nth-of-type(5) {
 			display: none;
 		}
 	}
