@@ -9,12 +9,12 @@
 			<span class="home__legend">{{strings.en.portfolio.home.title}}</span>
 			<hr class="home__orangeSeparator"/>
 			<p class="home__pitch">{{strings.en.portfolio.home.homePitch}}</p>
-			<div class="home__buttons">
-				<a class="bttn-primary" href="#portfolio">Portfolio</a>
-				<router-link to="cv">
-					<a class="bttn-secondary" href="">Resume</a>
-				</router-link>
-			</div>
+		<nav class="home__buttons" aria-label="Navigation">
+			<a class="bttn-primary" href="#portfolio">Portfolio</a>
+			<router-link to="cv" class="bttn-secondary">
+				Resume
+			</router-link>
+		</nav>
 		</div>
 	</div>
 </template>

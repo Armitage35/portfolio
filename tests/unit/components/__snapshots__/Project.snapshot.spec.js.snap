@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`Project.vue Snapshots renders project card snapshot 1`] = `
-<div class="project" style="background-image: url(&quot;hivestack&quot;);">
+<button aria-label="View Hivestack SSP project from 2021-Today" class="project" style="background-image: url(&quot;hivestack&quot;);">
   <div class="project__date">2021-Today</div>
   <div class="project__bottom">
-    <div class="project__name">Hivestack SSP</div> <i class="fas fa-long-arrow-alt-right"></i>
+    <div class="project__name">Hivestack SSP</div> <i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i>
   </div>
-</div>
+</button>
 `;

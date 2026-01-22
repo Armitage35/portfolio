@@ -8,15 +8,26 @@
 	width: 370px;
 	padding: 20px 16px;
 	cursor: pointer;
+	background-color: $white;
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	text-align: left;
+	border-radius: 4px;
+	transition: box-shadow 0.3s ease-in-out, outline 0.2s ease;
 
 	i {
 		display: none;
 	}
 }
 
+.experience:focus {
+	outline: 2px solid $orange;
+	outline-offset: 2px;
+}
+
 .experience:hover {
 	box-shadow: $defaultShadow;
-	transition: box-shadow 0.3s ease-in-out 0s;
 
 	i {
 		display: block;

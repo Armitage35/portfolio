@@ -61,3 +61,33 @@ li {
 	line-height: 20px;
 	max-width: 70%;
 }
+
+/* Screen reader only content */
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}
+
+/* Skip to main content link focus state */
+.skip-to-main:focus {
+	top: 0;
+}
+
+/* Focus styles for buttons converted from divs */
+button:focus {
+	outline: 2px solid $orange;
+	outline-offset: 2px;
+}
+
+/* Router link button styling */
+.bttn-secondary {
+	display: inline-block;
+	text-decoration: none;
+}

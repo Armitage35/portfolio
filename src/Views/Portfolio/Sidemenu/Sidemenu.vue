@@ -10,12 +10,12 @@
 				:key="key"
 			>
 				<span>{{info.name}}</span>
-				<a :href="info.link + info.content">{{ info.content }}</a>
+				<a :href="info.link + info.content" :aria-label="info.name + ': ' + info.content">{{ info.content }}</a>
 			</div>
 			<div class="sidemenu__contactDetails">
 				<span>{{ strings.en.portfolio.sideMenu.findMe }}</span>
 				<div class="sidemenu__socialIcons">
-					<a v-for="social in strings.en.portfolio.sideMenu.socialNetworks" target="_blank" :href="social.link" :key='social.name'><i :class="social.icon"></i></a>
+					<a v-for="social in strings.en.portfolio.sideMenu.socialNetworks" target="_blank" :href="social.link" :key='social.name' :aria-label="social.name + ' profile'" rel="noopener noreferrer"><i :class="social.icon" aria-hidden="true"></i><span class="sr-only">{{ social.name }}</span></a>
 				</div>
 			</div>
 		</div>

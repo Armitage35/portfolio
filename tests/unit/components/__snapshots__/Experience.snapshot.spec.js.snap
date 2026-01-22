@@ -1,22 +1,22 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`Experience.vue Snapshots renders experience card snapshot 1`] = `
-<div class="experience">
+<button aria-label="View Senior Product Manager at Hivestack - Perion" class="experience">
   <div class="experience__title">Senior Product Manager</div>
   <div class="experience__place">Hivestack - Perion, Montreal</div>
   <div class="experience__bottom">
-    <div class="experience__duration">2021-Today</div> <i class="fas fa-long-arrow-alt-right"></i>
+    <div class="experience__duration">2021-Today</div> <i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i>
   </div>
-</div>
+</button>
 `;
 
 exports[`Experience.vue Snapshots renders experience card without link snapshot 1`] = `
-<div class="experience">
+<button aria-label="View Senior Product Manager at Hivestack - Perion" class="experience">
   <div class="experience__title">Senior Product Manager</div>
   <div class="experience__place">Hivestack - Perion, Montreal</div>
   <div class="experience__bottom">
     <div class="experience__duration">2021-Today</div>
     <!---->
   </div>
-</div>
+</button>
 `;

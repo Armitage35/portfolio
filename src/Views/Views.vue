@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<router-view/>
+		<router-view role="main"/>
 		<FooterComponent v-if="$route.path === '/portfolio' || $route.path === '/'"></FooterComponent>
 	</div>
 </template>

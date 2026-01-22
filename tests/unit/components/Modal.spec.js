@@ -46,7 +46,7 @@ describe('Modal.vue', () => {
 	});
 
 	it('displays modal title', () => {
-		const title = wrapper.find('.modal__title h1');
+		const title = wrapper.find('.modal__title h2');
 		expect(title.text()).toBe('Test Job');
 	});
 

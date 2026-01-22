@@ -1,5 +1,5 @@
 <template>
-	<div id="app">
+	<div id="app" role="application" aria-label="Adrien Dubois Ahlqvist Portfolio">
 		<Views></Views>
 	</div>
 </template>

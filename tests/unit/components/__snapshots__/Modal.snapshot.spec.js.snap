@@ -2,18 +2,17 @@
 
 exports[`Modal.vue Snapshots renders modal snapshot 1`] = `
 <div class="modal__mask">
-  <div class="modal">
+  <div role="dialog" aria-modal="true" aria-labelledby="modal-title-Hivestack SSP" class="modal">
     <div class="modal__header">
       <div class="modal__title">
-        <h1>Hivestack SSP</h1> <i class="fas fa-times"></i>
+        <h2 id="modal-title-Hivestack SSP">Hivestack SSP</h2> <button aria-label="Close dialog" class="modal__close-btn"><i aria-hidden="true" class="fas fa-times"></i></button>
       </div>
       <div class="modal__date">2021-Today</div>
     </div>
     <div class="modal__body">
       <div class="modal__cover" style="background-image: url(&quot;hivestack.jpg&quot;);"></div>
       <div class="modal__text">
-        <p class="modal__description">Building an SSP for publishers to maximize revenue</p> <a href="https://hivestack.com" target="_blank" class="modal__link">See the project
-          <i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i></a>
+        <p class="modal__description">Building an SSP for publishers to maximize revenue</p> <a href="https://hivestack.com" target="_blank" rel="noopener noreferrer" class="modal__link">See the project<span class="sr-only"> (opens in new tab)</span> <i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i></a>
       </div>
     </div>
   </div>
@@ -22,10 +21,10 @@ exports[`Modal.vue Snapshots renders modal snapshot 1`] = `
 
 exports[`Modal.vue Snapshots renders modal without link snapshot 1`] = `
 <div class="modal__mask">
-  <div class="modal">
+  <div role="dialog" aria-modal="true" aria-labelledby="modal-title-Hivestack SSP" class="modal">
     <div class="modal__header">
       <div class="modal__title">
-        <h1>Hivestack SSP</h1> <i class="fas fa-times"></i>
+        <h2 id="modal-title-Hivestack SSP">Hivestack SSP</h2> <button aria-label="Close dialog" class="modal__close-btn"><i aria-hidden="true" class="fas fa-times"></i></button>
       </div>
       <div class="modal__date">2021-Today</div>
     </div>

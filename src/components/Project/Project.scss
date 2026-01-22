@@ -17,10 +17,22 @@
 	cursor: pointer;
 	filter: grayscale(100%);
 	transition: all 0.2s ease-in-out;
+	border: none;
+	font-family: inherit;
+	border-radius: 4px;
 
 	i {
 		display: none;
 	}
+}
+
+.project:focus {
+	outline: 2px solid $orange;
+	outline-offset: 2px;
+	z-index: 1;
+	box-shadow: $defaultShadow;
+	filter: none;
+	transform: scale(1.1);
 }
 
 .project:hover {

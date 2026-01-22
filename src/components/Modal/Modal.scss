@@ -43,18 +43,38 @@ $modalTransition: all 0.6s ease;
 .modal__title {
 	display: flex;
 	justify-content: space-between;
+	align-items: baseline;
 
-	i {
-		cursor: pointer;
+	h2 {
+		margin: 0;
 	}
+}
 
-	i:hover {
-		color: $grey;
-	}
+.modal__close-btn {
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+	transition: background-color 0.2s ease;
+	margin: -8px;
+}
 
-	h1 {
-		margin-bottom: 12px;
-	}
+.modal__close-btn:focus {
+	outline: 2px solid $orange;
+	outline-offset: 2px;
+}
+
+.modal__close-btn:hover {
+	background-color: rgba($orange, 0.1);
+}
+
+.modal__close-btn i {
+	color: $orange;
+	font-size: 20px;
 }
 
 .modal__date {
@@ -85,6 +105,20 @@ $modalTransition: all 0.6s ease;
 	text-decoration: none;
 	transition: color 0.2s;
 }
+
+.modal__link {
+	color: $orange;
+	font-weight: $bold;
+	padding: 8px;
+	margin: 12px -8px 12px 4px;
+	border-radius: 4px;
+}
+
+.modal__link:focus {
+	outline: 2px solid $orange;
+	outline-offset: 2px;
+}
+
 .modal__link:after {
 	display: block;
 	position: absolute;
@@ -100,6 +134,7 @@ $modalTransition: all 0.6s ease;
 }
 .modal__link:hover {
 	color: $orange;
+	background-color: rgba($orange, 0.1);
 }
 .modal__link:hover:after {
 	transform: scaleX(1);
