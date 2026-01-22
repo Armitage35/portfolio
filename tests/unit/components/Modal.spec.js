@@ -20,8 +20,20 @@ describe('Modal.vue', () => {
 		});
 	});
 
+
 	afterEach(() => {
 		wrapper.destroy();
+	});
+
+	it('closes when ESC key is pressed', async () => {
+		const toggleModal = jest.fn();
+		wrapper.vm.$on('toggleModal', toggleModal);
+		// Simulate ESC keydown event
+		const event = new window.KeyboardEvent('keydown', { key: 'Escape' });
+		window.dispatchEvent(event);
+		// Wait for event loop
+		await new Promise(resolve => setTimeout(resolve, 10));
+		expect(toggleModal).toHaveBeenCalled();
 	});
 
 	it('renders the component', () => {

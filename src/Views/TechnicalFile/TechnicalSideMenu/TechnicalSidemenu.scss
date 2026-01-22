@@ -1,7 +1,6 @@
-
 @use '../../../variables' as *;
 
-.technicalSideMenu {
+.technical-side-menu {
 	position: fixed;
 	width: $sidemenu-width;
 	height: 100vh;
@@ -9,7 +8,8 @@
 	background-color: #F6F7FA;
 	padding: 30px;
 
-	h1, h2 {
+	h1,
+	h2 {
 		text-align: center;
 	}
 
@@ -18,7 +18,7 @@
 	}
 }
 
-.technicalSideMenu__photo {
+.technical-side-menu__photo {
 	width: 130px;
 	height: 130px;
 	margin: auto;
@@ -29,8 +29,13 @@
 	background-size: cover;
 }
 
-.technicalSideMenu__contact {
-	margin: 12px;
+.technical-side-menu__contact {
 	font-size: 12px;
+	margin: 12px;
 	text-align: center;
+}
+@media print {
+	.technical-side-menu {
+		display: none;
+	}
 }

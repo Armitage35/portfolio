@@ -34,6 +34,7 @@ import { skillSimplifierMixin } from '../../mixins/skillSimplifierMixin';
 import strings from '../../i18n.json';
 
 export default {
+	name: 'CV',
 	mixins: [ skillSimplifierMixin ],
 	components: { cvSection },
 	data: function() {
@@ -44,7 +45,6 @@ export default {
 	computed: {
 		restrictedAmountOfProject: function(){
 			const max3Project = strings.en.portfolio.projects.splice(0, 3) ;
-
 			return max3Project;
 		}
 	}

@@ -3,7 +3,7 @@ import strings from '../i18n.json';
 export const skillSimplifierMixin = {
 	computed: {
 		updatedSkills: function () {
-			// This function destructures the skill objects to ignore the skill level
+			// This function returns only the skill names as strings
 			let smallSkills = [];
 
 			for (let i = 0; i < strings.en.portfolio.skills.length; i++) {
@@ -16,8 +16,9 @@ export const skillSimplifierMixin = {
 					j < strings.en.portfolio.skills[i].description.length;
 					j++
 				) {
+					// Skills are now strings, not objects
 					brandNewSkill.description.push(
-						strings.en.portfolio.skills[i].description[j].name
+						strings.en.portfolio.skills[i].description[j]
 					);
 				}
 				smallSkills.push(brandNewSkill);

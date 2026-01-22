@@ -6,6 +6,11 @@
 
 <script>
 export default {
-	props: ['skill']
+	props: {
+		skill: {
+			type: String,
+			required: true
+		}
+	}
 };
 </script>

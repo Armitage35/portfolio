@@ -1,5 +1,5 @@
 <template>
-	<div class="modal__mask" @keydown.esc="$emit('toggleModal')" tabindex="0">
+	<div class="modal__mask">
 		<div class="modal">
 			<div class="modal__header">
 				<div class="modal__title">
@@ -23,10 +23,24 @@
 
 <script>
 export default {
+	name: 'AppModal',
 	props: ['content'],
 	computed: {
 		dateOrName: function() {
 			return this.content.duration ? this.content.duration : this.content.place;
+		}
+	},
+	mounted() {
+		window.addEventListener('keydown', this.handleEsc);
+	},
+	beforeDestroy() {
+		window.removeEventListener('keydown', this.handleEsc);
+	},
+	methods: {
+		handleEsc(e) {
+			if (e.key === 'Escape' || e.key === 'Esc') {
+				this.$emit('toggleModal');
+			}
 		}
 	}
 };

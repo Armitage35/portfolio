@@ -10,7 +10,6 @@
 	margin-left: 8px;
 }
 
-
 .clients__client-list {
 	display: flex;
 	flex-wrap: wrap;
@@ -19,7 +18,7 @@
 .clients__client {
 	@media screen and (max-width: $mobileWidth) {
 		width: 80%;
-		margin: auto
+		margin: auto;
 	}
 	width: 25%;
 }

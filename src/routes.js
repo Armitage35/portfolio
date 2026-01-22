@@ -1,11 +1,9 @@
-import CV from './Views/CV/CV.vue';
-import Portfolio from './Views/Portfolio/Portfolio.vue';
-import TechnicalFile from './Views/TechnicalFile/TechnicalFile';
+
 
 export const routes = [
-	{ path: '/', component: Portfolio },
-	{ path: '/portfolio', component: Portfolio },
-	{ path: '/cv', component: CV },
-	{ path: '/resume', component: CV },
-	{ path: '/technicalFile', component: TechnicalFile }
+	{ path: '/', component: () => import('./Views/Portfolio/Portfolio.vue'), meta: { title: 'Portfolio - Adrien Dubois Ahlqvist' } },
+	{ path: '/portfolio', component: () => import('./Views/Portfolio/Portfolio.vue'), meta: { title: 'Portfolio - Adrien Dubois Ahlqvist' } },
+	{ path: '/cv', component: () => import('./Views/CV/CV.vue'), meta: { title: 'CV - Adrien Dubois Ahlqvist' } },
+	{ path: '/resume', component: () => import('./Views/CV/CV.vue'), meta: { title: 'CV - Adrien Dubois Ahlqvist' } },
+	{ path: '/technicalFile', component: () => import('./Views/TechnicalFile/TechnicalFile.vue'), meta: { title: 'Technical File - Adrien Dubois Ahlqvist' } }
 ];

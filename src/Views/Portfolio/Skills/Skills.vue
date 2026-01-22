@@ -24,6 +24,7 @@ import { skillSimplifierMixin } from '../../../mixins/skillSimplifierMixin';
 import strings from '../../../i18n.json';
 
 export default {
+	name: 'SkillsSection',
 	mixins: [ skillSimplifierMixin ],
 	components: { SkillCartridge },
 	data: function() {
@@ -34,7 +35,6 @@ export default {
 	computed: {
 		restrictedAmountOfProject: function(){
 			const max3Project = strings.en.portfolio.projects.splice(0, 3) ;
-
 			return max3Project;
 		}
 	}

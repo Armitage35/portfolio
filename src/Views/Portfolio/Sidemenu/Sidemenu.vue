@@ -26,6 +26,7 @@
 import strings from '../../../i18n.json';
 
 export default {
+	name: 'PortfolioSidemenu',
 	data: function() {
 		return {
 			strings: strings,

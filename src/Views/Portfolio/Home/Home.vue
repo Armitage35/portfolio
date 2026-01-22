@@ -23,6 +23,7 @@
 import strings from '../../../i18n.json';
 
 export default {
+	name: 'PortfolioHome',
 	data: function() {
 		return {
 			strings: strings

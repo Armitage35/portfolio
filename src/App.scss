@@ -2,11 +2,13 @@
 
 html {
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 
 body {
 	margin: 0;
 	font-family: $bodyFont;
+	overflow-x: hidden;
 }
 
 h1 {

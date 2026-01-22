@@ -19,6 +19,7 @@ import telus from '../../../assets/clients/telus.png';
 import grolsch from '../../../assets/clients/grolsch.png';
 
 export default {
+	name: 'ClientsSection',
 	data: function() {
 		return {
 			clients: [lOreal, kerastase, desjardins, decathlon, asmodee, ferique, telus, grolsch]

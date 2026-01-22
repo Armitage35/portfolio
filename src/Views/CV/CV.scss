@@ -73,7 +73,8 @@ $CVborder: solid 5px $orange;
 	justify-content: center;
 }
 
-.cv__left, .cv__right {
+.cv__left,
+.cv__right {
 	@media screen and (max-width: $mobileWidth) {
 		width: auto;
 		padding: 12px;

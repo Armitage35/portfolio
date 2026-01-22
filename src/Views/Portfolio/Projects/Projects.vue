@@ -25,7 +25,7 @@ import ArmitageLogo from '../../../assets/armitageLogo.png';
 import strings from '../../../i18n.json';
 
 export default {
-
+	name: 'ProjectsSection',
 	components: { Project },
 	data: function() {
 		return {
@@ -35,7 +35,6 @@ export default {
 	computed: {
 		modifiedProject: function() {
 			let project = strings.en.portfolio.projects;
-
 			for (let i = 0; i <project.length; i++){
 				switch (project[i].cover) {
 				case 'Day2Day':

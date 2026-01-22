@@ -39,7 +39,7 @@
 			<div class="technicalFileEntry__content--display">
 				<h4>{{content.name}}</h4>
 				<ul>
-					<li v-for="(skill, key) in content.description" :key="key">{{ skill.name }} - {{ skill.skillLevel }}%</li>
+					<li v-for="(skill, key) in content.description" :key="key">{{ typeof skill === 'string' ? skill : skill.name }}</li>
 				</ul>
 			</div>
 		</div>

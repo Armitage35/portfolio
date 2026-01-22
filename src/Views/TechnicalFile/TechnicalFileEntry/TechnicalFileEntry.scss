@@ -1,4 +1,3 @@
-
 @use '../../../variables' as *;
 
 .technicalFileEntry__position {
@@ -6,16 +5,31 @@
 	font-weight: $semiBold;
 	font-size: 21px;
 	margin-bottom: 2px;
+	@media screen and (max-width: $mobileWidth) {
+		font-size: 1.1em;
+		margin-bottom: 4px;
+	}
 }
 
 .technicalFileEntry__details {
 	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	@media screen and (max-width: $mobileWidth) {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 2px;
+	}
 }
 
 .technicalFileEntry__minorDetail {
 	margin: 6px;
 	color: $orange;
 	font-size: 10px;
+	@media screen and (max-width: $mobileWidth) {
+		font-size: 0.95em;
+		margin: 2px 0;
+	}
 
 	i {
 		color: $orange;
@@ -32,4 +46,49 @@
 	width: 50%;
 	margin: 20px 0;
 	border: $orange solid 2px;
+	@media screen and (max-width: $mobileWidth) {
+		width: 80%;
+		margin: 16px 0;
+	}
+
+	@media print {
+		border-color: $orange;
+		page-break-after: avoid;
+		margin-bottom: 30px;
+	}
+}
+
+@media print {
+	.technicalFileEntry__position {
+		page-break-after: avoid;
+	}
+
+	.technicalFileEntry__details {
+		page-break-after: avoid;
+	}
+
+	.technicalFileEntry__introduction {
+		page-break-after: avoid;
+	}
+
+	.technicalFileEntry__content {
+		page-break-inside: avoid;
+	}
+
+	.technicalFileEntry__content--display {
+		page-break-inside: avoid;
+	}
+
+	.technicalFileEntry__minorDetail {
+		color: #333;
+
+		i {
+			color: $orange;
+		}
+	}
+
+	ul,
+	li {
+		page-break-inside: avoid;
+	}
 }
