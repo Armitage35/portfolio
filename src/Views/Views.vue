@@ -1,16 +1,16 @@
 <template>
 	<div>
 		<router-view/>
-		<Footer v-if="$route.path === '/portfolio' || $route.path === '/'"></Footer>
+		<FooterComponent v-if="$route.path === '/portfolio' || $route.path === '/'"></FooterComponent>
 	</div>
 </template>
 
 <script>
 
-import Footer from '../components/Footer/Footer';
+import FooterComponent from '../components/Footer/Footer';
 
 export default {
 	name: 'ViewsSection',
-	components: { Footer }
+	components: { FooterComponent }
 };
 </script>
