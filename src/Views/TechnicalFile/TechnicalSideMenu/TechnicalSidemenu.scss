@@ -5,16 +5,29 @@
 	width: $sidemenu-width;
 	height: 100vh;
 	right: 0;
-	background-color: #F6F7FA;
+	background-color: #2a2a2a;
+	color: #e0e0e0;
 	padding: 30px;
+	border-left: 1px solid #444444;
 
 	h1,
 	h2 {
 		text-align: center;
+		color: #e0e0e0;
 	}
 
 	@media screen and (max-width: $mobileWidth) {
 		display: none;
+	}
+	
+	@media print {
+		background-color: transparent;
+		color: #000000;
+		border-left: none;
+		h1,
+		h2 {
+			color: #000000;
+		}
 	}
 }
 
@@ -36,6 +49,28 @@
 	margin: 12px;
 	font-size: 12px;
 	text-align: center;
+	color: #e0e0e0;
+	
+	a {
+		color: $orange;
+		&:hover {
+			color: lighten($orange, 10%);
+		}
+	}
+	
+	i {
+		color: #e0e0e0;
+	}
+	
+	@media print {
+		color: #000000;
+		i {
+			color: #000000;
+		}
+		a {
+			color: #0066cc;
+		}
+	}
 }
 @media print {
 	.technical-side-menu {

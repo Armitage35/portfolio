@@ -1,5 +1,11 @@
 @use './variables' as *;
 
+/* Dark theme color variables */
+$darkBg: #1a1a1a;
+$darkTextPrimary: #e0e0e0;
+$darkTextSecondary: #999999;
+$accentOrange: #F59628;
+
 html {
 	scroll-behavior: smooth;
 	overflow-x: hidden;
@@ -9,10 +15,12 @@ body {
 	margin: 0;
 	font-family: $bodyFont;
 	overflow-x: hidden;
+	background-color: $darkBg;
+	color: $darkTextPrimary;
 }
 
 h1 {
-	color: $black;
+	color: $darkTextPrimary;
 	font-size: 24px;
 	font-weight: $bold;
 	text-transform: uppercase;
@@ -21,23 +29,34 @@ h1 {
 }
 
 h2 {
+	color: $darkTextPrimary;
 	font-size: 24px;
 	font-weight: $semiBold;
 	margin-top: 24px;
 }
 
+h3 {
+	color: $darkTextPrimary;
+}
+
 h4 {
+	color: $darkTextPrimary;
 	margin-top: 8px;
 	margin-bottom: 8px;
 }
 
 a {
-	color: $black;
+	color: $accentOrange;
 	text-decoration: none;
+	transition: color 0.2s ease;
+
+	&:hover {
+		color: lighten($accentOrange, 10%);
+	}
 }
 
 p {
-	color: $black;
+	color: $darkTextPrimary;
 	font-size: 14px;
 	font-weight: $regular;
 	line-height: 20px;
@@ -49,13 +68,13 @@ ul {
 }
 
 ul li:before {
-	color: $orange;
+	color: $accentOrange;
 	content: $checkmark;
 	margin-right: 2px;
 }
 
 li {
-	color: $black;
+	color: $darkTextPrimary;
 	font-size: 14px;
 	font-weight: $regular;
 	line-height: 20px;
@@ -78,6 +97,34 @@ li {
 /* Skip to main content link focus state */
 .skip-to-main:focus {
 	top: 0;
+}
+
+/* Print media query - ensure light theme for printing */
+@media print {
+	body {
+		background-color: #ffffff;
+		color: #000000;
+	}
+	
+	h1, h2, h3, h4, h5, h6 {
+		color: #000000;
+	}
+	
+	p {
+		color: #000000;
+	}
+	
+	li {
+		color: #000000;
+	}
+	
+	a {
+		color: #0066cc;
+	}
+	
+	ul li:before {
+		color: $orange;
+	}
 }
 
 /* Focus styles for buttons converted from divs */

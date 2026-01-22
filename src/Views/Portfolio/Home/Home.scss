@@ -119,12 +119,12 @@
 
 .bttn-secondary {
 	@extend %button;
-	border: solid 3px $black;
-	color: $black;
-	background-color: $white;
+	border: solid 3px $orange;
+	color: $orange;
+	background-color: transparent;
 
 	:visited {
-		color: $black;
+		color: $orange;
 		text-decoration: none;
 	}
 }

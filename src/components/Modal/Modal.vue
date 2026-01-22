@@ -1,5 +1,5 @@
 <template>
-	<div class="modal__mask" @keydown="handleEsc">
+	<div class="modal__mask" @keydown="handleEsc" @click="handleClickOutside">
 		<div class="modal" role="dialog" aria-modal="true" :aria-labelledby="'modal-title-' + content.name">
 			<div class="modal__header">
 				<div class="modal__title">
@@ -9,7 +9,7 @@
 				<div class="modal__date">{{ dateOrName }}</div>
 			</div>
 			<div class="modal__body">
-			<div class="modal__cover" :style="{ backgroundImage: 'url(' + content.cover + ')' }"></div>
+				<div class="modal__cover" :style="{ backgroundImage: 'url(' + content.cover + ')' }"></div>
 				<div class="modal__text">
 					<p class="modal__description" v-for="(description, index) in content.description" :key="index">{{ description }}</p>
 					<a class="modal__link" v-if="content.link" :href="content.link" target="_blank" rel="noopener noreferrer">See the project<span class="sr-only"> (opens in new tab)</span>
@@ -43,6 +43,12 @@ export default {
 	methods: {
 		handleEsc(e) {
 			if (e.key === 'Escape' || e.key === 'Esc') {
+				this.$emit('toggleModal');
+			}
+		},
+		handleClickOutside(e) {
+			// Only close if clicking on the mask (outside the modal)
+			if (e.target === this.$el) {
 				this.$emit('toggleModal');
 			}
 		}

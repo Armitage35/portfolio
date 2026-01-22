@@ -36,6 +36,42 @@ describe('Modal.vue', () => {
 		expect(toggleModal).toHaveBeenCalled();
 	});
 
+	it('closes when clicking outside the modal on the mask', async () => {
+		const toggleModal = jest.fn();
+		wrapper.vm.$on('toggleModal', toggleModal);
+		// Simulate click on the mask (modal__mask)
+		const mask = wrapper.find('.modal__mask');
+		await mask.trigger('click');
+		expect(toggleModal).toHaveBeenCalled();
+	});
+
+	it('does not close when clicking inside the modal', async () => {
+		const toggleModal = jest.fn();
+		wrapper.vm.$on('toggleModal', toggleModal);
+		// Simulate click on the modal content (modal)
+		const modal = wrapper.find('.modal');
+		await modal.trigger('click');
+		expect(toggleModal).not.toHaveBeenCalled();
+	});
+
+	it('does not close when clicking on modal header', async () => {
+		const toggleModal = jest.fn();
+		wrapper.vm.$on('toggleModal', toggleModal);
+		// Simulate click on the modal header
+		const header = wrapper.find('.modal__header');
+		await header.trigger('click');
+		expect(toggleModal).not.toHaveBeenCalled();
+	});
+
+	it('does not close when clicking on modal body', async () => {
+		const toggleModal = jest.fn();
+		wrapper.vm.$on('toggleModal', toggleModal);
+		// Simulate click on the modal body
+		const body = wrapper.find('.modal__body');
+		await body.trigger('click');
+		expect(toggleModal).not.toHaveBeenCalled();
+	});
+
 	it('renders the component', () => {
 		expect(wrapper.exists()).toBe(true);
 	});

@@ -12,30 +12,49 @@
 	font-weight: $semiBold;
 	font-size: 18px;
 	text-transform: capitalize;
+	color: #e0e0e0;
+	@media print {
+		color: #000000;
+	}
 }
 
 .entry__country {
-	color: $grey;
+	color: #999999;
+	@media print {
+		color: #666666;
+	}
 }
 
 .entry__role {
 	margin: 6px 0;
 	font-weight: $semiBold;
 	font-size: 14px;
+	color: #e0e0e0;
+	@media print {
+		color: #000000;
+	}
 }
 
 .entry__body {
 	line-height: 22px;
 	font-size: 14px;
+	color: #e0e0e0;
+	@media print {
+		color: #000000;
+	}
 }
 
 .entry__contact {
-	color: $black;
+	color: $orange;
 	text-decoration: underline;
 	margin-left: 5px;
 
 	a:hover {
-		color: $blue;
+		color: lighten($orange, 10%);
+	}
+	
+	@media print {
+		color: #0066cc;
 	}
 }
 

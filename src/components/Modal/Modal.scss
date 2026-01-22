@@ -1,6 +1,11 @@
 @use '../../variables' as *;
 @use 'sass:color';
 
+// Dark theme colors for modal
+$modalBg: #2a2a2a;
+$modalText: #e0e0e0;
+$modalTextSecondary: #999999;
+
 // Variable
 $modalTransition: all 0.6s ease;
 
@@ -26,14 +31,20 @@ $modalTransition: all 0.6s ease;
 		max-height: 100vh;
 	}
 
-	width: 800px;
+	width: 1000px;
 	margin: 0 auto;
+	background-color: $modalBg;
+	color: $modalText;
 	border-radius: 5px;
-	background-color: #FFFFFF;
 	max-height: 80vh;
 	overflow: auto;
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
 	transition: $modalTransition;
+
+	@media print {
+		background-color: #ffffff;
+		color: #000000;
+	}
 }
 
 .modal__header {
@@ -47,6 +58,17 @@ $modalTransition: all 0.6s ease;
 
 	h2 {
 		margin: 0;
+		color: $modalText;
+		@media print {
+			color: #000000;
+		}
+	}
+}
+
+.modal__date {
+	color: $modalTextSecondary;
+	@media print {
+		color: #333333;
 	}
 }
 
@@ -80,30 +102,65 @@ $modalTransition: all 0.6s ease;
 .modal__date {
 	font-weight: $bold;
 	font-size: 12px;
+	color: $modalTextSecondary;
 }
 
 .modal__body {
 	display: flex;
+	gap: 20px;
+	padding: 20px 34px;
 
 	@media screen and (max-width: $mobileWidth) {
 		flex-direction: column-reverse;
+		gap: 15px;
+		padding: 15px;
+	}
+}
+
+.modal__left {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 80px;
+}
+
+.modal__date-left {
+	font-weight: $bold;
+	font-size: 14px;
+	color: $modalTextSecondary;
+	text-align: left;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+
+	@media screen and (max-width: $mobileWidth) {
+		writing-mode: horizontal-tb;
+		text-orientation: initial;
 	}
 }
 
 .modal__text {
 	display: flex;
 	flex-direction: column;
+	flex: 1;
+	min-width: 200px;
+	padding: 0;
+	background-color: transparent;
+	border-radius: 0;
 }
 
-.modal__description,
-.modal__link {
+.modal__description {
+	color: #ffffff;
 	display: inline-block;
 	position: relative;
-	margin: 12px 0 12px 12px;
+	margin: 12px 0 12px 0;
 	font-size: 14px;
 	word-spacing: 0.86px;
 	text-decoration: none;
 	transition: color 0.2s;
+	line-height: 1.6;
+	@media print {
+		color: #000000;
+	}
 }
 
 .modal__link {
@@ -112,6 +169,9 @@ $modalTransition: all 0.6s ease;
 	padding: 8px;
 	margin: 12px -8px 12px 4px;
 	border-radius: 4px;
+	@media print {
+		color: #0066cc;
+	}
 }
 
 .modal__link:focus {
@@ -174,10 +234,13 @@ $modalTransition: all 0.6s ease;
 }
 
 .modal__cover {
-	flex-basis: 300%;
+	flex-basis: auto;
+	width: 400px;
+	height: 280px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	border-radius: 4px;
 
 	@media screen and (max-width: $mobileWidth) {
 		width: 100%;
