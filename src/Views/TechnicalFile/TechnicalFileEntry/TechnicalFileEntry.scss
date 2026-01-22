@@ -83,7 +83,12 @@
 		color: #333;
 
 		i {
-			color: $orange;
+			color: #333;
+			margin-left: 6px;
+		}
+
+		&:has(i.fa-link) {
+			display: none;
 		}
 	}
 

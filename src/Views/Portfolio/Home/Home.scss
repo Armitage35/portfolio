@@ -41,6 +41,10 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	transition: box-shadow 0.3s ease-in-out 0s;
+}
+
+.home__picture:hover {
 	box-shadow: $defaultShadow;
 }
 

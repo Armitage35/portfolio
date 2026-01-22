@@ -27,6 +27,9 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	-webkit-print-color-adjust: exact;
+	print-color-adjust: exact;
+	border: 4px solid $orange;
 }
 
 .technical-side-menu__contact {
@@ -36,6 +39,23 @@
 }
 @media print {
 	.technical-side-menu {
-		display: none;
+		display: block;
+		position: static;
+		width: 100%;
+		height: auto;
+		right: auto;
+		padding: 20px;
+		margin-bottom: 30px;
+		text-align: center;
+		background-color: transparent;
+	}
+
+	.technical-side-menu__photo {
+		display: block;
+	}
+
+	.technical-side-menu__contact a {
+		text-decoration: none;
+		color: inherit;
 	}
 }
