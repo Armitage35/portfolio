@@ -19,7 +19,7 @@
 	@media screen and (max-width: $mobileWidth) {
 		display: none;
 	}
-	
+
 	@media print {
 		background-color: transparent;
 		color: #000000;
@@ -50,18 +50,18 @@
 	font-size: 12px;
 	text-align: center;
 	color: #e0e0e0;
-	
+
 	a {
 		color: $orange;
 		&:hover {
 			color: lighten($orange, 10%);
 		}
 	}
-	
+
 	i {
 		color: #e0e0e0;
 	}
-	
+
 	@media print {
 		color: #000000;
 		i {
