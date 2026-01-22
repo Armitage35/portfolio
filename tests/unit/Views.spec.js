@@ -36,7 +36,7 @@ describe('Router meta title functionality', () => {
     const localVue = createLocalVue();
     localVue.use(VueRouter);
     const router = new VueRouter({ routes: routesConfig });
-    
+
     // Set up afterEach hook like in main.js
     router.afterEach((to) => {
       if (to.meta && to.meta.title) {
@@ -45,7 +45,7 @@ describe('Router meta title functionality', () => {
         document.title = 'Adrien Dubois Ahlqvist';
       }
     });
-    
+
     return { localVue, router };
   };
 

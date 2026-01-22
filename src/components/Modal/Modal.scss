@@ -1,4 +1,5 @@
 @use '../../variables' as *;
+@use 'sass:color';
 
 // Variable
 $modalTransition: all 0.6s ease;
@@ -28,7 +29,7 @@ $modalTransition: all 0.6s ease;
 	width: 800px;
 	margin: 0 auto;
 	border-radius: 5px;
-	background-color: #ffffff;
+	background-color: #FFFFFF;
 	max-height: 80vh;
 	overflow: auto;
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
@@ -76,16 +77,15 @@ $modalTransition: all 0.6s ease;
 
 .modal__description,
 .modal__link {
-	margin: 12px 0 12px 12px;
-	word-spacing: 0.86px;
-	font-size: 14px;
-	position: relative;
 	display: inline-block;
+	position: relative;
+	margin: 12px 0 12px 12px;
+	font-size: 14px;
+	word-spacing: 0.86px;
 	text-decoration: none;
 	transition: color 0.2s;
 }
 .modal__link:after {
-	content: '';
 	display: block;
 	position: absolute;
 	left: 0;
@@ -93,18 +93,13 @@ $modalTransition: all 0.6s ease;
 	width: 100%;
 	height: 2px;
 	background: $orange;
+	content: $checkmark;
 	transform: scaleX(0);
-	transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 	transform-origin: left;
+	transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal__link:hover {
-	color: darken($orange, 10%);
-}
-.modal__link:hover:after {
-	transform: scaleX(1);
-}
-.modal__link:hover {
-	color: darken($orange, 10%);
+	color: color.adjust($orange, $lightness: -10%);
 }
 .modal__link:hover:after {
 	transform: scaleX(1);
@@ -113,23 +108,24 @@ $modalTransition: all 0.6s ease;
 // Modal button styled like the resume button, but font-size unchanged
 .modal__button {
 	display: block;
+	position: relative;
 	width: 90%;
 	margin: 32px auto 0;
-	border-radius: 28.5px;
 	padding: 18px 0;
-	text-transform: uppercase;
-	font-weight: $semiBold;
-	letter-spacing: 1px;
-	text-decoration: none;
+	border: none;
+	border-radius: 28.5px;
 	background-color: $orange;
 	color: $white;
-	border: none;
 	font-size: 14px;
+	font-weight: $semiBold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 	transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
 		transform 0.18s cubic-bezier(0.4, 0, 0.2, 1);
-	text-align: center;
-	cursor: pointer;
 }
 .modal__button:visited {
 	color: $white;
@@ -137,12 +133,6 @@ $modalTransition: all 0.6s ease;
 .modal__button:hover {
 	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
 	transform: translateY(-2px) scale(1.03);
-}
-.modal__button:visited {
-	color: $white;
-}
-.modal__button:hover {
-	box-shadow: $defaultShadow;
 }
 .modal__description:last-of-type {
 	margin-bottom: 24px;
