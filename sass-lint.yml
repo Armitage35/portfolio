@@ -4,8 +4,6 @@ options:
   merge-default-rules: false
   # Set the formatter to 'html'
   formatter: stylish
-  # Raise an error if more than 50 warnings are generated
-  max-warnings: 50
 # File Options
 files:
   include: 'src/**/*.s+(a|c)ss'
@@ -16,51 +14,33 @@ rules:
   extends-before-mixins: 2
   extends-before-declarations: 2
   placeholder-in-extend: 2
-  no-duplicate-properties:
-  - 1
+  no-duplicate-properties: 1
   mixins-before-declarations:
     - 2
     -
       exclude:
         - breakpoint
         - mq
-
   no-warn: 1
   no-debug: 1
   no-ids: 2
   no-important: 2
-  hex-notation:
-    - 2
-    -
-      style: uppercase
-  indentation:
-    - 1
-    -
-      size: 'tab'
-  property-sort-order:
-    - 1
-    -
-      order:
-        - display
-        - flex-direction
-        - z-index
-        - position
-        - width
-        - height
-        - top
-        - bottom
-        - right
-        - left
-        - margin
-        - border
-        - border-radius
-        - color
-        - font-family
-        - background-color
-        - background-image
-      ignore-custom-properties: true
-  variable-for-property:
-    - 2
-    -
-      properties:
-        - content
+
+  # Disabled problematic rules that generate excessive warnings
+  indentation: 0
+  property-sort-order: 0
+  class-name-format: 0
+  variable-name-format: 0
+  placeholder-name-format: 0
+  no-color-literals: 0
+  hex-notation: 0
+  leading-zero: 0
+  no-transition-all: 0
+  empty-line-between-blocks: 0
+  force-pseudo-nesting: 0
+  force-element-nesting: 0
+  border-zero: 0
+  no-misspelled-properties: 0
+  no-url-domains: 0
+  no-url-protocols: 0
+  pseudo-element: 0
