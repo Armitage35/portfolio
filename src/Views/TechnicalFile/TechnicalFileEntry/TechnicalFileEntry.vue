@@ -11,7 +11,7 @@
 		</div>
 		<div class="technicalFileEntry__content">
 			<div class="technicalFileEntry__content--display" v-if="content.description">
-				<h4>Company description</h4>
+				<h4>{{ title === 'project' ? 'Project description' : title === 'education' ? 'Program description' : 'Company description' }}</h4>
 				<p v-for="(description, index) in content.description" :key="index">{{ description }}</p>
 			</div>
 			<div class="technicalFileEntry__content--display" v-if="content.context">
