@@ -99,7 +99,7 @@ $modalTransition: all 0.6s ease;
 	transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal__link:hover {
-	color: color.adjust($orange, $lightness: -10%);
+	color: $orange;
 }
 .modal__link:hover:after {
 	transform: scaleX(1);

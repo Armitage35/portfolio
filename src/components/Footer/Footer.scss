@@ -1,9 +1,20 @@
 @use '../../variables' as *;
 
+// Fade-in animation for footer on page load
+@keyframes fadeInFooter {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
 // Press F to pay respect.
 .footer__container {
 	display: flex;
 	justify-content: flex-end;
+	animation: fadeInFooter 0.6s ease-in-out;
 }
 
 .footer {
