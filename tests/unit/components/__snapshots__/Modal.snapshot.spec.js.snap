@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`Modal.vue Snapshots renders modal snapshot 1`] = `
-<div tabindex="0" class="modal__mask">
+<div class="modal__mask">
   <div class="modal">
     <div class="modal__header">
       <div class="modal__title">
@@ -21,7 +21,7 @@ exports[`Modal.vue Snapshots renders modal snapshot 1`] = `
 `;
 
 exports[`Modal.vue Snapshots renders modal without link snapshot 1`] = `
-<div tabindex="0" class="modal__mask">
+<div class="modal__mask">
   <div class="modal">
     <div class="modal__header">
       <div class="modal__title">

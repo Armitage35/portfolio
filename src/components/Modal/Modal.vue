@@ -1,5 +1,5 @@
 <template>
-	<div class="modal__mask" tabindex="0">
+	<div class="modal__mask">
 		<div class="modal">
 			<div class="modal__header">
 				<div class="modal__title">
@@ -34,10 +34,6 @@ export default {
 		window.addEventListener('keydown', this.handleEsc);
 	},
 	beforeDestroy() {
-		window.removeEventListener('keydown', this.handleEsc);
-	},
-	destroyed() {
-		// For Vue 2 compatibility, also clean up in destroyed
 		window.removeEventListener('keydown', this.handleEsc);
 	},
 	methods: {
